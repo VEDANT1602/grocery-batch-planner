@@ -1,0 +1,115 @@
+{
+  "data": {
+    "rows": 5400,
+    "train_days": [
+      0,
+      49
+    ],
+    "calibration_days": [
+      50,
+      64
+    ],
+    "test_days": [
+      65,
+      89
+    ],
+    "train_rows": 3000,
+    "calibration_rows": 900,
+    "test_rows": 1500,
+    "dispatch_waves": 25,
+    "dispatch_orders": 600
+  },
+  "model": {
+    "xgboost_test_mae_minutes": 1.1027453650131225,
+    "store_mean_test_mae_minutes": 4.283552072213879,
+    "positive_residual_q90_minutes": 1.656283484405519,
+    "trip_buffer_minutes": 4.96885,
+    "features": [
+      "items",
+      "produce_fraction",
+      "frozen_fraction",
+      "distinct_aisles",
+      "congestion",
+      "store_code"
+    ]
+  },
+  "policies": {
+    "fifo": {
+      "assigned": 239,
+      "on_time": 239,
+      "late": 0,
+      "unassigned": 361,
+      "realized_shopper_minutes": 4860.299999999999,
+      "on_time_fraction_all_orders": 0.3983333333333333,
+      "shopper_minutes_per_on_time_order": 20.335983263598322
+    },
+    "greedy": {
+      "assigned": 275,
+      "on_time": 275,
+      "late": 0,
+      "unassigned": 325,
+      "realized_shopper_minutes": 5048.866666666666,
+      "on_time_fraction_all_orders": 0.4583333333333333,
+      "shopper_minutes_per_on_time_order": 18.359515151515147
+    },
+    "cp_sat": {
+      "assigned": 284,
+      "on_time": 284,
+      "late": 0,
+      "unassigned": 316,
+      "realized_shopper_minutes": 5152.849999999999,
+      "on_time_fraction_all_orders": 0.47333333333333333,
+      "shopper_minutes_per_on_time_order": 18.14383802816901
+    },
+    "cp_sat_unbuffered": {
+      "assigned": 315,
+      "on_time": 302,
+      "late": 13,
+      "unassigned": 285,
+      "realized_shopper_minutes": 5603.366666666666,
+      "on_time_fraction_all_orders": 0.5033333333333333,
+      "shopper_minutes_per_on_time_order": 18.554194260485648
+    },
+    "zero_budget_fallback": {
+      "assigned": 275,
+      "on_time": 275,
+      "late": 0,
+      "unassigned": 325,
+      "realized_shopper_minutes": 5048.866666666666,
+      "on_time_fraction_all_orders": 0.4583333333333333,
+      "shopper_minutes_per_on_time_order": 18.359515151515147
+    }
+  },
+  "cp_sat": {
+    "status_counts": {
+      "OPTIMAL": 25
+    },
+    "fallback_waves": 0,
+    "total_latency_median_ms": 17.8711999906227,
+    "total_latency_p95_ms": 29.40949999028816,
+    "search_budget_seconds": 0.2,
+    "on_time_orders_per_wave_minus_greedy": 0.36,
+    "paired_day_bootstrap_95_interval": [
+      0.16,
+      0.56
+    ]
+  },
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "xgboost": "3.1.2",
+    "ortools": "9.10.4067",
+    "numpy": "1.26.0",
+    "cpu_only": true
+  },
+  "sha256": {
+    "data/orders.csv": "6b5d030728206034fb43f44246b7a512eeae169bdd59d3190dfdcd7ea86af7df",
+    "models/shopping-duration.json": "a8c45c290baf0e84c93d6cd34a744aad35175a2928e6a573f6541c301d09ad37",
+    "data/dispatch-waves.json": "93dc5367571f6c10e010729cc4004845f4058943b96c4951e497a48400f47c94",
+    "models/heldout-predictions.json": "d250131be9286bbd6c7906b402aa71e75df16b443da4701585e1a2b34c63c8e1",
+    "grocery_planner/data.py": "425d691941131b77bfd472de3a939fac84e8265534ccb7ae8bb1dd66459b1a9c",
+    "grocery_planner/train.py": "1d4c84b5aa0304e072463654b0e59da1828fb707057d8418d0caea7a13a938fe",
+    "grocery_planner/planner.py": "0334f604a2bd26370646c293702f5e9dab8c7e40a05b3cbe7bd38179d9863cad",
+    "grocery_planner/experiment.py": "c6f94318f6b76c87704e87d10edfd873116a9375d7cf67bb873e401ac8029ac8"
+  }
+}

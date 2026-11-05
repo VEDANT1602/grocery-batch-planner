@@ -1,0 +1,20 @@
+{
+  "xgboost_test_mae_minutes": 1.1027453650131225,
+  "store_mean_test_mae_minutes": 4.283552072213879,
+  "positive_residual_q90_minutes": 1.656283484405519,
+  "trip_buffer_minutes": 4.96885,
+  "features": [
+    "items",
+    "produce_fraction",
+    "frozen_fraction",
+    "distinct_aisles",
+    "congestion",
+    "store_code"
+  ],
+  "xgboost_version": "3.1.2",
+  "python_version": "3.11.9",
+  "sha256": {
+    "data/orders.csv": "6b5d030728206034fb43f44246b7a512eeae169bdd59d3190dfdcd7ea86af7df",
+    "models/shopping-duration.json": "a8c45c290baf0e84c93d6cd34a744aad35175a2928e6a573f6541c301d09ad37"
+  }
+}

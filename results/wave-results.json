@@ -1,0 +1,8260 @@
+[
+  {
+    "day": 65,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 190.73333333333332
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d65-31",
+          "d65-03"
+        ],
+        "predicted_seconds": 2519
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d65-34",
+          "d65-38"
+        ],
+        "predicted_seconds": 2257
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d65-58",
+          "d65-14"
+        ],
+        "predicted_seconds": 2362
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d65-00",
+          "d65-41"
+        ],
+        "predicted_seconds": 1980
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d65-26",
+          "d65-09"
+        ],
+        "predicted_seconds": 2329
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d65-11"
+        ],
+        "predicted_seconds": 1725
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 65,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 196.60000000000002
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d65-31",
+          "d65-34",
+          "d65-38"
+        ],
+        "predicted_seconds": 2905
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d65-00",
+          "d65-41"
+        ],
+        "predicted_seconds": 1869
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d65-09",
+          "d65-11"
+        ],
+        "predicted_seconds": 2250
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d65-14",
+          "d65-58"
+        ],
+        "predicted_seconds": 2531
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d65-21",
+          "d65-26"
+        ],
+        "predicted_seconds": 2684
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d65-42"
+        ],
+        "predicted_seconds": 1481
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 65,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 209.28333333333333
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d65-36",
+          "d65-48"
+        ],
+        "predicted_seconds": 2260
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d65-31",
+          "d65-34",
+          "d65-38"
+        ],
+        "predicted_seconds": 3125
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d65-00",
+          "d65-14"
+        ],
+        "predicted_seconds": 2222
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d65-17",
+          "d65-41"
+        ],
+        "predicted_seconds": 1980
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d65-09",
+          "d65-11"
+        ],
+        "predicted_seconds": 2250
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d65-21",
+          "d65-26"
+        ],
+        "predicted_seconds": 2684
+      }
+    ],
+    "runtime": {
+      "candidate_count": 95,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0105099,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.04490620002616197
+    }
+  },
+  {
+    "day": 65,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 200.01666666666668
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d65-24",
+          "d65-42"
+        ],
+        "predicted_seconds": 1760
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d65-31",
+          "d65-36",
+          "d65-38"
+        ],
+        "predicted_seconds": 2647
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d65-00",
+          "d65-14"
+        ],
+        "predicted_seconds": 1924
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d65-17",
+          "d65-41"
+        ],
+        "predicted_seconds": 1682
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d65-11",
+          "d65-26"
+        ],
+        "predicted_seconds": 2054
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d65-09",
+          "d65-21"
+        ],
+        "predicted_seconds": 2251
+      }
+    ],
+    "runtime": {
+      "candidate_count": 138,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.012899200000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.02522149999276735
+    }
+  },
+  {
+    "day": 65,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 196.60000000000002
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d65-31",
+          "d65-34",
+          "d65-38"
+        ],
+        "predicted_seconds": 2905
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d65-00",
+          "d65-41"
+        ],
+        "predicted_seconds": 1869
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d65-09",
+          "d65-11"
+        ],
+        "predicted_seconds": 2250
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d65-14",
+          "d65-58"
+        ],
+        "predicted_seconds": 2531
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d65-21",
+          "d65-26"
+        ],
+        "predicted_seconds": 2684
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d65-42"
+        ],
+        "predicted_seconds": 1481
+      }
+    ],
+    "runtime": {
+      "candidate_count": 95,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0037265999999362975
+    }
+  },
+  {
+    "day": 66,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 8,
+      "on_time": 8,
+      "late": 0,
+      "unassigned": 16,
+      "realized_shopper_minutes": 173.23333333333335
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d66-44",
+          "d66-28"
+        ],
+        "predicted_seconds": 2649
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d66-47"
+        ],
+        "predicted_seconds": 1421
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d66-16"
+        ],
+        "predicted_seconds": 1756
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d66-05"
+        ],
+        "predicted_seconds": 2080
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d66-18"
+        ],
+        "predicted_seconds": 2084
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d66-53",
+          "d66-23"
+        ],
+        "predicted_seconds": 2354
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 66,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 221.68333333333334
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d66-23",
+          "d66-26",
+          "d66-55"
+        ],
+        "predicted_seconds": 3477
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d66-28",
+          "d66-47"
+        ],
+        "predicted_seconds": 2100
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d66-03",
+          "d66-36"
+        ],
+        "predicted_seconds": 2661
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d66-11",
+          "d66-27"
+        ],
+        "predicted_seconds": 3261
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d66-16"
+        ],
+        "predicted_seconds": 1756
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d66-05"
+        ],
+        "predicted_seconds": 2080
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 66,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 221.51666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d66-28",
+          "d66-47"
+        ],
+        "predicted_seconds": 2100
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d66-03",
+          "d66-36"
+        ],
+        "predicted_seconds": 2661
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d66-05"
+        ],
+        "predicted_seconds": 1951
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d66-16"
+        ],
+        "predicted_seconds": 1872
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d66-23",
+          "d66-26",
+          "d66-55"
+        ],
+        "predicted_seconds": 3477
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d66-11",
+          "d66-27"
+        ],
+        "predicted_seconds": 3261
+      }
+    ],
+    "runtime": {
+      "candidate_count": 97,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.007073800000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.01712890001363121
+    }
+  },
+  {
+    "day": 66,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 205.8
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d66-25",
+          "d66-47"
+        ],
+        "predicted_seconds": 1543
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d66-28",
+          "d66-36"
+        ],
+        "predicted_seconds": 2200
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d66-05"
+        ],
+        "predicted_seconds": 1653
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d66-16"
+        ],
+        "predicted_seconds": 1574
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d66-23",
+          "d66-26",
+          "d66-55"
+        ],
+        "predicted_seconds": 3179
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d66-11",
+          "d66-53"
+        ],
+        "predicted_seconds": 2467
+      }
+    ],
+    "runtime": {
+      "candidate_count": 126,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0091121,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.02426989999366924
+    }
+  },
+  {
+    "day": 66,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 221.68333333333334
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d66-23",
+          "d66-26",
+          "d66-55"
+        ],
+        "predicted_seconds": 3477
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d66-28",
+          "d66-47"
+        ],
+        "predicted_seconds": 2100
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d66-03",
+          "d66-36"
+        ],
+        "predicted_seconds": 2661
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d66-11",
+          "d66-27"
+        ],
+        "predicted_seconds": 3261
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d66-16"
+        ],
+        "predicted_seconds": 1756
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d66-05"
+        ],
+        "predicted_seconds": 2080
+      }
+    ],
+    "runtime": {
+      "candidate_count": 97,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.004230399994412437
+    }
+  },
+  {
+    "day": 67,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 223.01666666666668
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d67-33"
+        ],
+        "predicted_seconds": 1886
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d67-20",
+          "d67-08"
+        ],
+        "predicted_seconds": 2767
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d67-11",
+          "d67-44"
+        ],
+        "predicted_seconds": 2645
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d67-14"
+        ],
+        "predicted_seconds": 2294
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d67-41",
+          "d67-47"
+        ],
+        "predicted_seconds": 2894
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d67-05",
+          "d67-38"
+        ],
+        "predicted_seconds": 2647
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 67,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 212.41666666666666
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d67-08",
+          "d67-12",
+          "d67-51"
+        ],
+        "predicted_seconds": 2916
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d67-19",
+          "d67-44"
+        ],
+        "predicted_seconds": 2313
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d67-05",
+          "d67-38"
+        ],
+        "predicted_seconds": 2461
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d67-41",
+          "d67-47"
+        ],
+        "predicted_seconds": 3139
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d67-31"
+        ],
+        "predicted_seconds": 1723
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d67-50"
+        ],
+        "predicted_seconds": 1947
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 67,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 220.93333333333334
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d67-12",
+          "d67-51"
+        ],
+        "predicted_seconds": 2250
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d67-08",
+          "d67-31"
+        ],
+        "predicted_seconds": 2245
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d67-19",
+          "d67-50"
+        ],
+        "predicted_seconds": 2551
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d67-15",
+          "d67-44"
+        ],
+        "predicted_seconds": 2624
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d67-41",
+          "d67-47"
+        ],
+        "predicted_seconds": 2894
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d67-05",
+          "d67-38"
+        ],
+        "predicted_seconds": 2647
+      }
+    ],
+    "runtime": {
+      "candidate_count": 98,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0099498,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.018724199995631352
+    }
+  },
+  {
+    "day": 67,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 11,
+      "late": 2,
+      "unassigned": 11,
+      "realized_shopper_minutes": 230.36666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d67-24",
+          "d67-31"
+        ],
+        "predicted_seconds": 2273
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d67-08",
+          "d67-12",
+          "d67-51"
+        ],
+        "predicted_seconds": 2821
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d67-19",
+          "d67-50"
+        ],
+        "predicted_seconds": 2253
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d67-15",
+          "d67-44"
+        ],
+        "predicted_seconds": 2326
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d67-38",
+          "d67-47"
+        ],
+        "predicted_seconds": 2233
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d67-05",
+          "d67-34"
+        ],
+        "predicted_seconds": 1959
+      }
+    ],
+    "runtime": {
+      "candidate_count": 133,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.011582,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.022519499994814396
+    }
+  },
+  {
+    "day": 67,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 212.41666666666666
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d67-08",
+          "d67-12",
+          "d67-51"
+        ],
+        "predicted_seconds": 2916
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d67-19",
+          "d67-44"
+        ],
+        "predicted_seconds": 2313
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d67-05",
+          "d67-38"
+        ],
+        "predicted_seconds": 2461
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d67-41",
+          "d67-47"
+        ],
+        "predicted_seconds": 3139
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d67-31"
+        ],
+        "predicted_seconds": 1723
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d67-50"
+        ],
+        "predicted_seconds": 1947
+      }
+    ],
+    "runtime": {
+      "candidate_count": 98,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.005098499997984618
+    }
+  },
+  {
+    "day": 68,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 8,
+      "on_time": 8,
+      "late": 0,
+      "unassigned": 16,
+      "realized_shopper_minutes": 195.23333333333332
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d68-20",
+          "d68-05"
+        ],
+        "predicted_seconds": 2413
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d68-58"
+        ],
+        "predicted_seconds": 2040
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d68-10"
+        ],
+        "predicted_seconds": 2429
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d68-23"
+        ],
+        "predicted_seconds": 2279
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d68-48",
+          "d68-01"
+        ],
+        "predicted_seconds": 2517
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d68-07"
+        ],
+        "predicted_seconds": 1660
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 68,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 194.4
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d68-01",
+          "d68-52"
+        ],
+        "predicted_seconds": 2375
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d68-05",
+          "d68-20"
+        ],
+        "predicted_seconds": 2413
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d68-02",
+          "d68-57"
+        ],
+        "predicted_seconds": 2806
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d68-30",
+          "d68-48"
+        ],
+        "predicted_seconds": 2941
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d68-44"
+        ],
+        "predicted_seconds": 1388
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d68-26"
+        ],
+        "predicted_seconds": 1730
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 68,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 193.91666666666666
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d68-05",
+          "d68-20"
+        ],
+        "predicted_seconds": 2413
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d68-44"
+        ],
+        "predicted_seconds": 1388
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d68-02",
+          "d68-57"
+        ],
+        "predicted_seconds": 2806
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d68-26"
+        ],
+        "predicted_seconds": 1730
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d68-01",
+          "d68-48"
+        ],
+        "predicted_seconds": 2517
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d68-30",
+          "d68-52"
+        ],
+        "predicted_seconds": 2789
+      }
+    ],
+    "runtime": {
+      "candidate_count": 64,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0060866,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.013965199992526323
+    }
+  },
+  {
+    "day": 68,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 234.41666666666663
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d68-05",
+          "d68-44"
+        ],
+        "predicted_seconds": 1905
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d68-20",
+          "d68-58"
+        ],
+        "predicted_seconds": 2379
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d68-02",
+          "d68-23"
+        ],
+        "predicted_seconds": 2805
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d68-50",
+          "d68-57"
+        ],
+        "predicted_seconds": 2514
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d68-01",
+          "d68-48"
+        ],
+        "predicted_seconds": 2218
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d68-07",
+          "d68-52"
+        ],
+        "predicted_seconds": 2204
+      }
+    ],
+    "runtime": {
+      "candidate_count": 86,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0085941,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.017605200002435595
+    }
+  },
+  {
+    "day": 68,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 194.4
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d68-01",
+          "d68-52"
+        ],
+        "predicted_seconds": 2375
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d68-05",
+          "d68-20"
+        ],
+        "predicted_seconds": 2413
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d68-02",
+          "d68-57"
+        ],
+        "predicted_seconds": 2806
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d68-30",
+          "d68-48"
+        ],
+        "predicted_seconds": 2941
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d68-44"
+        ],
+        "predicted_seconds": 1388
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d68-26"
+        ],
+        "predicted_seconds": 1730
+      }
+    ],
+    "runtime": {
+      "candidate_count": 64,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.003997300023911521
+    }
+  },
+  {
+    "day": 69,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 9,
+      "on_time": 9,
+      "late": 0,
+      "unassigned": 15,
+      "realized_shopper_minutes": 207.24999999999997
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d69-52"
+        ],
+        "predicted_seconds": 2390
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d69-37",
+          "d69-28"
+        ],
+        "predicted_seconds": 2463
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d69-30",
+          "d69-06"
+        ],
+        "predicted_seconds": 2630
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d69-51",
+          "d69-56"
+        ],
+        "predicted_seconds": 3094
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d69-47"
+        ],
+        "predicted_seconds": 1807
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d69-36"
+        ],
+        "predicted_seconds": 1959
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 69,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 233.13333333333335
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d69-28",
+          "d69-37"
+        ],
+        "predicted_seconds": 2306
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d69-30",
+          "d69-35"
+        ],
+        "predicted_seconds": 2368
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d69-39",
+          "d69-49"
+        ],
+        "predicted_seconds": 2602
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d69-08",
+          "d69-56"
+        ],
+        "predicted_seconds": 2903
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d69-03",
+          "d69-40"
+        ],
+        "predicted_seconds": 3533
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d69-46"
+        ],
+        "predicted_seconds": 1892
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 69,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 230.48333333333335
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d69-37",
+          "d69-46"
+        ],
+        "predicted_seconds": 2512
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d69-28"
+        ],
+        "predicted_seconds": 1652
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d69-06",
+          "d69-08"
+        ],
+        "predicted_seconds": 2688
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d69-30",
+          "d69-35"
+        ],
+        "predicted_seconds": 2536
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d69-03",
+          "d69-40"
+        ],
+        "predicted_seconds": 3272
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d69-39",
+          "d69-49"
+        ],
+        "predicted_seconds": 2792
+      }
+    ],
+    "runtime": {
+      "candidate_count": 83,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0088257,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.01742670001112856
+    }
+  },
+  {
+    "day": 69,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 10,
+      "late": 2,
+      "unassigned": 12,
+      "realized_shopper_minutes": 242.71666666666664
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d69-09",
+          "d69-28"
+        ],
+        "predicted_seconds": 2285
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d69-37",
+          "d69-46"
+        ],
+        "predicted_seconds": 2380
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d69-06",
+          "d69-08"
+        ],
+        "predicted_seconds": 2390
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d69-30",
+          "d69-35"
+        ],
+        "predicted_seconds": 2238
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d69-01",
+          "d69-49"
+        ],
+        "predicted_seconds": 2457
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d69-39",
+          "d69-40"
+        ],
+        "predicted_seconds": 2550
+      }
+    ],
+    "runtime": {
+      "candidate_count": 109,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0106786,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.020276199997169897
+    }
+  },
+  {
+    "day": 69,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 233.13333333333335
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d69-28",
+          "d69-37"
+        ],
+        "predicted_seconds": 2306
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d69-30",
+          "d69-35"
+        ],
+        "predicted_seconds": 2368
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d69-39",
+          "d69-49"
+        ],
+        "predicted_seconds": 2602
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d69-08",
+          "d69-56"
+        ],
+        "predicted_seconds": 2903
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d69-03",
+          "d69-40"
+        ],
+        "predicted_seconds": 3533
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d69-46"
+        ],
+        "predicted_seconds": 1892
+      }
+    ],
+    "runtime": {
+      "candidate_count": 83,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0030777999782003462
+    }
+  },
+  {
+    "day": 70,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 9,
+      "on_time": 9,
+      "late": 0,
+      "unassigned": 15,
+      "realized_shopper_minutes": 176.66666666666669
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d70-57"
+        ],
+        "predicted_seconds": 1576
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d70-15"
+        ],
+        "predicted_seconds": 1817
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d70-35",
+          "d70-16"
+        ],
+        "predicted_seconds": 2502
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d70-09"
+        ],
+        "predicted_seconds": 1925
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d70-30",
+          "d70-47"
+        ],
+        "predicted_seconds": 1994
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d70-27",
+          "d70-36"
+        ],
+        "predicted_seconds": 2614
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 70,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 221.76666666666668
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d70-42",
+          "d70-44",
+          "d70-58"
+        ],
+        "predicted_seconds": 3045
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d70-18",
+          "d70-30"
+        ],
+        "predicted_seconds": 1940
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d70-16",
+          "d70-53"
+        ],
+        "predicted_seconds": 2188
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d70-27",
+          "d70-47"
+        ],
+        "predicted_seconds": 2304
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d70-29",
+          "d70-37"
+        ],
+        "predicted_seconds": 2598
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d70-08",
+          "d70-40"
+        ],
+        "predicted_seconds": 2818
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 70,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 219.21666666666664
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d70-40",
+          "d70-42",
+          "d70-58"
+        ],
+        "predicted_seconds": 3243
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d70-08",
+          "d70-44"
+        ],
+        "predicted_seconds": 2581
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d70-53",
+          "d70-56"
+        ],
+        "predicted_seconds": 2388
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d70-16",
+          "d70-37"
+        ],
+        "predicted_seconds": 2376
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d70-18",
+          "d70-30"
+        ],
+        "predicted_seconds": 1940
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d70-27",
+          "d70-47"
+        ],
+        "predicted_seconds": 2304
+      }
+    ],
+    "runtime": {
+      "candidate_count": 134,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0097643,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.021227699995506555
+    }
+  },
+  {
+    "day": 70,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 15,
+      "on_time": 15,
+      "late": 0,
+      "unassigned": 9,
+      "realized_shopper_minutes": 253.5666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d70-40",
+          "d70-42",
+          "d70-58"
+        ],
+        "predicted_seconds": 2944
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d70-15",
+          "d70-44"
+        ],
+        "predicted_seconds": 2149
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d70-16",
+          "d70-29",
+          "d70-53"
+        ],
+        "predicted_seconds": 2905
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d70-37",
+          "d70-56"
+        ],
+        "predicted_seconds": 2310
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d70-18",
+          "d70-30"
+        ],
+        "predicted_seconds": 1642
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d70-27",
+          "d70-36",
+          "d70-47"
+        ],
+        "predicted_seconds": 3203
+      }
+    ],
+    "runtime": {
+      "candidate_count": 172,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0148751,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.02959489999921061
+    }
+  },
+  {
+    "day": 70,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 221.76666666666668
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d70-42",
+          "d70-44",
+          "d70-58"
+        ],
+        "predicted_seconds": 3045
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d70-18",
+          "d70-30"
+        ],
+        "predicted_seconds": 1940
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d70-16",
+          "d70-53"
+        ],
+        "predicted_seconds": 2188
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d70-27",
+          "d70-47"
+        ],
+        "predicted_seconds": 2304
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d70-29",
+          "d70-37"
+        ],
+        "predicted_seconds": 2598
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d70-08",
+          "d70-40"
+        ],
+        "predicted_seconds": 2818
+      }
+    ],
+    "runtime": {
+      "candidate_count": 134,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.004137699987040833
+    }
+  },
+  {
+    "day": 71,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 201.91666666666669
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d71-25",
+          "d71-48"
+        ],
+        "predicted_seconds": 2239
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d71-27",
+          "d71-01"
+        ],
+        "predicted_seconds": 2782
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d71-03",
+          "d71-13"
+        ],
+        "predicted_seconds": 2220
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d71-45"
+        ],
+        "predicted_seconds": 1848
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d71-14",
+          "d71-36"
+        ],
+        "predicted_seconds": 2851
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d71-42"
+        ],
+        "predicted_seconds": 2045
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 71,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 213.98333333333335
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d71-48",
+          "d71-51"
+        ],
+        "predicted_seconds": 1838
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d71-03",
+          "d71-45"
+        ],
+        "predicted_seconds": 2171
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d71-14",
+          "d71-28"
+        ],
+        "predicted_seconds": 2653
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d71-01",
+          "d71-27"
+        ],
+        "predicted_seconds": 2782
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d71-12",
+          "d71-44"
+        ],
+        "predicted_seconds": 3240
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d71-13"
+        ],
+        "predicted_seconds": 1816
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 71,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 209.86666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d71-31",
+          "d71-51"
+        ],
+        "predicted_seconds": 2386
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d71-01",
+          "d71-48"
+        ],
+        "predicted_seconds": 2181
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d71-03",
+          "d71-45"
+        ],
+        "predicted_seconds": 2171
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d71-13"
+        ],
+        "predicted_seconds": 1816
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d71-12",
+          "d71-44"
+        ],
+        "predicted_seconds": 3041
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d71-14",
+          "d71-28"
+        ],
+        "predicted_seconds": 2813
+      }
+    ],
+    "runtime": {
+      "candidate_count": 83,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0076265000000000005,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.016664099995978177
+    }
+  },
+  {
+    "day": 71,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 243.85
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d71-01",
+          "d71-48",
+          "d71-51"
+        ],
+        "predicted_seconds": 2520
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d71-27",
+          "d71-31"
+        ],
+        "predicted_seconds": 2660
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d71-13",
+          "d71-37"
+        ],
+        "predicted_seconds": 2362
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d71-03",
+          "d71-45"
+        ],
+        "predicted_seconds": 2039
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d71-12",
+          "d71-42"
+        ],
+        "predicted_seconds": 2628
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d71-14",
+          "d71-28"
+        ],
+        "predicted_seconds": 2515
+      }
+    ],
+    "runtime": {
+      "candidate_count": 111,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0095604,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.019578700012061745
+    }
+  },
+  {
+    "day": 71,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 213.98333333333335
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d71-48",
+          "d71-51"
+        ],
+        "predicted_seconds": 1838
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d71-03",
+          "d71-45"
+        ],
+        "predicted_seconds": 2171
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d71-14",
+          "d71-28"
+        ],
+        "predicted_seconds": 2653
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d71-01",
+          "d71-27"
+        ],
+        "predicted_seconds": 2782
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d71-12",
+          "d71-44"
+        ],
+        "predicted_seconds": 3240
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d71-13"
+        ],
+        "predicted_seconds": 1816
+      }
+    ],
+    "runtime": {
+      "candidate_count": 83,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0033790000015869737
+    }
+  },
+  {
+    "day": 72,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 9,
+      "on_time": 9,
+      "late": 0,
+      "unassigned": 15,
+      "realized_shopper_minutes": 195.05
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d72-18",
+          "d72-24"
+        ],
+        "predicted_seconds": 2865
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d72-41"
+        ],
+        "predicted_seconds": 2252
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d72-03",
+          "d72-10"
+        ],
+        "predicted_seconds": 2239
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d72-47"
+        ],
+        "predicted_seconds": 1792
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d72-07",
+          "d72-56"
+        ],
+        "predicted_seconds": 2857
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d72-15"
+        ],
+        "predicted_seconds": 1491
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 72,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 236.26666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d72-03",
+          "d72-10"
+        ],
+        "predicted_seconds": 2239
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d72-22",
+          "d72-26"
+        ],
+        "predicted_seconds": 2383
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d72-07",
+          "d72-55"
+        ],
+        "predicted_seconds": 2600
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d72-16",
+          "d72-24"
+        ],
+        "predicted_seconds": 2683
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d72-31",
+          "d72-53"
+        ],
+        "predicted_seconds": 2816
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d72-21",
+          "d72-52"
+        ],
+        "predicted_seconds": 3193
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 72,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 235.3
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d72-16",
+          "d72-24"
+        ],
+        "predicted_seconds": 2514
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d72-22",
+          "d72-26"
+        ],
+        "predicted_seconds": 2517
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d72-31",
+          "d72-53"
+        ],
+        "predicted_seconds": 2631
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d72-03",
+          "d72-10"
+        ],
+        "predicted_seconds": 2398
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d72-21",
+          "d72-55"
+        ],
+        "predicted_seconds": 2756
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d72-07",
+          "d72-52"
+        ],
+        "predicted_seconds": 3009
+      }
+    ],
+    "runtime": {
+      "candidate_count": 93,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0081084,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.01693329997942783
+    }
+  },
+  {
+    "day": 72,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 11,
+      "late": 2,
+      "unassigned": 11,
+      "realized_shopper_minutes": 243.56666666666663
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d72-22",
+          "d72-45"
+        ],
+        "predicted_seconds": 2128
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d72-16",
+          "d72-26",
+          "d72-30"
+        ],
+        "predicted_seconds": 3842
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d72-10",
+          "d72-31"
+        ],
+        "predicted_seconds": 1970
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d72-03",
+          "d72-50"
+        ],
+        "predicted_seconds": 1892
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d72-21",
+          "d72-55"
+        ],
+        "predicted_seconds": 2458
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d72-07",
+          "d72-15"
+        ],
+        "predicted_seconds": 2073
+      }
+    ],
+    "runtime": {
+      "candidate_count": 132,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0110591,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.02348930001608096
+    }
+  },
+  {
+    "day": 72,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 236.26666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d72-03",
+          "d72-10"
+        ],
+        "predicted_seconds": 2239
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d72-22",
+          "d72-26"
+        ],
+        "predicted_seconds": 2383
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d72-07",
+          "d72-55"
+        ],
+        "predicted_seconds": 2600
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d72-16",
+          "d72-24"
+        ],
+        "predicted_seconds": 2683
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d72-31",
+          "d72-53"
+        ],
+        "predicted_seconds": 2816
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d72-21",
+          "d72-52"
+        ],
+        "predicted_seconds": 3193
+      }
+    ],
+    "runtime": {
+      "candidate_count": 93,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.003487400012090802
+    }
+  },
+  {
+    "day": 73,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 208.05
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d73-47",
+          "d73-04"
+        ],
+        "predicted_seconds": 2211
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d73-31"
+        ],
+        "predicted_seconds": 1635
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d73-08",
+          "d73-23"
+        ],
+        "predicted_seconds": 2666
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d73-54",
+          "d73-17"
+        ],
+        "predicted_seconds": 2744
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d73-16",
+          "d73-39"
+        ],
+        "predicted_seconds": 2491
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d73-33"
+        ],
+        "predicted_seconds": 2362
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 73,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 184.51666666666668
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d73-04",
+          "d73-10"
+        ],
+        "predicted_seconds": 1974
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d73-17",
+          "d73-45"
+        ],
+        "predicted_seconds": 2101
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d73-22",
+          "d73-39"
+        ],
+        "predicted_seconds": 2149
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d73-08",
+          "d73-23"
+        ],
+        "predicted_seconds": 2865
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d73-31"
+        ],
+        "predicted_seconds": 1635
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d73-16"
+        ],
+        "predicted_seconds": 2088
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 73,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 199.58333333333331
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d73-10",
+          "d73-47"
+        ],
+        "predicted_seconds": 2101
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d73-04"
+        ],
+        "predicted_seconds": 1501
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d73-08",
+          "d73-23"
+        ],
+        "predicted_seconds": 2666
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d73-17",
+          "d73-45"
+        ],
+        "predicted_seconds": 2245
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d73-16",
+          "d73-22"
+        ],
+        "predicted_seconds": 2503
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d73-03",
+          "d73-39"
+        ],
+        "predicted_seconds": 2708
+      }
+    ],
+    "runtime": {
+      "candidate_count": 77,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0082974,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.01689490000717342
+    }
+  },
+  {
+    "day": 73,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 220.21666666666664
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d73-10",
+          "d73-47"
+        ],
+        "predicted_seconds": 1803
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d73-04"
+        ],
+        "predicted_seconds": 1203
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d73-08",
+          "d73-23",
+          "d73-45"
+        ],
+        "predicted_seconds": 3070
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d73-17",
+          "d73-54"
+        ],
+        "predicted_seconds": 2446
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d73-03",
+          "d73-22"
+        ],
+        "predicted_seconds": 2260
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d73-16",
+          "d73-39"
+        ],
+        "predicted_seconds": 2354
+      }
+    ],
+    "runtime": {
+      "candidate_count": 100,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0104568,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.019231899990700185
+    }
+  },
+  {
+    "day": 73,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 184.51666666666668
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d73-04",
+          "d73-10"
+        ],
+        "predicted_seconds": 1974
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d73-17",
+          "d73-45"
+        ],
+        "predicted_seconds": 2101
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d73-22",
+          "d73-39"
+        ],
+        "predicted_seconds": 2149
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d73-08",
+          "d73-23"
+        ],
+        "predicted_seconds": 2865
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d73-31"
+        ],
+        "predicted_seconds": 1635
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d73-16"
+        ],
+        "predicted_seconds": 2088
+      }
+    ],
+    "runtime": {
+      "candidate_count": 77,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0034291000047232956
+    }
+  },
+  {
+    "day": 74,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 185.86666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d74-54",
+          "d74-40"
+        ],
+        "predicted_seconds": 2053
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d74-48"
+        ],
+        "predicted_seconds": 1389
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d74-47"
+        ],
+        "predicted_seconds": 1602
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d74-13",
+          "d74-20",
+          "d74-03"
+        ],
+        "predicted_seconds": 3146
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d74-56",
+          "d74-31"
+        ],
+        "predicted_seconds": 2431
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d74-53"
+        ],
+        "predicted_seconds": 1930
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 74,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 210.83333333333334
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d74-00",
+          "d74-13",
+          "d74-20"
+        ],
+        "predicted_seconds": 2504
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d74-40",
+          "d74-48"
+        ],
+        "predicted_seconds": 1889
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d74-02",
+          "d74-59"
+        ],
+        "predicted_seconds": 2185
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d74-31",
+          "d74-49"
+        ],
+        "predicted_seconds": 2226
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d74-35",
+          "d74-54"
+        ],
+        "predicted_seconds": 2491
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d74-51",
+          "d74-56"
+        ],
+        "predicted_seconds": 2706
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 74,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 14,
+      "on_time": 14,
+      "late": 0,
+      "unassigned": 10,
+      "realized_shopper_minutes": 230.33333333333334
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d74-35",
+          "d74-54"
+        ],
+        "predicted_seconds": 2319
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d74-40",
+          "d74-48"
+        ],
+        "predicted_seconds": 1989
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d74-03",
+          "d74-13",
+          "d74-59"
+        ],
+        "predicted_seconds": 2977
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d74-00",
+          "d74-20",
+          "d74-32"
+        ],
+        "predicted_seconds": 3105
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d74-49",
+          "d74-53"
+        ],
+        "predicted_seconds": 2395
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d74-31",
+          "d74-51"
+        ],
+        "predicted_seconds": 2471
+      }
+    ],
+    "runtime": {
+      "candidate_count": 150,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.013911900000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.027328700001817197
+    }
+  },
+  {
+    "day": 74,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 14,
+      "on_time": 14,
+      "late": 0,
+      "unassigned": 10,
+      "realized_shopper_minutes": 230.26666666666668
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d74-35",
+          "d74-54"
+        ],
+        "predicted_seconds": 2020
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d74-40",
+          "d74-48"
+        ],
+        "predicted_seconds": 1691
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d74-03",
+          "d74-32",
+          "d74-59"
+        ],
+        "predicted_seconds": 3105
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d74-00",
+          "d74-13",
+          "d74-20"
+        ],
+        "predicted_seconds": 2369
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d74-49",
+          "d74-53"
+        ],
+        "predicted_seconds": 2097
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d74-31",
+          "d74-51"
+        ],
+        "predicted_seconds": 2173
+      }
+    ],
+    "runtime": {
+      "candidate_count": 189,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0174215,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.03182930001639761
+    }
+  },
+  {
+    "day": 74,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 210.83333333333334
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d74-00",
+          "d74-13",
+          "d74-20"
+        ],
+        "predicted_seconds": 2504
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d74-40",
+          "d74-48"
+        ],
+        "predicted_seconds": 1889
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d74-02",
+          "d74-59"
+        ],
+        "predicted_seconds": 2185
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d74-31",
+          "d74-49"
+        ],
+        "predicted_seconds": 2226
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d74-35",
+          "d74-54"
+        ],
+        "predicted_seconds": 2491
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d74-51",
+          "d74-56"
+        ],
+        "predicted_seconds": 2706
+      }
+    ],
+    "runtime": {
+      "candidate_count": 150,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0037844000034965575
+    }
+  },
+  {
+    "day": 75,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 9,
+      "on_time": 9,
+      "late": 0,
+      "unassigned": 15,
+      "realized_shopper_minutes": 187.05
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d75-51"
+        ],
+        "predicted_seconds": 1917
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d75-37",
+          "d75-45"
+        ],
+        "predicted_seconds": 2454
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d75-33",
+          "d75-26"
+        ],
+        "predicted_seconds": 2594
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d75-49"
+        ],
+        "predicted_seconds": 2130
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d75-59",
+          "d75-28"
+        ],
+        "predicted_seconds": 2526
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d75-53"
+        ],
+        "predicted_seconds": 1844
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 75,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 191.66666666666669
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d75-26",
+          "d75-30"
+        ],
+        "predicted_seconds": 2163
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d75-37",
+          "d75-47"
+        ],
+        "predicted_seconds": 2264
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d75-20",
+          "d75-59"
+        ],
+        "predicted_seconds": 2491
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d75-46",
+          "d75-57"
+        ],
+        "predicted_seconds": 2517
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d75-42"
+        ],
+        "predicted_seconds": 1802
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d75-45"
+        ],
+        "predicted_seconds": 2059
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 75,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 207.6
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d75-37",
+          "d75-47"
+        ],
+        "predicted_seconds": 2264
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d75-45"
+        ],
+        "predicted_seconds": 2059
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d75-46",
+          "d75-57"
+        ],
+        "predicted_seconds": 2360
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d75-26",
+          "d75-30"
+        ],
+        "predicted_seconds": 2290
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d75-08",
+          "d75-59"
+        ],
+        "predicted_seconds": 2750
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d75-20",
+          "d75-28"
+        ],
+        "predicted_seconds": 2740
+      }
+    ],
+    "runtime": {
+      "candidate_count": 90,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0080219,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.016806400002678856
+    }
+  },
+  {
+    "day": 75,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 239.33333333333331
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d75-45",
+          "d75-47"
+        ],
+        "predicted_seconds": 2563
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d75-37",
+          "d75-51"
+        ],
+        "predicted_seconds": 2086
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d75-26",
+          "d75-30",
+          "d75-57"
+        ],
+        "predicted_seconds": 2810
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d75-33",
+          "d75-46"
+        ],
+        "predicted_seconds": 2506
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d75-20",
+          "d75-59"
+        ],
+        "predicted_seconds": 2193
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d75-28",
+          "d75-53"
+        ],
+        "predicted_seconds": 2412
+      }
+    ],
+    "runtime": {
+      "candidate_count": 129,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0109785,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.023264699993887916
+    }
+  },
+  {
+    "day": 75,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 191.66666666666669
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d75-26",
+          "d75-30"
+        ],
+        "predicted_seconds": 2163
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d75-37",
+          "d75-47"
+        ],
+        "predicted_seconds": 2264
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d75-20",
+          "d75-59"
+        ],
+        "predicted_seconds": 2491
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d75-46",
+          "d75-57"
+        ],
+        "predicted_seconds": 2517
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d75-42"
+        ],
+        "predicted_seconds": 1802
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d75-45"
+        ],
+        "predicted_seconds": 2059
+      }
+    ],
+    "runtime": {
+      "candidate_count": 90,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.004170400003204122
+    }
+  },
+  {
+    "day": 76,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 9,
+      "on_time": 9,
+      "late": 0,
+      "unassigned": 15,
+      "realized_shopper_minutes": 181.16666666666669
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d76-05",
+          "d76-22"
+        ],
+        "predicted_seconds": 2355
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d76-16",
+          "d76-45"
+        ],
+        "predicted_seconds": 2748
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d76-32"
+        ],
+        "predicted_seconds": 1948
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d76-04",
+          "d76-06"
+        ],
+        "predicted_seconds": 2353
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d76-26",
+          "d76-55"
+        ],
+        "predicted_seconds": 3082
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 76,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 197.66666666666666
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d76-06",
+          "d76-35"
+        ],
+        "predicted_seconds": 2311
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d76-23",
+          "d76-45"
+        ],
+        "predicted_seconds": 2339
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d76-05",
+          "d76-22"
+        ],
+        "predicted_seconds": 2355
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d76-26",
+          "d76-55"
+        ],
+        "predicted_seconds": 3082
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d76-37",
+          "d76-48"
+        ],
+        "predicted_seconds": 3437
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 76,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 190.9
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d76-05",
+          "d76-22"
+        ],
+        "predicted_seconds": 2355
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d76-16",
+          "d76-45"
+        ],
+        "predicted_seconds": 2748
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d76-23",
+          "d76-48"
+        ],
+        "predicted_seconds": 2885
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d76-26",
+          "d76-35"
+        ],
+        "predicted_seconds": 2643
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d76-04",
+          "d76-06"
+        ],
+        "predicted_seconds": 2477
+      }
+    ],
+    "runtime": {
+      "candidate_count": 58,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0114345,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.02992969998740591
+    }
+  },
+  {
+    "day": 76,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 10,
+      "late": 1,
+      "unassigned": 13,
+      "realized_shopper_minutes": 220.94999999999996
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d76-05",
+          "d76-22"
+        ],
+        "predicted_seconds": 2056
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d76-59"
+        ],
+        "predicted_seconds": 1949
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d76-32",
+          "d76-45"
+        ],
+        "predicted_seconds": 2207
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d76-23",
+          "d76-48"
+        ],
+        "predicted_seconds": 2586
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d76-26",
+          "d76-35"
+        ],
+        "predicted_seconds": 2345
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d76-04",
+          "d76-06"
+        ],
+        "predicted_seconds": 2179
+      }
+    ],
+    "runtime": {
+      "candidate_count": 84,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0082558,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.020542800019029528
+    }
+  },
+  {
+    "day": 76,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 197.66666666666666
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d76-06",
+          "d76-35"
+        ],
+        "predicted_seconds": 2311
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d76-23",
+          "d76-45"
+        ],
+        "predicted_seconds": 2339
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d76-05",
+          "d76-22"
+        ],
+        "predicted_seconds": 2355
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d76-26",
+          "d76-55"
+        ],
+        "predicted_seconds": 3082
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d76-37",
+          "d76-48"
+        ],
+        "predicted_seconds": 3437
+      }
+    ],
+    "runtime": {
+      "candidate_count": 58,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.005114600004162639
+    }
+  },
+  {
+    "day": 77,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 201.5
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d77-19",
+          "d77-47",
+          "d77-17"
+        ],
+        "predicted_seconds": 2806
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d77-16"
+        ],
+        "predicted_seconds": 2126
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d77-44",
+          "d77-28"
+        ],
+        "predicted_seconds": 2354
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d77-37"
+        ],
+        "predicted_seconds": 1777
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d77-00",
+          "d77-38"
+        ],
+        "predicted_seconds": 2099
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d77-59"
+        ],
+        "predicted_seconds": 2884
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 77,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 184.31666666666666
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d77-17",
+          "d77-19",
+          "d77-47"
+        ],
+        "predicted_seconds": 2806
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d77-00",
+          "d77-38"
+        ],
+        "predicted_seconds": 2099
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d77-28",
+          "d77-44"
+        ],
+        "predicted_seconds": 2354
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d77-39",
+          "d77-45"
+        ],
+        "predicted_seconds": 2631
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d77-11"
+        ],
+        "predicted_seconds": 1485
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d77-37"
+        ],
+        "predicted_seconds": 1777
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 77,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 181.13333333333333
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d77-17",
+          "d77-47"
+        ],
+        "predicted_seconds": 2250
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d77-11",
+          "d77-19"
+        ],
+        "predicted_seconds": 1887
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d77-28",
+          "d77-37"
+        ],
+        "predicted_seconds": 2359
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d77-44"
+        ],
+        "predicted_seconds": 1716
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d77-00",
+          "d77-45"
+        ],
+        "predicted_seconds": 2396
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d77-38",
+          "d77-39"
+        ],
+        "predicted_seconds": 2312
+      }
+    ],
+    "runtime": {
+      "candidate_count": 85,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.014132700000000002,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.024900300020817667
+    }
+  },
+  {
+    "day": 77,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 199.75
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d77-11",
+          "d77-15"
+        ],
+        "predicted_seconds": 2009
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d77-17",
+          "d77-19",
+          "d77-47"
+        ],
+        "predicted_seconds": 2732
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d77-28",
+          "d77-37"
+        ],
+        "predicted_seconds": 2061
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d77-44"
+        ],
+        "predicted_seconds": 1418
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d77-00",
+          "d77-45"
+        ],
+        "predicted_seconds": 2097
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d77-38",
+          "d77-39"
+        ],
+        "predicted_seconds": 2013
+      }
+    ],
+    "runtime": {
+      "candidate_count": 116,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.012316500000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.025104599975747988
+    }
+  },
+  {
+    "day": 77,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 184.31666666666666
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d77-17",
+          "d77-19",
+          "d77-47"
+        ],
+        "predicted_seconds": 2806
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d77-00",
+          "d77-38"
+        ],
+        "predicted_seconds": 2099
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d77-28",
+          "d77-44"
+        ],
+        "predicted_seconds": 2354
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d77-39",
+          "d77-45"
+        ],
+        "predicted_seconds": 2631
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d77-11"
+        ],
+        "predicted_seconds": 1485
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d77-37"
+        ],
+        "predicted_seconds": 1777
+      }
+    ],
+    "runtime": {
+      "candidate_count": 85,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.003623099997639656
+    }
+  },
+  {
+    "day": 78,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 9,
+      "on_time": 9,
+      "late": 0,
+      "unassigned": 15,
+      "realized_shopper_minutes": 190.13333333333333
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d78-48",
+          "d78-31"
+        ],
+        "predicted_seconds": 2742
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d78-49"
+        ],
+        "predicted_seconds": 1556
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d78-13"
+        ],
+        "predicted_seconds": 1972
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d78-11",
+          "d78-54"
+        ],
+        "predicted_seconds": 2232
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d78-23",
+          "d78-18"
+        ],
+        "predicted_seconds": 2962
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d78-27"
+        ],
+        "predicted_seconds": 1974
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 78,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 191.3
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d78-11",
+          "d78-54"
+        ],
+        "predicted_seconds": 2122
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d78-00",
+          "d78-15"
+        ],
+        "predicted_seconds": 2252
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d78-43",
+          "d78-48"
+        ],
+        "predicted_seconds": 2655
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d78-18",
+          "d78-23"
+        ],
+        "predicted_seconds": 2962
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d78-25"
+        ],
+        "predicted_seconds": 1692
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d78-55"
+        ],
+        "predicted_seconds": 1836
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 78,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 190.98333333333332
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d78-43",
+          "d78-48"
+        ],
+        "predicted_seconds": 2471
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d78-00",
+          "d78-15"
+        ],
+        "predicted_seconds": 2378
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d78-37",
+          "d78-54"
+        ],
+        "predicted_seconds": 2254
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d78-11"
+        ],
+        "predicted_seconds": 1648
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d78-18",
+          "d78-23"
+        ],
+        "predicted_seconds": 2962
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d78-25"
+        ],
+        "predicted_seconds": 1692
+      }
+    ],
+    "runtime": {
+      "candidate_count": 59,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.005732500000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.013190899975597858
+    }
+  },
+  {
+    "day": 78,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 222.73333333333332
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d78-43",
+          "d78-48"
+        ],
+        "predicted_seconds": 2173
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d78-00",
+          "d78-15"
+        ],
+        "predicted_seconds": 2080
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d78-32",
+          "d78-37"
+        ],
+        "predicted_seconds": 2562
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d78-11",
+          "d78-54"
+        ],
+        "predicted_seconds": 1934
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d78-16",
+          "d78-23"
+        ],
+        "predicted_seconds": 2663
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d78-12",
+          "d78-25"
+        ],
+        "predicted_seconds": 2294
+      }
+    ],
+    "runtime": {
+      "candidate_count": 77,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0065972,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.015507700009038672
+    }
+  },
+  {
+    "day": 78,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 191.3
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d78-11",
+          "d78-54"
+        ],
+        "predicted_seconds": 2122
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d78-00",
+          "d78-15"
+        ],
+        "predicted_seconds": 2252
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d78-43",
+          "d78-48"
+        ],
+        "predicted_seconds": 2655
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d78-18",
+          "d78-23"
+        ],
+        "predicted_seconds": 2962
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d78-25"
+        ],
+        "predicted_seconds": 1692
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d78-55"
+        ],
+        "predicted_seconds": 1836
+      }
+    ],
+    "runtime": {
+      "candidate_count": 59,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.003739000007044524
+    }
+  },
+  {
+    "day": 79,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 199.38333333333333
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d79-29",
+          "d79-10"
+        ],
+        "predicted_seconds": 1791
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d79-35"
+        ],
+        "predicted_seconds": 1439
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d79-30",
+          "d79-50"
+        ],
+        "predicted_seconds": 3231
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d79-46",
+          "d79-31"
+        ],
+        "predicted_seconds": 3048
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d79-19"
+        ],
+        "predicted_seconds": 1842
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d79-58",
+          "d79-17"
+        ],
+        "predicted_seconds": 2345
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 79,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 181.36666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d79-10",
+          "d79-35"
+        ],
+        "predicted_seconds": 1752
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d79-17",
+          "d79-58"
+        ],
+        "predicted_seconds": 2207
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d79-11",
+          "d79-31"
+        ],
+        "predicted_seconds": 2386
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d79-46",
+          "d79-50"
+        ],
+        "predicted_seconds": 3301
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d79-29"
+        ],
+        "predicted_seconds": 1414
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d79-14"
+        ],
+        "predicted_seconds": 1563
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 79,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 179.68333333333334
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d79-29",
+          "d79-35"
+        ],
+        "predicted_seconds": 1906
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d79-10"
+        ],
+        "predicted_seconds": 1249
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d79-46",
+          "d79-50"
+        ],
+        "predicted_seconds": 3098
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d79-11",
+          "d79-31"
+        ],
+        "predicted_seconds": 2544
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d79-17",
+          "d79-58"
+        ],
+        "predicted_seconds": 2207
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d79-14"
+        ],
+        "predicted_seconds": 1563
+      }
+    ],
+    "runtime": {
+      "candidate_count": 60,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0058404,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.01342770000337623
+    }
+  },
+  {
+    "day": 79,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 207.83333333333331
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d79-10",
+          "d79-15"
+        ],
+        "predicted_seconds": 1704
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d79-29",
+          "d79-35"
+        ],
+        "predicted_seconds": 1724
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d79-31",
+          "d79-46"
+        ],
+        "predicted_seconds": 2543
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d79-11",
+          "d79-50"
+        ],
+        "predicted_seconds": 2499
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d79-14",
+          "d79-47"
+        ],
+        "predicted_seconds": 1987
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d79-17",
+          "d79-58"
+        ],
+        "predicted_seconds": 2047
+      }
+    ],
+    "runtime": {
+      "candidate_count": 81,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0076641,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.016627699980745092
+    }
+  },
+  {
+    "day": 79,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 181.36666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d79-10",
+          "d79-35"
+        ],
+        "predicted_seconds": 1752
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d79-17",
+          "d79-58"
+        ],
+        "predicted_seconds": 2207
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d79-11",
+          "d79-31"
+        ],
+        "predicted_seconds": 2386
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d79-46",
+          "d79-50"
+        ],
+        "predicted_seconds": 3301
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d79-29"
+        ],
+        "predicted_seconds": 1414
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d79-14"
+        ],
+        "predicted_seconds": 1563
+      }
+    ],
+    "runtime": {
+      "candidate_count": 60,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0033245999948121607
+    }
+  },
+  {
+    "day": 80,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 200.29999999999998
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d80-43",
+          "d80-39"
+        ],
+        "predicted_seconds": 2070
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d80-30"
+        ],
+        "predicted_seconds": 1544
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d80-51",
+          "d80-36"
+        ],
+        "predicted_seconds": 3020
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d80-48",
+          "d80-58"
+        ],
+        "predicted_seconds": 2812
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d80-20",
+          "d80-03"
+        ],
+        "predicted_seconds": 2924
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d80-02"
+        ],
+        "predicted_seconds": 1662
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 80,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 191.01666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d80-31",
+          "d80-35"
+        ],
+        "predicted_seconds": 1742
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d80-30",
+          "d80-39"
+        ],
+        "predicted_seconds": 2043
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d80-12",
+          "d80-36"
+        ],
+        "predicted_seconds": 2456
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d80-48",
+          "d80-58"
+        ],
+        "predicted_seconds": 2812
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d80-20",
+          "d80-46"
+        ],
+        "predicted_seconds": 2904
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d80-43"
+        ],
+        "predicted_seconds": 1611
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 80,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 187.7833333333333
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d80-30",
+          "d80-43"
+        ],
+        "predicted_seconds": 2057
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d80-39"
+        ],
+        "predicted_seconds": 1466
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d80-48",
+          "d80-58"
+        ],
+        "predicted_seconds": 2644
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d80-12",
+          "d80-36"
+        ],
+        "predicted_seconds": 2602
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d80-31",
+          "d80-35"
+        ],
+        "predicted_seconds": 1742
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d80-20",
+          "d80-46"
+        ],
+        "predicted_seconds": 2904
+      }
+    ],
+    "runtime": {
+      "candidate_count": 74,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.007009100000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.017339600017294288
+    }
+  },
+  {
+    "day": 80,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 165.01666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d80-30",
+          "d80-39",
+          "d80-43"
+        ],
+        "predicted_seconds": 2548
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d80-36",
+          "d80-58"
+        ],
+        "predicted_seconds": 2176
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d80-12",
+          "d80-41"
+        ],
+        "predicted_seconds": 2017
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d80-02",
+          "d80-35"
+        ],
+        "predicted_seconds": 1867
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d80-31",
+          "d80-32"
+        ],
+        "predicted_seconds": 1542
+      }
+    ],
+    "runtime": {
+      "candidate_count": 101,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0090259,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.02135130000533536
+    }
+  },
+  {
+    "day": 80,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 191.01666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d80-31",
+          "d80-35"
+        ],
+        "predicted_seconds": 1742
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d80-30",
+          "d80-39"
+        ],
+        "predicted_seconds": 2043
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d80-12",
+          "d80-36"
+        ],
+        "predicted_seconds": 2456
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d80-48",
+          "d80-58"
+        ],
+        "predicted_seconds": 2812
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d80-20",
+          "d80-46"
+        ],
+        "predicted_seconds": 2904
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d80-43"
+        ],
+        "predicted_seconds": 1611
+      }
+    ],
+    "runtime": {
+      "candidate_count": 74,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0047135999775491655
+    }
+  },
+  {
+    "day": 81,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 211.71666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d81-20",
+          "d81-31"
+        ],
+        "predicted_seconds": 1969
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d81-29"
+        ],
+        "predicted_seconds": 2600
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d81-14",
+          "d81-15"
+        ],
+        "predicted_seconds": 2371
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d81-02"
+        ],
+        "predicted_seconds": 1690
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d81-05",
+          "d81-12"
+        ],
+        "predicted_seconds": 2515
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d81-48",
+          "d81-58"
+        ],
+        "predicted_seconds": 3311
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 81,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 169.70000000000002
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d81-12",
+          "d81-55",
+          "d81-58"
+        ],
+        "predicted_seconds": 3256
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d81-20",
+          "d81-25"
+        ],
+        "predicted_seconds": 1914
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d81-14",
+          "d81-15"
+        ],
+        "predicted_seconds": 2371
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d81-42"
+        ],
+        "predicted_seconds": 1501
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d81-31"
+        ],
+        "predicted_seconds": 1539
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d81-02"
+        ],
+        "predicted_seconds": 1690
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 81,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 183.76666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d81-11",
+          "d81-25"
+        ],
+        "predicted_seconds": 2282
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d81-20",
+          "d81-31"
+        ],
+        "predicted_seconds": 2058
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d81-14",
+          "d81-15"
+        ],
+        "predicted_seconds": 2371
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d81-02"
+        ],
+        "predicted_seconds": 1690
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d81-12",
+          "d81-55",
+          "d81-58"
+        ],
+        "predicted_seconds": 3256
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d81-42"
+        ],
+        "predicted_seconds": 1501
+      }
+    ],
+    "runtime": {
+      "candidate_count": 96,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0112799,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.020459799998207018
+    }
+  },
+  {
+    "day": 81,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 12,
+      "late": 1,
+      "unassigned": 11,
+      "realized_shopper_minutes": 227.86666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d81-00",
+          "d81-20"
+        ],
+        "predicted_seconds": 1747
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d81-25",
+          "d81-31"
+        ],
+        "predicted_seconds": 1993
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d81-14",
+          "d81-59"
+        ],
+        "predicted_seconds": 1968
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d81-15",
+          "d81-39"
+        ],
+        "predicted_seconds": 2573
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d81-51",
+          "d81-52"
+        ],
+        "predicted_seconds": 2348
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d81-12",
+          "d81-55",
+          "d81-58"
+        ],
+        "predicted_seconds": 3223
+      }
+    ],
+    "runtime": {
+      "candidate_count": 125,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.011348,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.02325840000412427
+    }
+  },
+  {
+    "day": 81,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 169.70000000000002
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d81-12",
+          "d81-55",
+          "d81-58"
+        ],
+        "predicted_seconds": 3256
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d81-20",
+          "d81-25"
+        ],
+        "predicted_seconds": 1914
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d81-14",
+          "d81-15"
+        ],
+        "predicted_seconds": 2371
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d81-42"
+        ],
+        "predicted_seconds": 1501
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d81-31"
+        ],
+        "predicted_seconds": 1539
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d81-02"
+        ],
+        "predicted_seconds": 1690
+      }
+    ],
+    "runtime": {
+      "candidate_count": 96,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0041828999819699675
+    }
+  },
+  {
+    "day": 82,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 198.20000000000002
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d82-41",
+          "d82-09"
+        ],
+        "predicted_seconds": 2585
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d82-02"
+        ],
+        "predicted_seconds": 2373
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d82-16",
+          "d82-20"
+        ],
+        "predicted_seconds": 2076
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d82-38",
+          "d82-05"
+        ],
+        "predicted_seconds": 2528
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d82-28",
+          "d82-21"
+        ],
+        "predicted_seconds": 2443
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d82-06"
+        ],
+        "predicted_seconds": 1937
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 82,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 198.76666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d82-05",
+          "d82-20",
+          "d82-40"
+        ],
+        "predicted_seconds": 2858
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d82-09",
+          "d82-44"
+        ],
+        "predicted_seconds": 1991
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d82-21",
+          "d82-28"
+        ],
+        "predicted_seconds": 2443
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d82-38",
+          "d82-56"
+        ],
+        "predicted_seconds": 2940
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d82-08"
+        ],
+        "predicted_seconds": 1718
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d82-47"
+        ],
+        "predicted_seconds": 1904
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 82,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 228.0666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d82-02",
+          "d82-52"
+        ],
+        "predicted_seconds": 2977
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d82-09",
+          "d82-41"
+        ],
+        "predicted_seconds": 2737
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d82-05",
+          "d82-20",
+          "d82-40"
+        ],
+        "predicted_seconds": 2858
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d82-38",
+          "d82-56"
+        ],
+        "predicted_seconds": 2940
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d82-21",
+          "d82-28"
+        ],
+        "predicted_seconds": 2443
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d82-08"
+        ],
+        "predicted_seconds": 1718
+      }
+    ],
+    "runtime": {
+      "candidate_count": 92,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.008521200000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.017917299992404878
+    }
+  },
+  {
+    "day": 82,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 210.89999999999998
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d82-09",
+          "d82-52"
+        ],
+        "predicted_seconds": 2247
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d82-44",
+          "d82-47"
+        ],
+        "predicted_seconds": 1892
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d82-05",
+          "d82-20",
+          "d82-40"
+        ],
+        "predicted_seconds": 2559
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d82-16",
+          "d82-25"
+        ],
+        "predicted_seconds": 1763
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d82-08",
+          "d82-39"
+        ],
+        "predicted_seconds": 2007
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d82-21",
+          "d82-28"
+        ],
+        "predicted_seconds": 2292
+      }
+    ],
+    "runtime": {
+      "candidate_count": 147,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.011335900000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.025396600016392767
+    }
+  },
+  {
+    "day": 82,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 198.76666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d82-05",
+          "d82-20",
+          "d82-40"
+        ],
+        "predicted_seconds": 2858
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d82-09",
+          "d82-44"
+        ],
+        "predicted_seconds": 1991
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d82-21",
+          "d82-28"
+        ],
+        "predicted_seconds": 2443
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d82-38",
+          "d82-56"
+        ],
+        "predicted_seconds": 2940
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d82-08"
+        ],
+        "predicted_seconds": 1718
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d82-47"
+        ],
+        "predicted_seconds": 1904
+      }
+    ],
+    "runtime": {
+      "candidate_count": 92,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.003331499989144504
+    }
+  },
+  {
+    "day": 83,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 9,
+      "on_time": 9,
+      "late": 0,
+      "unassigned": 15,
+      "realized_shopper_minutes": 174.89999999999998
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d83-11",
+          "d83-40"
+        ],
+        "predicted_seconds": 2189
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d83-24"
+        ],
+        "predicted_seconds": 1649
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d83-21",
+          "d83-31"
+        ],
+        "predicted_seconds": 2665
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d83-02"
+        ],
+        "predicted_seconds": 1220
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d83-18"
+        ],
+        "predicted_seconds": 1667
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d83-15",
+          "d83-27"
+        ],
+        "predicted_seconds": 2716
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 83,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 184.05
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d83-08",
+          "d83-27"
+        ],
+        "predicted_seconds": 2148
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d83-11",
+          "d83-40"
+        ],
+        "predicted_seconds": 2189
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d83-29",
+          "d83-34"
+        ],
+        "predicted_seconds": 2587
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d83-21",
+          "d83-31"
+        ],
+        "predicted_seconds": 2665
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d83-02"
+        ],
+        "predicted_seconds": 1220
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d83-18"
+        ],
+        "predicted_seconds": 1777
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 83,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 204.93333333333334
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d83-29",
+          "d83-34"
+        ],
+        "predicted_seconds": 2403
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d83-11",
+          "d83-40"
+        ],
+        "predicted_seconds": 2321
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d83-21",
+          "d83-31"
+        ],
+        "predicted_seconds": 2665
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d83-02"
+        ],
+        "predicted_seconds": 1220
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d83-08",
+          "d83-15"
+        ],
+        "predicted_seconds": 2676
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d83-25",
+          "d83-27"
+        ],
+        "predicted_seconds": 2599
+      }
+    ],
+    "runtime": {
+      "candidate_count": 84,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.007550800000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.01618199999211356
+    }
+  },
+  {
+    "day": 83,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 10,
+      "late": 1,
+      "unassigned": 13,
+      "realized_shopper_minutes": 200.28333333333333
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d83-24",
+          "d83-40"
+        ],
+        "predicted_seconds": 1856
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d83-11",
+          "d83-34"
+        ],
+        "predicted_seconds": 2218
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d83-21",
+          "d83-31"
+        ],
+        "predicted_seconds": 2367
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d83-02"
+        ],
+        "predicted_seconds": 922
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d83-08",
+          "d83-38"
+        ],
+        "predicted_seconds": 2057
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d83-25",
+          "d83-27"
+        ],
+        "predicted_seconds": 2300
+      }
+    ],
+    "runtime": {
+      "candidate_count": 99,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0086484,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.018728200026089326
+    }
+  },
+  {
+    "day": 83,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 184.05
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d83-08",
+          "d83-27"
+        ],
+        "predicted_seconds": 2148
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d83-11",
+          "d83-40"
+        ],
+        "predicted_seconds": 2189
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d83-29",
+          "d83-34"
+        ],
+        "predicted_seconds": 2587
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d83-21",
+          "d83-31"
+        ],
+        "predicted_seconds": 2665
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d83-02"
+        ],
+        "predicted_seconds": 1220
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d83-18"
+        ],
+        "predicted_seconds": 1777
+      }
+    ],
+    "runtime": {
+      "candidate_count": 84,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.004429199994774535
+    }
+  },
+  {
+    "day": 84,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 9,
+      "on_time": 9,
+      "late": 0,
+      "unassigned": 15,
+      "realized_shopper_minutes": 195.13333333333333
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d84-12",
+          "d84-44"
+        ],
+        "predicted_seconds": 2071
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d84-37"
+        ],
+        "predicted_seconds": 2055
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d84-23"
+        ],
+        "predicted_seconds": 1171
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d84-18"
+        ],
+        "predicted_seconds": 1986
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d84-11",
+          "d84-10"
+        ],
+        "predicted_seconds": 3154
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d84-17",
+          "d84-33"
+        ],
+        "predicted_seconds": 2984
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 84,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 210.38333333333333
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d84-24",
+          "d84-44",
+          "d84-45"
+        ],
+        "predicted_seconds": 2870
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d84-25",
+          "d84-46"
+        ],
+        "predicted_seconds": 2221
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d84-17",
+          "d84-41"
+        ],
+        "predicted_seconds": 2600
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d84-31",
+          "d84-36"
+        ],
+        "predicted_seconds": 3156
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d84-23"
+        ],
+        "predicted_seconds": 1230
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d84-10"
+        ],
+        "predicted_seconds": 2199
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 84,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 216.08333333333331
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d84-36",
+          "d84-44",
+          "d84-45"
+        ],
+        "predicted_seconds": 3232
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d84-12",
+          "d84-24"
+        ],
+        "predicted_seconds": 2150
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d84-25",
+          "d84-46"
+        ],
+        "predicted_seconds": 2221
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d84-23"
+        ],
+        "predicted_seconds": 1230
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d84-10",
+          "d84-41"
+        ],
+        "predicted_seconds": 2862
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d84-17",
+          "d84-33"
+        ],
+        "predicted_seconds": 2984
+      }
+    ],
+    "runtime": {
+      "candidate_count": 87,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.009314900000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.017178000009153038
+    }
+  },
+  {
+    "day": 84,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 11,
+      "late": 2,
+      "unassigned": 11,
+      "realized_shopper_minutes": 246.43333333333334
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d84-36",
+          "d84-44",
+          "d84-45"
+        ],
+        "predicted_seconds": 2934
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d84-12",
+          "d84-24"
+        ],
+        "predicted_seconds": 1852
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d84-46",
+          "d84-58"
+        ],
+        "predicted_seconds": 2425
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d84-18",
+          "d84-25"
+        ],
+        "predicted_seconds": 2306
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d84-10",
+          "d84-41"
+        ],
+        "predicted_seconds": 2564
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d84-17",
+          "d84-33"
+        ],
+        "predicted_seconds": 2686
+      }
+    ],
+    "runtime": {
+      "candidate_count": 110,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0161893,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.02614609999000095
+    }
+  },
+  {
+    "day": 84,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 210.38333333333333
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d84-24",
+          "d84-44",
+          "d84-45"
+        ],
+        "predicted_seconds": 2870
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d84-25",
+          "d84-46"
+        ],
+        "predicted_seconds": 2221
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d84-17",
+          "d84-41"
+        ],
+        "predicted_seconds": 2600
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d84-31",
+          "d84-36"
+        ],
+        "predicted_seconds": 3156
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d84-23"
+        ],
+        "predicted_seconds": 1230
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d84-10"
+        ],
+        "predicted_seconds": 2199
+      }
+    ],
+    "runtime": {
+      "candidate_count": 87,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0036118999996688217
+    }
+  },
+  {
+    "day": 85,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 9,
+      "on_time": 9,
+      "late": 0,
+      "unassigned": 15,
+      "realized_shopper_minutes": 189.76666666666665
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d85-03",
+          "d85-09"
+        ],
+        "predicted_seconds": 2314
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d85-49"
+        ],
+        "predicted_seconds": 1893
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d85-44",
+          "d85-01"
+        ],
+        "predicted_seconds": 2559
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d85-17"
+        ],
+        "predicted_seconds": 2132
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d85-52",
+          "d85-13"
+        ],
+        "predicted_seconds": 2312
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d85-04"
+        ],
+        "predicted_seconds": 2374
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 85,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 209.25
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d85-09",
+          "d85-48"
+        ],
+        "predicted_seconds": 2082
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d85-44",
+          "d85-55"
+        ],
+        "predicted_seconds": 2162
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d85-13",
+          "d85-52"
+        ],
+        "predicted_seconds": 2312
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d85-01",
+          "d85-23"
+        ],
+        "predicted_seconds": 2803
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d85-03",
+          "d85-05"
+        ],
+        "predicted_seconds": 2879
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d85-39"
+        ],
+        "predicted_seconds": 2023
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 85,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 204.58333333333331
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d85-05",
+          "d85-09"
+        ],
+        "predicted_seconds": 2466
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d85-03",
+          "d85-48"
+        ],
+        "predicted_seconds": 2460
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d85-01",
+          "d85-23"
+        ],
+        "predicted_seconds": 2618
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d85-44",
+          "d85-55"
+        ],
+        "predicted_seconds": 2285
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d85-13",
+          "d85-39"
+        ],
+        "predicted_seconds": 2605
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d85-52"
+        ],
+        "predicted_seconds": 1527
+      }
+    ],
+    "runtime": {
+      "candidate_count": 74,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0094521,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.017908999987412244
+    }
+  },
+  {
+    "day": 85,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 219.93333333333334
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d85-05",
+          "d85-09"
+        ],
+        "predicted_seconds": 2168
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d85-03",
+          "d85-48"
+        ],
+        "predicted_seconds": 2162
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d85-27",
+          "d85-55"
+        ],
+        "predicted_seconds": 1831
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d85-01",
+          "d85-44"
+        ],
+        "predicted_seconds": 2426
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d85-15",
+          "d85-39"
+        ],
+        "predicted_seconds": 2569
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d85-13",
+          "d85-52"
+        ],
+        "predicted_seconds": 2155
+      }
+    ],
+    "runtime": {
+      "candidate_count": 101,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0101387,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.019911600014893338
+    }
+  },
+  {
+    "day": 85,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 209.25
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d85-09",
+          "d85-48"
+        ],
+        "predicted_seconds": 2082
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d85-44",
+          "d85-55"
+        ],
+        "predicted_seconds": 2162
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d85-13",
+          "d85-52"
+        ],
+        "predicted_seconds": 2312
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d85-01",
+          "d85-23"
+        ],
+        "predicted_seconds": 2803
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d85-03",
+          "d85-05"
+        ],
+        "predicted_seconds": 2879
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d85-39"
+        ],
+        "predicted_seconds": 2023
+      }
+    ],
+    "runtime": {
+      "candidate_count": 74,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0026900000229943544
+    }
+  },
+  {
+    "day": 86,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 204.55
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d86-12"
+        ],
+        "predicted_seconds": 1533
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d86-34",
+          "d86-16",
+          "d86-33"
+        ],
+        "predicted_seconds": 3024
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d86-32",
+          "d86-27"
+        ],
+        "predicted_seconds": 2312
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d86-26"
+        ],
+        "predicted_seconds": 2437
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d86-28",
+          "d86-24"
+        ],
+        "predicted_seconds": 2828
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d86-13"
+        ],
+        "predicted_seconds": 2245
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 86,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 202.26666666666668
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d86-16",
+          "d86-33",
+          "d86-34"
+        ],
+        "predicted_seconds": 2819
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d86-27",
+          "d86-32"
+        ],
+        "predicted_seconds": 2312
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d86-45",
+          "d86-50"
+        ],
+        "predicted_seconds": 2491
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d86-07",
+          "d86-28"
+        ],
+        "predicted_seconds": 2815
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d86-12"
+        ],
+        "predicted_seconds": 1639
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d86-00"
+        ],
+        "predicted_seconds": 1968
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 86,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 200.56666666666666
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d86-16",
+          "d86-33",
+          "d86-34"
+        ],
+        "predicted_seconds": 2819
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d86-12"
+        ],
+        "predicted_seconds": 1639
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d86-25",
+          "d86-27"
+        ],
+        "predicted_seconds": 2455
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d86-32"
+        ],
+        "predicted_seconds": 1741
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d86-07",
+          "d86-45"
+        ],
+        "predicted_seconds": 2507
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d86-28",
+          "d86-50"
+        ],
+        "predicted_seconds": 2798
+      }
+    ],
+    "runtime": {
+      "candidate_count": 78,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0074118000000000005,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.0178711999906227
+    }
+  },
+  {
+    "day": 86,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 216.29999999999995
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d86-16",
+          "d86-33",
+          "d86-34"
+        ],
+        "predicted_seconds": 2521
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d86-12"
+        ],
+        "predicted_seconds": 1341
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d86-00",
+          "d86-27"
+        ],
+        "predicted_seconds": 2093
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d86-25",
+          "d86-32"
+        ],
+        "predicted_seconds": 2442
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d86-07",
+          "d86-45"
+        ],
+        "predicted_seconds": 2209
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d86-28",
+          "d86-50"
+        ],
+        "predicted_seconds": 2500
+      }
+    ],
+    "runtime": {
+      "candidate_count": 96,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.009834200000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.018871899985242635
+    }
+  },
+  {
+    "day": 86,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 202.26666666666668
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d86-16",
+          "d86-33",
+          "d86-34"
+        ],
+        "predicted_seconds": 2819
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d86-27",
+          "d86-32"
+        ],
+        "predicted_seconds": 2312
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d86-45",
+          "d86-50"
+        ],
+        "predicted_seconds": 2491
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d86-07",
+          "d86-28"
+        ],
+        "predicted_seconds": 2815
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d86-12"
+        ],
+        "predicted_seconds": 1639
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d86-00"
+        ],
+        "predicted_seconds": 1968
+      }
+    ],
+    "runtime": {
+      "candidate_count": 78,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.003007499995874241
+    }
+  },
+  {
+    "day": 87,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 212.75
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d87-52"
+        ],
+        "predicted_seconds": 1678
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d87-00",
+          "d87-51"
+        ],
+        "predicted_seconds": 2803
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d87-56",
+          "d87-55"
+        ],
+        "predicted_seconds": 2266
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d87-38"
+        ],
+        "predicted_seconds": 1871
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d87-36",
+          "d87-45",
+          "d87-01"
+        ],
+        "predicted_seconds": 3174
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d87-16",
+          "d87-33"
+        ],
+        "predicted_seconds": 2861
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 87,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 215.61666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d87-01",
+          "d87-36",
+          "d87-45"
+        ],
+        "predicted_seconds": 3174
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d87-03",
+          "d87-55"
+        ],
+        "predicted_seconds": 2226
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d87-07",
+          "d87-15"
+        ],
+        "predicted_seconds": 2403
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d87-26",
+          "d87-56"
+        ],
+        "predicted_seconds": 2513
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d87-00",
+          "d87-51"
+        ],
+        "predicted_seconds": 2621
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d87-20"
+        ],
+        "predicted_seconds": 1638
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 87,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 214.5
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d87-00",
+          "d87-51"
+        ],
+        "predicted_seconds": 2621
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d87-20"
+        ],
+        "predicted_seconds": 1638
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d87-26",
+          "d87-56"
+        ],
+        "predicted_seconds": 2324
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d87-03",
+          "d87-55"
+        ],
+        "predicted_seconds": 2356
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d87-01",
+          "d87-36",
+          "d87-45"
+        ],
+        "predicted_seconds": 3174
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d87-07",
+          "d87-15"
+        ],
+        "predicted_seconds": 2403
+      }
+    ],
+    "runtime": {
+      "candidate_count": 129,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.011052900000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.02216599998064339
+    }
+  },
+  {
+    "day": 87,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 15,
+      "on_time": 14,
+      "late": 1,
+      "unassigned": 9,
+      "realized_shopper_minutes": 264.20000000000005
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d87-20",
+          "d87-52"
+        ],
+        "predicted_seconds": 1956
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d87-00",
+          "d87-51"
+        ],
+        "predicted_seconds": 2505
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d87-03",
+          "d87-05",
+          "d87-26"
+        ],
+        "predicted_seconds": 3022
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d87-55",
+          "d87-56"
+        ],
+        "predicted_seconds": 2123
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d87-07",
+          "d87-15",
+          "d87-36"
+        ],
+        "predicted_seconds": 2728
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d87-01",
+          "d87-33",
+          "d87-45"
+        ],
+        "predicted_seconds": 3462
+      }
+    ],
+    "runtime": {
+      "candidate_count": 150,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.011429700000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.023296200000913814
+    }
+  },
+  {
+    "day": 87,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 215.61666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d87-01",
+          "d87-36",
+          "d87-45"
+        ],
+        "predicted_seconds": 3174
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d87-03",
+          "d87-55"
+        ],
+        "predicted_seconds": 2226
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d87-07",
+          "d87-15"
+        ],
+        "predicted_seconds": 2403
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d87-26",
+          "d87-56"
+        ],
+        "predicted_seconds": 2513
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d87-00",
+          "d87-51"
+        ],
+        "predicted_seconds": 2621
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d87-20"
+        ],
+        "predicted_seconds": 1638
+      }
+    ],
+    "runtime": {
+      "candidate_count": 129,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0033493000082671642
+    }
+  },
+  {
+    "day": 88,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 11,
+      "on_time": 11,
+      "late": 0,
+      "unassigned": 13,
+      "realized_shopper_minutes": 177.2
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d88-42",
+          "d88-25"
+        ],
+        "predicted_seconds": 2318
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d88-56",
+          "d88-47"
+        ],
+        "predicted_seconds": 2309
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d88-51",
+          "d88-06"
+        ],
+        "predicted_seconds": 2303
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d88-30"
+        ],
+        "predicted_seconds": 1362
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d88-09",
+          "d88-26"
+        ],
+        "predicted_seconds": 1837
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d88-01",
+          "d88-20"
+        ],
+        "predicted_seconds": 2590
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 88,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 198.31666666666666
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d88-00",
+          "d88-20",
+          "d88-22"
+        ],
+        "predicted_seconds": 3441
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d88-07",
+          "d88-51"
+        ],
+        "predicted_seconds": 1878
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d88-09",
+          "d88-26"
+        ],
+        "predicted_seconds": 1961
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d88-25",
+          "d88-47"
+        ],
+        "predicted_seconds": 2002
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d88-43",
+          "d88-49"
+        ],
+        "predicted_seconds": 2261
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d88-14",
+          "d88-42"
+        ],
+        "predicted_seconds": 2553
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 88,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 197.73333333333332
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d88-25",
+          "d88-42"
+        ],
+        "predicted_seconds": 2318
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d88-14",
+          "d88-47"
+        ],
+        "predicted_seconds": 2201
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d88-43",
+          "d88-51"
+        ],
+        "predicted_seconds": 2034
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d88-07",
+          "d88-49"
+        ],
+        "predicted_seconds": 2101
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d88-00",
+          "d88-20",
+          "d88-22"
+        ],
+        "predicted_seconds": 3441
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d88-09",
+          "d88-26"
+        ],
+        "predicted_seconds": 1961
+      }
+    ],
+    "runtime": {
+      "candidate_count": 131,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0103376,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.0213367999822367
+    }
+  },
+  {
+    "day": 88,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 15,
+      "on_time": 14,
+      "late": 1,
+      "unassigned": 9,
+      "realized_shopper_minutes": 227.46666666666667
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d88-25",
+          "d88-42",
+          "d88-47"
+        ],
+        "predicted_seconds": 2659
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d88-14",
+          "d88-56"
+        ],
+        "predicted_seconds": 2367
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d88-07",
+          "d88-30"
+        ],
+        "predicted_seconds": 1501
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d88-43",
+          "d88-49",
+          "d88-51"
+        ],
+        "predicted_seconds": 2732
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d88-00",
+          "d88-20",
+          "d88-22"
+        ],
+        "predicted_seconds": 3143
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d88-09",
+          "d88-26"
+        ],
+        "predicted_seconds": 1663
+      }
+    ],
+    "runtime": {
+      "candidate_count": 163,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.014217500000000001,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.027893399994354695
+    }
+  },
+  {
+    "day": 88,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 13,
+      "on_time": 13,
+      "late": 0,
+      "unassigned": 11,
+      "realized_shopper_minutes": 198.31666666666666
+    },
+    "plan": [
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d88-00",
+          "d88-20",
+          "d88-22"
+        ],
+        "predicted_seconds": 3441
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d88-07",
+          "d88-51"
+        ],
+        "predicted_seconds": 1878
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d88-09",
+          "d88-26"
+        ],
+        "predicted_seconds": 1961
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d88-25",
+          "d88-47"
+        ],
+        "predicted_seconds": 2002
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d88-43",
+          "d88-49"
+        ],
+        "predicted_seconds": 2261
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d88-14",
+          "d88-42"
+        ],
+        "predicted_seconds": 2553
+      }
+    ],
+    "runtime": {
+      "candidate_count": 131,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0032739000162109733
+    }
+  },
+  {
+    "day": 89,
+    "policy": "fifo",
+    "orders": 24,
+    "score": {
+      "assigned": 9,
+      "on_time": 9,
+      "late": 0,
+      "unassigned": 15,
+      "realized_shopper_minutes": 179.5333333333333
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d89-27"
+        ],
+        "predicted_seconds": 1823
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d89-01"
+        ],
+        "predicted_seconds": 1483
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d89-08",
+          "d89-32"
+        ],
+        "predicted_seconds": 2059
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d89-29",
+          "d89-59"
+        ],
+        "predicted_seconds": 2868
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d89-28"
+        ],
+        "predicted_seconds": 1444
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d89-36",
+          "d89-51"
+        ],
+        "predicted_seconds": 2789
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 89,
+    "policy": "greedy",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 197.58333333333337
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d89-08",
+          "d89-32"
+        ],
+        "predicted_seconds": 2059
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d89-41",
+          "d89-51"
+        ],
+        "predicted_seconds": 2189
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d89-11",
+          "d89-29"
+        ],
+        "predicted_seconds": 2803
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d89-31",
+          "d89-36"
+        ],
+        "predicted_seconds": 3223
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d89-01"
+        ],
+        "predicted_seconds": 1396
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d89-27"
+        ],
+        "predicted_seconds": 1945
+      }
+    ],
+    "runtime": null
+  },
+  {
+    "day": 89,
+    "policy": "cp_sat",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 194.10000000000002
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d89-27"
+        ],
+        "predicted_seconds": 1823
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d89-01"
+        ],
+        "predicted_seconds": 1483
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d89-08",
+          "d89-43"
+        ],
+        "predicted_seconds": 2127
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d89-11",
+          "d89-32"
+        ],
+        "predicted_seconds": 2492
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d89-36",
+          "d89-51"
+        ],
+        "predicted_seconds": 2601
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d89-31",
+          "d89-41"
+        ],
+        "predicted_seconds": 2777
+      }
+    ],
+    "runtime": {
+      "candidate_count": 111,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0089973,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.018695300008403137
+    }
+  },
+  {
+    "day": 89,
+    "policy": "cp_sat_unbuffered",
+    "orders": 24,
+    "score": {
+      "assigned": 12,
+      "on_time": 12,
+      "late": 0,
+      "unassigned": 12,
+      "realized_shopper_minutes": 229.58333333333331
+    },
+    "plan": [
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d89-01",
+          "d89-27"
+        ],
+        "predicted_seconds": 2014
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d89-09"
+        ],
+        "predicted_seconds": 1755
+      },
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d89-08",
+          "d89-29",
+          "d89-59"
+        ],
+        "predicted_seconds": 3154
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d89-32",
+          "d89-43"
+        ],
+        "predicted_seconds": 2006
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d89-36",
+          "d89-51"
+        ],
+        "predicted_seconds": 2303
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d89-31",
+          "d89-41"
+        ],
+        "predicted_seconds": 2479
+      }
+    ],
+    "runtime": {
+      "candidate_count": 139,
+      "solver_status": "OPTIMAL",
+      "fallback_used": false,
+      "search_seconds": 0.0118911,
+      "search_limit_seconds": 0.2,
+      "total_seconds": 0.023583600006531924
+    }
+  },
+  {
+    "day": 89,
+    "policy": "zero_budget_fallback",
+    "orders": 24,
+    "score": {
+      "assigned": 10,
+      "on_time": 10,
+      "late": 0,
+      "unassigned": 14,
+      "realized_shopper_minutes": 197.58333333333337
+    },
+    "plan": [
+      {
+        "shopper_id": "s1-0",
+        "order_ids": [
+          "d89-08",
+          "d89-32"
+        ],
+        "predicted_seconds": 2059
+      },
+      {
+        "shopper_id": "s2-0",
+        "order_ids": [
+          "d89-41",
+          "d89-51"
+        ],
+        "predicted_seconds": 2189
+      },
+      {
+        "shopper_id": "s1-1",
+        "order_ids": [
+          "d89-11",
+          "d89-29"
+        ],
+        "predicted_seconds": 2803
+      },
+      {
+        "shopper_id": "s2-1",
+        "order_ids": [
+          "d89-31",
+          "d89-36"
+        ],
+        "predicted_seconds": 3223
+      },
+      {
+        "shopper_id": "s0-0",
+        "order_ids": [
+          "d89-01"
+        ],
+        "predicted_seconds": 1396
+      },
+      {
+        "shopper_id": "s0-1",
+        "order_ids": [
+          "d89-27"
+        ],
+        "predicted_seconds": 1945
+      }
+    ],
+    "runtime": {
+      "candidate_count": 111,
+      "solver_status": "SKIPPED",
+      "fallback_used": true,
+      "search_seconds": 0.0,
+      "search_limit_seconds": 0,
+      "total_seconds": 0.0030818000086583197
+    }
+  }
+]

@@ -1,0 +1,7127 @@
+[
+  {
+    "day": 65,
+    "orders": [
+      {
+        "order_id": "d65-31",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 13.16712760925293,
+        "deadline_minutes": 52.84767319943069,
+        "distance_km": 2.31355,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d65-26",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 18.437618255615234,
+        "deadline_minutes": 62.35085424120854,
+        "distance_km": 1.811812,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d65-03",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 18.905715942382812,
+        "deadline_minutes": 44.64209461327668,
+        "distance_km": 4.683336,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d65-34",
+        "store": "store-0",
+        "items": 24,
+        "predicted_minutes": 22.205507278442383,
+        "deadline_minutes": 57.51835012990667,
+        "distance_km": 1.227011,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d65-48",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 14.964434623718262,
+        "deadline_minutes": 39.804124140974565,
+        "distance_km": 2.00029,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d65-29",
+        "store": "store-0",
+        "items": 22,
+        "predicted_minutes": 19.204973220825195,
+        "deadline_minutes": 25.13315854066947,
+        "distance_km": 1.764447,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d65-38",
+        "store": "store-0",
+        "items": 8,
+        "predicted_minutes": 9.646947860717773,
+        "deadline_minutes": 53.27976712752396,
+        "distance_km": 0.902453,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d65-36",
+        "store": "store-0",
+        "items": 13,
+        "predicted_minutes": 15.993169784545898,
+        "deadline_minutes": 45.256905595859116,
+        "distance_km": 2.459967,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d65-58",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 19.8292293548584,
+        "deadline_minutes": 54.85529354847247,
+        "distance_km": 1.091552,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d65-14",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 14.768537521362305,
+        "deadline_minutes": 65.95127860739122,
+        "distance_km": 2.807407,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d65-09",
+        "store": "store-2",
+        "items": 4,
+        "predicted_minutes": 11.728103637695312,
+        "deadline_minutes": 66.15582298690907,
+        "distance_km": 3.850704,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d65-33",
+        "store": "store-2",
+        "items": 23,
+        "predicted_minutes": 25.510501861572266,
+        "deadline_minutes": 29.890174947041572,
+        "distance_km": 0.710793,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d65-28",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 23.347543716430664,
+        "deadline_minutes": 37.03522456677921,
+        "distance_km": 1.763453,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d65-11",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 17.74744987487793,
+        "deadline_minutes": 37.557718793985096,
+        "distance_km": 1.205659,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d65-00",
+        "store": "store-1",
+        "items": 10,
+        "predicted_minutes": 11.8659086227417,
+        "deadline_minutes": 40.34244443465767,
+        "distance_km": 3.301408,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d65-21",
+        "store": "store-2",
+        "items": 15,
+        "predicted_minutes": 17.510164260864258,
+        "deadline_minutes": 54.31269348992291,
+        "distance_km": 3.175861,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d65-41",
+        "store": "store-1",
+        "items": 6,
+        "predicted_minutes": 10.787589073181152,
+        "deadline_minutes": 37.01087980719289,
+        "distance_km": 0.536632,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d65-24",
+        "store": "store-0",
+        "items": 14,
+        "predicted_minutes": 13.394819259643555,
+        "deadline_minutes": 32.6058797007281,
+        "distance_km": 2.06915,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d65-42",
+        "store": "store-0",
+        "items": 5,
+        "predicted_minutes": 10.943053245544434,
+        "deadline_minutes": 30.60453088891054,
+        "distance_km": 3.193485,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d65-35",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 19.322555541992188,
+        "deadline_minutes": 30.373165811042842,
+        "distance_km": 4.393882,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d65-17",
+        "store": "store-1",
+        "items": 5,
+        "predicted_minutes": 11.407811164855957,
+        "deadline_minutes": 35.24044142649879,
+        "distance_km": 3.544617,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d65-59",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 19.705196380615234,
+        "deadline_minutes": 65.43663796869136,
+        "distance_km": 3.907741,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d65-18",
+        "store": "store-1",
+        "items": 25,
+        "predicted_minutes": 22.507030487060547,
+        "deadline_minutes": 32.38669189725548,
+        "distance_km": 1.231595,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d65-43",
+        "store": "store-2",
+        "items": 27,
+        "predicted_minutes": 30.511066436767578,
+        "deadline_minutes": 47.73561520836459,
+        "distance_km": 0.941215,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d65-31": 12.133289,
+      "d65-26": 18.330973,
+      "d65-03": 20.896365,
+      "d65-34": 23.67159,
+      "d65-48": 14.729537,
+      "d65-29": 18.240936,
+      "d65-38": 8.077892,
+      "d65-36": 15.152931,
+      "d65-58": 20.617678,
+      "d65-14": 14.358865,
+      "d65-09": 10.314676,
+      "d65-33": 27.473152,
+      "d65-28": 21.8338,
+      "d65-11": 18.737618,
+      "d65-00": 11.944471,
+      "d65-21": 16.387559,
+      "d65-41": 10.987036,
+      "d65-24": 12.379684,
+      "d65-42": 10.208055,
+      "d65-35": 21.434629,
+      "d65-17": 11.343113,
+      "d65-59": 19.573281,
+      "d65-18": 20.669146,
+      "d65-43": 28.448047
+    }
+  },
+  {
+    "day": 66,
+    "orders": [
+      {
+        "order_id": "d66-44",
+        "store": "store-0",
+        "items": 16,
+        "predicted_minutes": 20.24305534362793,
+        "deadline_minutes": 45.91612646535217,
+        "distance_km": 4.33944,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d66-31",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 19.568374633789062,
+        "deadline_minutes": 25.120523453991698,
+        "distance_km": 4.738053,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d66-16",
+        "store": "store-1",
+        "items": 17,
+        "predicted_minutes": 17.933914184570312,
+        "deadline_minutes": 39.57016034826508,
+        "distance_km": 2.818986,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d66-28",
+        "store": "store-0",
+        "items": 11,
+        "predicted_minutes": 17.658489227294922,
+        "deadline_minutes": 62.293852562485014,
+        "distance_km": 1.371707,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d66-47",
+        "store": "store-0",
+        "items": 7,
+        "predicted_minutes": 11.644660949707031,
+        "deadline_minutes": 35.6486759847011,
+        "distance_km": 1.98284,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d66-18",
+        "store": "store-2",
+        "items": 18,
+        "predicted_minutes": 25.38136100769043,
+        "deadline_minutes": 35.70509496108966,
+        "distance_km": 1.935366,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d66-36",
+        "store": "store-0",
+        "items": 9,
+        "predicted_minutes": 14.49959945678711,
+        "deadline_minutes": 47.14759216602324,
+        "distance_km": 3.45991,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d66-53",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 14.667577743530273,
+        "deadline_minutes": 45.497525762735066,
+        "distance_km": 2.634028,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d66-38",
+        "store": "store-2",
+        "items": 17,
+        "predicted_minutes": 15.909557342529297,
+        "deadline_minutes": 27.85493767459187,
+        "distance_km": 3.320142,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d66-11",
+        "store": "store-2",
+        "items": 21,
+        "predicted_minutes": 22.61992073059082,
+        "deadline_minutes": 67.5350338372017,
+        "distance_km": 2.589708,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d66-23",
+        "store": "store-2",
+        "items": 8,
+        "predicted_minutes": 11.737342834472656,
+        "deadline_minutes": 62.89173965383485,
+        "distance_km": 3.60936,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d66-25",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 12.570114135742188,
+        "deadline_minutes": 25.869245737169752,
+        "distance_km": 0.759706,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d66-22",
+        "store": "store-0",
+        "items": 25,
+        "predicted_minutes": 20.66704559326172,
+        "deadline_minutes": 54.9904056852219,
+        "distance_km": 2.364195,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d66-27",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 28.341938018798828,
+        "deadline_minutes": 62.674174665020566,
+        "distance_km": 1.094813,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d66-10",
+        "store": "store-0",
+        "items": 24,
+        "predicted_minutes": 22.311357498168945,
+        "deadline_minutes": 59.52632850125565,
+        "distance_km": 1.030782,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d66-26",
+        "store": "store-2",
+        "items": 16,
+        "predicted_minutes": 19.929851531982422,
+        "deadline_minutes": 65.64391501273504,
+        "distance_km": 1.148447,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d66-52",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 14.087353706359863,
+        "deadline_minutes": 32.567779333318015,
+        "distance_km": 3.698472,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d66-01",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 30.560426712036133,
+        "deadline_minutes": 62.102332228776945,
+        "distance_km": 3.678939,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d66-57",
+        "store": "store-0",
+        "items": 14,
+        "predicted_minutes": 15.848884582519531,
+        "deadline_minutes": 25.674746337924113,
+        "distance_km": 2.990792,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d66-03",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 21.151874542236328,
+        "deadline_minutes": 51.913196375293595,
+        "distance_km": 1.413668,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d66-55",
+        "store": "store-2",
+        "items": 19,
+        "predicted_minutes": 18.377321243286133,
+        "deadline_minutes": 59.27266378978016,
+        "distance_km": 4.059986,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d66-12",
+        "store": "store-2",
+        "items": 18,
+        "predicted_minutes": 24.774511337280273,
+        "deadline_minutes": 34.307222127883655,
+        "distance_km": 3.226256,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d66-05",
+        "store": "store-1",
+        "items": 19,
+        "predicted_minutes": 19.86589241027832,
+        "deadline_minutes": 35.66116232057567,
+        "distance_km": 3.898655,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d66-51",
+        "store": "store-1",
+        "items": 21,
+        "predicted_minutes": 27.143173217773438,
+        "deadline_minutes": 42.74912311594038,
+        "distance_km": 2.181151,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d66-44": 20.975519,
+      "d66-31": 17.354677,
+      "d66-16": 18.674287,
+      "d66-28": 16.423804,
+      "d66-47": 11.32423,
+      "d66-18": 24.409345,
+      "d66-36": 13.346275,
+      "d66-53": 13.54374,
+      "d66-38": 16.400032,
+      "d66-11": 20.054196,
+      "d66-23": 10.190379,
+      "d66-25": 11.886222,
+      "d66-22": 22.532817,
+      "d66-27": 27.109909,
+      "d66-10": 22.182114,
+      "d66-26": 20.087696,
+      "d66-52": 15.275534,
+      "d66-01": 29.323331,
+      "d66-57": 15.531206,
+      "d66-03": 21.101069,
+      "d66-55": 19.595408,
+      "d66-12": 26.049024,
+      "d66-05": 20.100826,
+      "d66-51": 28.573329
+    }
+  },
+  {
+    "day": 67,
+    "orders": [
+      {
+        "order_id": "d67-41",
+        "store": "store-2",
+        "items": 25,
+        "predicted_minutes": 28.633237838745117,
+        "deadline_minutes": 60.95867191789273,
+        "distance_km": 1.272665,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d67-55",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 19.578203201293945,
+        "deadline_minutes": 25.10119889094954,
+        "distance_km": 4.754322,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d67-11",
+        "store": "store-1",
+        "items": 27,
+        "predicted_minutes": 28.571903228759766,
+        "deadline_minutes": 51.34524227554847,
+        "distance_km": 1.179325,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d67-05",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 16.891096115112305,
+        "deadline_minutes": 47.82164099174435,
+        "distance_km": 2.82213,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d67-14",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 26.99799156188965,
+        "deadline_minutes": 52.38847369689836,
+        "distance_km": 1.310639,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d67-33",
+        "store": "store-0",
+        "items": 23,
+        "predicted_minutes": 22.953781127929688,
+        "deadline_minutes": 36.63930902791475,
+        "distance_km": 1.142262,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d67-06",
+        "store": "store-2",
+        "items": 19,
+        "predicted_minutes": 26.77631378173828,
+        "deadline_minutes": 47.541644991760464,
+        "distance_km": 2.539644,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d67-20",
+        "store": "store-0",
+        "items": 26,
+        "predicted_minutes": 23.506834030151367,
+        "deadline_minutes": 64.65804179828052,
+        "distance_km": 4.965861,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d67-44",
+        "store": "store-1",
+        "items": 14,
+        "predicted_minutes": 17.446542739868164,
+        "deadline_minutes": 64.96555315853088,
+        "distance_km": 0.541318,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d67-24",
+        "store": "store-0",
+        "items": 20,
+        "predicted_minutes": 17.897920608520508,
+        "deadline_minutes": 45.059750698716826,
+        "distance_km": 3.762299,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d67-15",
+        "store": "store-1",
+        "items": 18,
+        "predicted_minutes": 18.064786911010742,
+        "deadline_minutes": 47.31409958055502,
+        "distance_km": 3.972288,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d67-50",
+        "store": "store-1",
+        "items": 20,
+        "predicted_minutes": 20.376253128051758,
+        "deadline_minutes": 43.62918085011503,
+        "distance_km": 1.948059,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d67-27",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 24.395029067993164,
+        "deadline_minutes": 31.18169752049401,
+        "distance_km": 3.608343,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d67-47",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 21.539268493652344,
+        "deadline_minutes": 55.79554126581867,
+        "distance_km": 1.392503,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d67-57",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 30.739601135253906,
+        "deadline_minutes": 67.77781195983816,
+        "distance_km": 4.382698,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d67-38",
+        "store": "store-2",
+        "items": 18,
+        "predicted_minutes": 21.10381317138672,
+        "deadline_minutes": 47.85990175128616,
+        "distance_km": 0.61258,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d67-08",
+        "store": "store-0",
+        "items": 5,
+        "predicted_minutes": 12.055112838745117,
+        "deadline_minutes": 54.542562854382524,
+        "distance_km": 1.217665,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d67-12",
+        "store": "store-0",
+        "items": 9,
+        "predicted_minutes": 10.114636421203613,
+        "deadline_minutes": 60.944485253708656,
+        "distance_km": 3.216247,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d67-51",
+        "store": "store-0",
+        "items": 13,
+        "predicted_minutes": 19.16688346862793,
+        "deadline_minutes": 64.62405779904438,
+        "distance_km": 1.938488,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d67-19",
+        "store": "store-1",
+        "items": 19,
+        "predicted_minutes": 18.884403228759766,
+        "deadline_minutes": 42.79968584141239,
+        "distance_km": 1.935225,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d67-31",
+        "store": "store-0",
+        "items": 13,
+        "predicted_minutes": 13.749143600463867,
+        "deadline_minutes": 38.227628508307504,
+        "distance_km": 4.059078,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d67-02",
+        "store": "store-0",
+        "items": 10,
+        "predicted_minutes": 21.428756713867188,
+        "deadline_minutes": 43.33741910974341,
+        "distance_km": 2.375532,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d67-34",
+        "store": "store-2",
+        "items": 11,
+        "predicted_minutes": 12.706028938293457,
+        "deadline_minutes": 33.22173046768704,
+        "distance_km": 0.534107,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d67-42",
+        "store": "store-0",
+        "items": 11,
+        "predicted_minutes": 19.237024307250977,
+        "deadline_minutes": 47.43199733047918,
+        "distance_km": 4.174369,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d67-41": 29.076661,
+      "d67-55": 20.673602,
+      "d67-11": 27.339972,
+      "d67-05": 16.816118,
+      "d67-14": 26.429321,
+      "d67-33": 24.135408,
+      "d67-06": 27.165778,
+      "d67-20": 23.916776,
+      "d67-44": 16.62313,
+      "d67-24": 18.308483,
+      "d67-15": 14.500042,
+      "d67-50": 21.689279,
+      "d67-27": 23.009742,
+      "d67-47": 22.496548,
+      "d67-57": 31.433695,
+      "d67-38": 23.104721,
+      "d67-08": 10.454013,
+      "d67-12": 10.04402,
+      "d67-51": 16.275192,
+      "d67-19": 19.376313,
+      "d67-31": 13.954749,
+      "d67-02": 19.587546,
+      "d67-34": 16.018031,
+      "d67-42": 18.750494
+    }
+  },
+  {
+    "day": 68,
+    "orders": [
+      {
+        "order_id": "d68-48",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 19.365039825439453,
+        "deadline_minutes": 56.43947264125799,
+        "distance_km": 3.186291,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d68-01",
+        "store": "store-2",
+        "items": 16,
+        "predicted_minutes": 18.251853942871094,
+        "deadline_minutes": 54.853973991737334,
+        "distance_km": 1.089629,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d68-07",
+        "store": "store-2",
+        "items": 9,
+        "predicted_minutes": 15.602725982666016,
+        "deadline_minutes": 37.52110624828378,
+        "distance_km": 1.978223,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d68-15",
+        "store": "store-0",
+        "items": 27,
+        "predicted_minutes": 22.125268936157227,
+        "deadline_minutes": 25.454809422744074,
+        "distance_km": 4.940246,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d68-55",
+        "store": "store-1",
+        "items": 18,
+        "predicted_minutes": 24.082427978515625,
+        "deadline_minutes": 25.741190242496597,
+        "distance_km": 0.785866,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d68-52",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 17.162899017333984,
+        "deadline_minutes": 65.3585227562875,
+        "distance_km": 2.574562,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d68-20",
+        "store": "store-0",
+        "items": 11,
+        "predicted_minutes": 15.206671714782715,
+        "deadline_minutes": 57.90640569791644,
+        "distance_km": 2.282154,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d68-05",
+        "store": "store-0",
+        "items": 25,
+        "predicted_minutes": 22.346750259399414,
+        "deadline_minutes": 41.331120706363805,
+        "distance_km": 0.787967,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d68-35",
+        "store": "store-2",
+        "items": 5,
+        "predicted_minutes": 14.97307014465332,
+        "deadline_minutes": 32.283883856416466,
+        "distance_km": 3.954209,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d68-10",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 29.395509719848633,
+        "deadline_minutes": 58.28942688737536,
+        "distance_km": 3.4643,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d68-28",
+        "store": "store-2",
+        "items": 23,
+        "predicted_minutes": 27.203336715698242,
+        "deadline_minutes": 27.234403723869324,
+        "distance_km": 2.195494,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d68-23",
+        "store": "store-1",
+        "items": 21,
+        "predicted_minutes": 24.888864517211914,
+        "deadline_minutes": 50.20818131899119,
+        "distance_km": 2.652845,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d68-19",
+        "store": "store-1",
+        "items": 19,
+        "predicted_minutes": 27.860933303833008,
+        "deadline_minutes": 38.96620077877077,
+        "distance_km": 1.388339,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d68-26",
+        "store": "store-1",
+        "items": 10,
+        "predicted_minutes": 15.072599411010742,
+        "deadline_minutes": 32.634813319341,
+        "distance_km": 3.187043,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d68-50",
+        "store": "store-1",
+        "items": 15,
+        "predicted_minutes": 19.43962860107422,
+        "deadline_minutes": 43.71472958340955,
+        "distance_km": 3.229979,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d68-57",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 18.076730728149414,
+        "deadline_minutes": 55.2762798542671,
+        "distance_km": 2.428911,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d68-11",
+        "store": "store-2",
+        "items": 15,
+        "predicted_minutes": 21.461669921875,
+        "deadline_minutes": 50.82702314796728,
+        "distance_km": 3.542717,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d68-46",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 23.729150772094727,
+        "deadline_minutes": 61.70208418586565,
+        "distance_km": 4.624516,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d68-58",
+        "store": "store-0",
+        "items": 22,
+        "predicted_minutes": 21.737953186035156,
+        "deadline_minutes": 52.27634469309821,
+        "distance_km": 2.07911,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d68-30",
+        "store": "store-2",
+        "items": 17,
+        "predicted_minutes": 17.183500289916992,
+        "deadline_minutes": 62.026925886569096,
+        "distance_km": 4.531307,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d68-12",
+        "store": "store-2",
+        "items": 24,
+        "predicted_minutes": 26.263273239135742,
+        "deadline_minutes": 37.27866970645482,
+        "distance_km": 4.181432,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d68-44",
+        "store": "store-0",
+        "items": 6,
+        "predicted_minutes": 11.926685333251953,
+        "deadline_minutes": 32.25072494139654,
+        "distance_km": 1.377416,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d68-32",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 18.771581649780273,
+        "deadline_minutes": 34.285581480383634,
+        "distance_km": 2.339319,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d68-02",
+        "store": "store-1",
+        "items": 15,
+        "predicted_minutes": 20.501611709594727,
+        "deadline_minutes": 50.63179865531845,
+        "distance_km": 4.827617,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d68-48": 21.318942,
+      "d68-01": 20.251794,
+      "d68-07": 17.338937,
+      "d68-15": 19.596824,
+      "d68-55": 24.101491,
+      "d68-52": 15.315958,
+      "d68-20": 14.2771,
+      "d68-05": 20.528261,
+      "d68-35": 15.254129,
+      "d68-10": 29.826421,
+      "d68-28": 27.743349,
+      "d68-23": 23.905085,
+      "d68-19": 28.336836,
+      "d68-26": 12.28655,
+      "d68-50": 19.395475,
+      "d68-57": 19.294634,
+      "d68-11": 21.325148,
+      "d68-46": 24.377484,
+      "d68-58": 22.535205,
+      "d68-30": 16.932048,
+      "d68-12": 23.740766,
+      "d68-44": 11.770035,
+      "d68-32": 17.602531,
+      "d68-02": 19.442032
+    }
+  },
+  {
+    "day": 69,
+    "orders": [
+      {
+        "order_id": "d69-47",
+        "store": "store-2",
+        "items": 6,
+        "predicted_minutes": 15.944740295410156,
+        "deadline_minutes": 35.70282117884491,
+        "distance_km": 4.70392,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d69-30",
+        "store": "store-1",
+        "items": 10,
+        "predicted_minutes": 17.637041091918945,
+        "deadline_minutes": 56.886990960709014,
+        "distance_km": 2.634377,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d69-26",
+        "store": "store-2",
+        "items": 27,
+        "predicted_minutes": 25.866397857666016,
+        "deadline_minutes": 37.63205859895944,
+        "distance_km": 3.940586,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d69-06",
+        "store": "store-1",
+        "items": 12,
+        "predicted_minutes": 18.38524627685547,
+        "deadline_minutes": 46.65612980825351,
+        "distance_km": 3.771115,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d69-51",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 20.373430252075195,
+        "deadline_minutes": 51.63776002045144,
+        "distance_km": 4.218436,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d69-52",
+        "store": "store-0",
+        "items": 26,
+        "predicted_minutes": 32.33786392211914,
+        "deadline_minutes": 67.18391291231939,
+        "distance_km": 1.108126,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d69-20",
+        "store": "store-0",
+        "items": 24,
+        "predicted_minutes": 22.6595401763916,
+        "deadline_minutes": 33.64902587722394,
+        "distance_km": 2.173573,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d69-36",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 17.540369033813477,
+        "deadline_minutes": 39.476769366385206,
+        "distance_km": 4.141397,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d69-39",
+        "store": "store-2",
+        "items": 17,
+        "predicted_minutes": 17.27173614501953,
+        "deadline_minutes": 52.674939852141165,
+        "distance_km": 3.482053,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d69-49",
+        "store": "store-2",
+        "items": 18,
+        "predicted_minutes": 21.396976470947266,
+        "deadline_minutes": 53.16165210448559,
+        "distance_km": 1.304989,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d69-37",
+        "store": "store-0",
+        "items": 8,
+        "predicted_minutes": 16.18504524230957,
+        "deadline_minutes": 45.684675159281696,
+        "distance_km": 2.809853,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d69-28",
+        "store": "store-0",
+        "items": 8,
+        "predicted_minutes": 16.00275421142578,
+        "deadline_minutes": 45.01677627195771,
+        "distance_km": 1.59088,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d69-35",
+        "store": "store-1",
+        "items": 18,
+        "predicted_minutes": 16.703521728515625,
+        "deadline_minutes": 44.00980410023213,
+        "distance_km": 1.4585,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d69-46",
+        "store": "store-0",
+        "items": 7,
+        "predicted_minutes": 17.697969436645508,
+        "deadline_minutes": 44.22490793186097,
+        "distance_km": 3.228189,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d69-07",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 22.38125228881836,
+        "deadline_minutes": 56.552691421868005,
+        "distance_km": 3.190639,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d69-38",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 28.168655395507812,
+        "deadline_minutes": 28.74851400347769,
+        "distance_km": 2.926389,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d69-01",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 24.892860412597656,
+        "deadline_minutes": 41.4014085927053,
+        "distance_km": 1.597941,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d69-56",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 18.539228439331055,
+        "deadline_minutes": 60.21738652126685,
+        "distance_km": 4.031187,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d69-03",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 32.3592414855957,
+        "deadline_minutes": 59.237614563280076,
+        "distance_km": 3.421561,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d69-40",
+        "store": "store-2",
+        "items": 8,
+        "predicted_minutes": 20.992238998413086,
+        "deadline_minutes": 65.87256232041005,
+        "distance_km": 2.201821,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d69-08",
+        "store": "store-1",
+        "items": 24,
+        "predicted_minutes": 19.58216094970703,
+        "deadline_minutes": 60.783341102431095,
+        "distance_km": 2.374677,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d69-53",
+        "store": "store-1",
+        "items": 9,
+        "predicted_minutes": 16.638742446899414,
+        "deadline_minutes": 27.82937778332746,
+        "distance_km": 4.430708,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d69-09",
+        "store": "store-0",
+        "items": 17,
+        "predicted_minutes": 21.304712295532227,
+        "deadline_minutes": 38.68763442746356,
+        "distance_km": 3.623663,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d69-50",
+        "store": "store-1",
+        "items": 6,
+        "predicted_minutes": 12.762655258178711,
+        "deadline_minutes": 32.48229374957945,
+        "distance_km": 3.964887,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d69-47": 15.725994,
+      "d69-30": 16.627106,
+      "d69-26": 26.459914,
+      "d69-06": 19.013335,
+      "d69-51": 20.557584,
+      "d69-52": 31.56379,
+      "d69-20": 23.667179,
+      "d69-36": 16.564964,
+      "d69-39": 18.483746,
+      "d69-49": 21.65166,
+      "d69-37": 13.917907,
+      "d69-28": 17.418431,
+      "d69-35": 16.282987,
+      "d69-46": 17.962444,
+      "d69-07": 22.142343,
+      "d69-38": 29.610263,
+      "d69-01": 26.427463,
+      "d69-56": 19.388992,
+      "d69-03": 31.876866,
+      "d69-40": 23.426439,
+      "d69-08": 20.949539,
+      "d69-53": 15.030406,
+      "d69-09": 22.335733,
+      "d69-50": 12.789308
+    }
+  },
+  {
+    "day": 70,
+    "orders": [
+      {
+        "order_id": "d70-35",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 20.81438636779785,
+        "deadline_minutes": 54.30510421027534,
+        "distance_km": 3.534934,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d70-16",
+        "store": "store-1",
+        "items": 8,
+        "predicted_minutes": 14.960972785949707,
+        "deadline_minutes": 49.893116949112944,
+        "distance_km": 1.456958,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d70-57",
+        "store": "store-0",
+        "items": 9,
+        "predicted_minutes": 12.747137069702148,
+        "deadline_minutes": 27.793032744728304,
+        "distance_km": 4.016686,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d70-30",
+        "store": "store-2",
+        "items": 6,
+        "predicted_minutes": 13.866509437561035,
+        "deadline_minutes": 36.24607408293901,
+        "distance_km": 0.734735,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d70-47",
+        "store": "store-2",
+        "items": 9,
+        "predicted_minutes": 14.478918075561523,
+        "deadline_minutes": 56.131213605557235,
+        "distance_km": 1.828811,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d70-15",
+        "store": "store-0",
+        "items": 11,
+        "predicted_minutes": 17.14891815185547,
+        "deadline_minutes": 36.66820883141149,
+        "distance_km": 2.733188,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d70-27",
+        "store": "store-2",
+        "items": 10,
+        "predicted_minutes": 15.050551414489746,
+        "deadline_minutes": 58.342276205557496,
+        "distance_km": 2.122859,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d70-09",
+        "store": "store-1",
+        "items": 21,
+        "predicted_minutes": 16.74847412109375,
+        "deadline_minutes": 32.42415296912961,
+        "distance_km": 4.298583,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d70-42",
+        "store": "store-0",
+        "items": 7,
+        "predicted_minutes": 10.876005172729492,
+        "deadline_minutes": 56.157136166588046,
+        "distance_km": 2.966179,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d70-58",
+        "store": "store-0",
+        "items": 8,
+        "predicted_minutes": 13.212519645690918,
+        "deadline_minutes": 62.425578777195675,
+        "distance_km": 4.186459,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d70-40",
+        "store": "store-0",
+        "items": 11,
+        "predicted_minutes": 16.992128372192383,
+        "deadline_minutes": 61.058460903454815,
+        "distance_km": 3.226025,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d70-17",
+        "store": "store-1",
+        "items": 21,
+        "predicted_minutes": 25.41754722595215,
+        "deadline_minutes": 59.573905241093506,
+        "distance_km": 3.620428,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d70-29",
+        "store": "store-1",
+        "items": 10,
+        "predicted_minutes": 17.153539657592773,
+        "deadline_minutes": 55.679072280543224,
+        "distance_km": 2.90514,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d70-56",
+        "store": "store-1",
+        "items": 19,
+        "predicted_minutes": 21.575759887695312,
+        "deadline_minutes": 64.0375515115213,
+        "distance_km": 0.625688,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d70-11",
+        "store": "store-2",
+        "items": 15,
+        "predicted_minutes": 21.000484466552734,
+        "deadline_minutes": 45.54723982908074,
+        "distance_km": 4.058438,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d70-07",
+        "store": "store-1",
+        "items": 10,
+        "predicted_minutes": 17.474590301513672,
+        "deadline_minutes": 29.051498784239445,
+        "distance_km": 1.693404,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d70-18",
+        "store": "store-2",
+        "items": 10,
+        "predicted_minutes": 15.777186393737793,
+        "deadline_minutes": 34.01034404632222,
+        "distance_km": 0.547608,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d70-08",
+        "store": "store-0",
+        "items": 15,
+        "predicted_minutes": 20.981882095336914,
+        "deadline_minutes": 48.950841974063685,
+        "distance_km": 2.248553,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d70-37",
+        "store": "store-1",
+        "items": 12,
+        "predicted_minutes": 16.430932998657227,
+        "deadline_minutes": 45.098339423124756,
+        "distance_km": 2.338006,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d70-53",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 19.2962703704834,
+        "deadline_minutes": 59.76899985608451,
+        "distance_km": 0.535045,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d70-46",
+        "store": "store-1",
+        "items": 9,
+        "predicted_minutes": 19.310800552368164,
+        "deadline_minutes": 49.49395193629573,
+        "distance_km": 3.60398,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d70-36",
+        "store": "store-2",
+        "items": 28,
+        "predicted_minutes": 19.022600173950195,
+        "deadline_minutes": 58.04671481858775,
+        "distance_km": 3.046865,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d70-33",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 27.846786499023438,
+        "deadline_minutes": 52.79287204711168,
+        "distance_km": 4.022399,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d70-44",
+        "store": "store-0",
+        "items": 6,
+        "predicted_minutes": 9.074579238891602,
+        "deadline_minutes": 52.50523488767081,
+        "distance_km": 4.716158,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d70-35": 20.383771,
+      "d70-16": 15.581533,
+      "d70-57": 11.210431,
+      "d70-30": 14.97689,
+      "d70-47": 13.038857,
+      "d70-15": 17.67786,
+      "d70-27": 15.185047,
+      "d70-09": 16.936044,
+      "d70-42": 14.077732,
+      "d70-58": 14.943959,
+      "d70-40": 15.885754,
+      "d70-17": 27.132619,
+      "d70-29": 17.210942,
+      "d70-56": 19.333058,
+      "d70-11": 18.979255,
+      "d70-07": 16.275164,
+      "d70-18": 16.370677,
+      "d70-08": 22.374732,
+      "d70-37": 15.823636,
+      "d70-53": 20.363149,
+      "d70-46": 18.65357,
+      "d70-36": 19.026575,
+      "d70-33": 28.353399,
+      "d70-44": 7.502761
+    }
+  },
+  {
+    "day": 71,
+    "orders": [
+      {
+        "order_id": "d71-33",
+        "store": "store-1",
+        "items": 15,
+        "predicted_minutes": 22.685516357421875,
+        "deadline_minutes": 33.76460114094013,
+        "distance_km": 4.446994,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d71-25",
+        "store": "store-0",
+        "items": 23,
+        "predicted_minutes": 21.702068328857422,
+        "deadline_minutes": 39.36154380414228,
+        "distance_km": 2.534156,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d71-03",
+        "store": "store-1",
+        "items": 12,
+        "predicted_minutes": 13.294268608093262,
+        "deadline_minutes": 64.42624987262049,
+        "distance_km": 1.370064,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d71-13",
+        "store": "store-1",
+        "items": 17,
+        "predicted_minutes": 16.529996871948242,
+        "deadline_minutes": 57.96407527656054,
+        "distance_km": 3.158144,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d71-48",
+        "store": "store-0",
+        "items": 5,
+        "predicted_minutes": 9.584893226623535,
+        "deadline_minutes": 51.19031546078115,
+        "distance_km": 1.510559,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d71-14",
+        "store": "store-2",
+        "items": 13,
+        "predicted_minutes": 16.18430519104004,
+        "deadline_minutes": 52.42308552043116,
+        "distance_km": 3.875609,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d71-54",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 29.259990692138672,
+        "deadline_minutes": 36.38791455203875,
+        "distance_km": 4.686562,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d71-27",
+        "store": "store-0",
+        "items": 17,
+        "predicted_minutes": 17.368690490722656,
+        "deadline_minutes": 65.93776392141191,
+        "distance_km": 4.431878,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d71-21",
+        "store": "store-0",
+        "items": 15,
+        "predicted_minutes": 22.710098266601562,
+        "deadline_minutes": 42.54654949066096,
+        "distance_km": 3.240119,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d71-42",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 19.122045516967773,
+        "deadline_minutes": 45.24535183187193,
+        "distance_km": 4.016558,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d71-36",
+        "store": "store-2",
+        "items": 24,
+        "predicted_minutes": 22.870569229125977,
+        "deadline_minutes": 59.88945777970901,
+        "distance_km": 3.68761,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d71-01",
+        "store": "store-0",
+        "items": 23,
+        "predicted_minutes": 17.37163543701172,
+        "deadline_minutes": 55.584493622171095,
+        "distance_km": 2.377161,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d71-51",
+        "store": "store-0",
+        "items": 8,
+        "predicted_minutes": 15.409335136413574,
+        "deadline_minutes": 44.20980751740885,
+        "distance_km": 0.817052,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d71-11",
+        "store": "store-1",
+        "items": 26,
+        "predicted_minutes": 20.758201599121094,
+        "deadline_minutes": 32.91080875606835,
+        "distance_km": 2.933483,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d71-45",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 20.648767471313477,
+        "deadline_minutes": 36.33051724805726,
+        "distance_km": 0.577271,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d71-31",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 21.191368103027344,
+        "deadline_minutes": 45.52288673681023,
+        "distance_km": 2.395727,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d71-37",
+        "store": "store-1",
+        "items": 21,
+        "predicted_minutes": 21.075469970703125,
+        "deadline_minutes": 39.824440317750835,
+        "distance_km": 2.835215,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d71-59",
+        "store": "store-2",
+        "items": 7,
+        "predicted_minutes": 12.669507026672363,
+        "deadline_minutes": 28.25598701164081,
+        "distance_km": 2.880845,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d71-44",
+        "store": "store-2",
+        "items": 23,
+        "predicted_minutes": 21.027996063232422,
+        "deadline_minutes": 60.2992269189907,
+        "distance_km": 4.45188,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d71-41",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 26.634328842163086,
+        "deadline_minutes": 39.55917128036839,
+        "distance_km": 2.600612,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d71-28",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 16.652971267700195,
+        "deadline_minutes": 54.062089773113044,
+        "distance_km": 4.340851,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d71-09",
+        "store": "store-0",
+        "items": 14,
+        "predicted_minutes": 13.861516952514648,
+        "deadline_minutes": 34.081038992175124,
+        "distance_km": 4.076348,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d71-12",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 19.553911209106445,
+        "deadline_minutes": 64.227801998048,
+        "distance_km": 4.62482,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d71-58",
+        "store": "store-0",
+        "items": 7,
+        "predicted_minutes": 17.640851974487305,
+        "deadline_minutes": 25.516558461396688,
+        "distance_km": 3.732468,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d71-33": 21.515839,
+      "d71-25": 20.874368,
+      "d71-03": 13.661081,
+      "d71-13": 17.761113,
+      "d71-48": 9.161964,
+      "d71-14": 15.928052,
+      "d71-54": 27.750061,
+      "d71-27": 18.715315,
+      "d71-21": 23.778212,
+      "d71-42": 18.256215,
+      "d71-36": 21.405451,
+      "d71-01": 16.316337,
+      "d71-51": 14.120054,
+      "d71-11": 19.150185,
+      "d71-45": 20.879174,
+      "d71-31": 19.408879,
+      "d71-37": 19.903313,
+      "d71-59": 12.641893,
+      "d71-44": 21.598035,
+      "d71-41": 27.537303,
+      "d71-28": 15.826193,
+      "d71-09": 12.768367,
+      "d71-12": 21.862125,
+      "d71-58": 20.004169
+    }
+  },
+  {
+    "day": 72,
+    "orders": [
+      {
+        "order_id": "d72-18",
+        "store": "store-0",
+        "items": 22,
+        "predicted_minutes": 25.34239387512207,
+        "deadline_minutes": 49.51724093080696,
+        "distance_km": 3.48904,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d72-41",
+        "store": "store-0",
+        "items": 20,
+        "predicted_minutes": 22.978681564331055,
+        "deadline_minutes": 40.92093438340498,
+        "distance_km": 3.71253,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d72-14",
+        "store": "store-0",
+        "items": 10,
+        "predicted_minutes": 18.08206558227539,
+        "deadline_minutes": 47.87342096886356,
+        "distance_km": 3.897024,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d72-24",
+        "store": "store-0",
+        "items": 20,
+        "predicted_minutes": 19.64584732055664,
+        "deadline_minutes": 48.10598786756492,
+        "distance_km": 1.360236,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d72-07",
+        "store": "store-2",
+        "items": 5,
+        "predicted_minutes": 15.612129211425781,
+        "deadline_minutes": 64.23552632129213,
+        "distance_km": 3.682727,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d72-03",
+        "store": "store-1",
+        "items": 18,
+        "predicted_minutes": 16.218852996826172,
+        "deadline_minutes": 51.97164391478766,
+        "distance_km": 1.869356,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d72-15",
+        "store": "store-2",
+        "items": 7,
+        "predicted_minutes": 14.495905876159668,
+        "deadline_minutes": 34.88582210916271,
+        "distance_km": 0.75432,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d72-56",
+        "store": "store-2",
+        "items": 28,
+        "predicted_minutes": 25.887874603271484,
+        "deadline_minutes": 52.12094244329412,
+        "distance_km": 2.756918,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d72-17",
+        "store": "store-0",
+        "items": 15,
+        "predicted_minutes": 18.408174514770508,
+        "deadline_minutes": 35.80214754925225,
+        "distance_km": 2.322929,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d72-52",
+        "store": "store-2",
+        "items": 28,
+        "predicted_minutes": 25.738168716430664,
+        "deadline_minutes": 64.33964952915937,
+        "distance_km": 2.233243,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d72-10",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 16.38426971435547,
+        "deadline_minutes": 47.167907235437134,
+        "distance_km": 1.535616,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d72-20",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 18.494495391845703,
+        "deadline_minutes": 26.196836551732503,
+        "distance_km": 4.077518,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d72-22",
+        "store": "store-0",
+        "items": 5,
+        "predicted_minutes": 12.886651039123535,
+        "deadline_minutes": 43.35095544977008,
+        "distance_km": 4.476091,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d72-47",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 14.619158744812012,
+        "deadline_minutes": 37.70955308410313,
+        "distance_km": 4.250238,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d72-16",
+        "store": "store-0",
+        "items": 19,
+        "predicted_minutes": 14.83409309387207,
+        "deadline_minutes": 65.65644739891883,
+        "distance_km": 4.406799,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d72-26",
+        "store": "store-0",
+        "items": 6,
+        "predicted_minutes": 14.483412742614746,
+        "deadline_minutes": 64.7277557345092,
+        "distance_km": 3.18779,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d72-12",
+        "store": "store-2",
+        "items": 19,
+        "predicted_minutes": 22.779056549072266,
+        "deadline_minutes": 44.68274548209513,
+        "distance_km": 2.905672,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d72-21",
+        "store": "store-2",
+        "items": 25,
+        "predicted_minutes": 21.19536781311035,
+        "deadline_minutes": 66.60597071391908,
+        "distance_km": 2.833934,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d72-55",
+        "store": "store-2",
+        "items": 17,
+        "predicted_minutes": 22.749879837036133,
+        "deadline_minutes": 51.283845233859935,
+        "distance_km": 1.223071,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d72-50",
+        "store": "store-1",
+        "items": 9,
+        "predicted_minutes": 11.796483039855957,
+        "deadline_minutes": 33.4571024355655,
+        "distance_km": 1.548558,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d72-45",
+        "store": "store-0",
+        "items": 12,
+        "predicted_minutes": 12.977128982543945,
+        "deadline_minutes": 36.646626562611786,
+        "distance_km": 4.428768,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d72-30",
+        "store": "store-0",
+        "items": 25,
+        "predicted_minutes": 24.37995719909668,
+        "deadline_minutes": 65.38520772364936,
+        "distance_km": 4.205992,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d72-53",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 20.552663803100586,
+        "deadline_minutes": 47.572573908995736,
+        "distance_km": 3.831679,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d72-31",
+        "store": "store-1",
+        "items": 10,
+        "predicted_minutes": 17.062532424926758,
+        "deadline_minutes": 67.84787067073097,
+        "distance_km": 1.811422,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d72-18": 25.619766,
+      "d72-41": 21.721742,
+      "d72-14": 16.633174,
+      "d72-24": 15.866993,
+      "d72-07": 17.131386,
+      "d72-03": 14.896362,
+      "d72-15": 14.445847,
+      "d72-56": 27.145121,
+      "d72-17": 18.166053,
+      "d72-52": 27.7772,
+      "d72-10": 17.715462,
+      "d72-20": 19.734509,
+      "d72-22": 12.118601,
+      "d72-47": 16.343466,
+      "d72-16": 14.900776,
+      "d72-26": 16.057446,
+      "d72-12": 23.891102,
+      "d72-21": 21.830041,
+      "d72-55": 23.062488,
+      "d72-50": 11.614687,
+      "d72-45": 13.060118,
+      "d72-30": 24.470246,
+      "d72-53": 17.702396,
+      "d72-31": 19.729059
+    }
+  },
+  {
+    "day": 73,
+    "orders": [
+      {
+        "order_id": "d73-16",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 21.642263412475586,
+        "deadline_minutes": 42.57976469710837,
+        "distance_km": 2.715396,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d73-35",
+        "store": "store-1",
+        "items": 24,
+        "predicted_minutes": 22.711063385009766,
+        "deadline_minutes": 30.147534817639333,
+        "distance_km": 3.699756,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d73-39",
+        "store": "store-2",
+        "items": 5,
+        "predicted_minutes": 11.339930534362793,
+        "deadline_minutes": 65.43922477136658,
+        "distance_km": 3.506981,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d73-02",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 19.602848052978516,
+        "deadline_minutes": 30.476956856752167,
+        "distance_km": 4.722537,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d73-08",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 23.145343780517578,
+        "deadline_minutes": 61.72453561349925,
+        "distance_km": 0.776734,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d73-54",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 22.796125411987305,
+        "deadline_minutes": 60.275293475752726,
+        "distance_km": 1.853393,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d73-33",
+        "store": "store-2",
+        "items": 27,
+        "predicted_minutes": 26.75984764099121,
+        "deadline_minutes": 41.566728581512734,
+        "distance_km": 2.298102,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d73-53",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 29.682266235351562,
+        "deadline_minutes": 30.98715552725768,
+        "distance_km": 4.952988,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d73-22",
+        "store": "store-2",
+        "items": 7,
+        "predicted_minutes": 11.326446533203125,
+        "deadline_minutes": 44.14146062041583,
+        "distance_km": 3.653569,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d73-23",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 17.38504981994629,
+        "deadline_minutes": 65.42705164462245,
+        "distance_km": 3.863695,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d73-17",
+        "store": "store-1",
+        "items": 12,
+        "predicted_minutes": 15.498651504516602,
+        "deadline_minutes": 61.95690266736056,
+        "distance_km": 2.571796,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d73-37",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 22.149309158325195,
+        "deadline_minutes": 31.27668680500493,
+        "distance_km": 3.602889,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d73-56",
+        "store": "store-2",
+        "items": 17,
+        "predicted_minutes": 19.640548706054688,
+        "deadline_minutes": 28.80487458219951,
+        "distance_km": 2.727109,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d73-03",
+        "store": "store-2",
+        "items": 21,
+        "predicted_minutes": 21.725345611572266,
+        "deadline_minutes": 65.20197751829951,
+        "distance_km": 3.332964,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d73-47",
+        "store": "store-0",
+        "items": 7,
+        "predicted_minutes": 14.198622703552246,
+        "deadline_minutes": 55.58154465527358,
+        "distance_km": 3.316426,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d73-58",
+        "store": "store-2",
+        "items": 28,
+        "predicted_minutes": 29.4835262298584,
+        "deadline_minutes": 46.36826579339288,
+        "distance_km": 4.762659,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d73-04",
+        "store": "store-0",
+        "items": 8,
+        "predicted_minutes": 11.17593002319336,
+        "deadline_minutes": 52.41391149820241,
+        "distance_km": 3.272659,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d73-44",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 20.312402725219727,
+        "deadline_minutes": 49.63725932393888,
+        "distance_km": 3.34518,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d73-21",
+        "store": "store-2",
+        "items": 13,
+        "predicted_minutes": 21.344207763671875,
+        "deadline_minutes": 50.99803187205781,
+        "distance_km": 4.184096,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d73-09",
+        "store": "store-0",
+        "items": 23,
+        "predicted_minutes": 23.56462287902832,
+        "deadline_minutes": 32.28997958605366,
+        "distance_km": 2.322321,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d73-31",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 14.347888946533203,
+        "deadline_minutes": 27.752717956113585,
+        "distance_km": 2.573476,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d73-45",
+        "store": "store-1",
+        "items": 4,
+        "predicted_minutes": 13.856521606445312,
+        "deadline_minutes": 51.817146034433925,
+        "distance_km": 0.770768,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d73-10",
+        "store": "store-0",
+        "items": 12,
+        "predicted_minutes": 11.98654556274414,
+        "deadline_minutes": 38.11935010369787,
+        "distance_km": 1.565166,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d73-12",
+        "store": "store-1",
+        "items": 8,
+        "predicted_minutes": 14.087528228759766,
+        "deadline_minutes": 26.15508969426435,
+        "distance_km": 4.721422,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d73-16": 22.563796,
+      "d73-35": 23.091566,
+      "d73-39": 9.623773,
+      "d73-02": 20.319651,
+      "d73-08": 23.509358,
+      "d73-54": 23.184168,
+      "d73-33": 27.536384,
+      "d73-53": 28.536202,
+      "d73-22": 12.56965,
+      "d73-23": 17.420257,
+      "d73-17": 16.626823,
+      "d73-37": 21.468591,
+      "d73-56": 19.377328,
+      "d73-03": 20.334893,
+      "d73-47": 15.189663,
+      "d73-58": 29.70318,
+      "d73-04": 12.295739,
+      "d73-44": 18.93689,
+      "d73-21": 21.428869,
+      "d73-09": 22.207363,
+      "d73-31": 13.980122,
+      "d73-45": 12.254047,
+      "d73-10": 11.747307,
+      "d73-12": 13.751437
+    }
+  },
+  {
+    "day": 74,
+    "orders": [
+      {
+        "order_id": "d74-54",
+        "store": "store-0",
+        "items": 14,
+        "predicted_minutes": 17.131772994995117,
+        "deadline_minutes": 46.88251846044989,
+        "distance_km": 1.619462,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d74-40",
+        "store": "store-0",
+        "items": 7,
+        "predicted_minutes": 11.93518352508545,
+        "deadline_minutes": 34.50069889439243,
+        "distance_km": 1.285241,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d74-50",
+        "store": "store-2",
+        "items": 24,
+        "predicted_minutes": 23.053951263427734,
+        "deadline_minutes": 26.95273148505921,
+        "distance_km": 3.784984,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d74-47",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 17.460840225219727,
+        "deadline_minutes": 29.73548031704407,
+        "distance_km": 1.294168,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d74-13",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 12.08407974243164,
+        "deadline_minutes": 58.56936429006067,
+        "distance_km": 0.625759,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d74-56",
+        "store": "store-2",
+        "items": 15,
+        "predicted_minutes": 16.85702133178711,
+        "deadline_minutes": 48.35786470086299,
+        "distance_km": 3.899097,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d74-45",
+        "store": "store-0",
+        "items": 17,
+        "predicted_minutes": 27.94212532043457,
+        "deadline_minutes": 35.03597924127362,
+        "distance_km": 3.810394,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d74-48",
+        "store": "store-0",
+        "items": 5,
+        "predicted_minutes": 8.466877937316895,
+        "deadline_minutes": 36.0439282287364,
+        "distance_km": 3.879347,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d74-20",
+        "store": "store-1",
+        "items": 4,
+        "predicted_minutes": 11.174054145812988,
+        "deadline_minutes": 65.97359269828345,
+        "distance_km": 2.381549,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d74-53",
+        "store": "store-2",
+        "items": 26,
+        "predicted_minutes": 21.251888275146484,
+        "deadline_minutes": 40.42251302016162,
+        "distance_km": 1.124632,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d74-03",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 20.570711135864258,
+        "deadline_minutes": 55.642089462216944,
+        "distance_km": 2.328115,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d74-05",
+        "store": "store-2",
+        "items": 25,
+        "predicted_minutes": 26.8723087310791,
+        "deadline_minutes": 65.69651620828677,
+        "distance_km": 3.336745,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d74-59",
+        "store": "store-1",
+        "items": 9,
+        "predicted_minutes": 14.37913703918457,
+        "deadline_minutes": 66.80466469806859,
+        "distance_km": 1.37018,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d74-32",
+        "store": "store-1",
+        "items": 8,
+        "predicted_minutes": 14.395306587219238,
+        "deadline_minutes": 56.17159135912517,
+        "distance_km": 4.580044,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d74-31",
+        "store": "store-2",
+        "items": 9,
+        "predicted_minutes": 14.155948638916016,
+        "deadline_minutes": 45.48801467403685,
+        "distance_km": 2.5654,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d74-24",
+        "store": "store-0",
+        "items": 12,
+        "predicted_minutes": 19.60877799987793,
+        "deadline_minutes": 30.236155378713825,
+        "distance_km": 4.2627,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d74-02",
+        "store": "store-1",
+        "items": 5,
+        "predicted_minutes": 9.93220043182373,
+        "deadline_minutes": 38.00671611806994,
+        "distance_km": 3.999454,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d74-39",
+        "store": "store-0",
+        "items": 16,
+        "predicted_minutes": 23.15717124938965,
+        "deadline_minutes": 61.718859313812835,
+        "distance_km": 1.219115,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d74-49",
+        "store": "store-2",
+        "items": 10,
+        "predicted_minutes": 17.62786293029785,
+        "deadline_minutes": 58.150969845548275,
+        "distance_km": 1.089116,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d74-51",
+        "store": "store-2",
+        "items": 11,
+        "predicted_minutes": 16.523366928100586,
+        "deadline_minutes": 58.40801673545482,
+        "distance_km": 2.749196,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d74-00",
+        "store": "store-1",
+        "items": 4,
+        "predicted_minutes": 10.182254791259766,
+        "deadline_minutes": 67.15048882578552,
+        "distance_km": 2.28458,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d74-35",
+        "store": "store-0",
+        "items": 17,
+        "predicted_minutes": 18.144302368164062,
+        "deadline_minutes": 58.41933850050279,
+        "distance_km": 1.435563,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d74-55",
+        "store": "store-0",
+        "items": 9,
+        "predicted_minutes": 15.835594177246094,
+        "deadline_minutes": 43.15433513367519,
+        "distance_km": 2.788884,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d74-01",
+        "store": "store-2",
+        "items": 24,
+        "predicted_minutes": 25.40636444091797,
+        "deadline_minutes": 44.4039873549318,
+        "distance_km": 1.380833,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d74-54": 19.156126,
+      "d74-40": 9.95016,
+      "d74-50": 23.878765,
+      "d74-47": 19.925807,
+      "d74-13": 13.429088,
+      "d74-56": 17.59362,
+      "d74-45": 25.644149,
+      "d74-48": 10.31709,
+      "d74-20": 11.463867,
+      "d74-53": 19.327285,
+      "d74-03": 22.300374,
+      "d74-05": 24.608352,
+      "d74-59": 16.815092,
+      "d74-32": 14.23677,
+      "d74-31": 16.037174,
+      "d74-24": 19.483054,
+      "d74-02": 10.57081,
+      "d74-39": 23.475612,
+      "d74-49": 17.144355,
+      "d74-51": 15.809033,
+      "d74-00": 11.773361,
+      "d74-35": 18.604059,
+      "d74-55": 17.972196,
+      "d74-01": 26.033083
+    }
+  },
+  {
+    "day": 75,
+    "orders": [
+      {
+        "order_id": "d75-51",
+        "store": "store-0",
+        "items": 28,
+        "predicted_minutes": 24.415390014648438,
+        "deadline_minutes": 35.36008619340757,
+        "distance_km": 0.576599,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d75-33",
+        "store": "store-1",
+        "items": 19,
+        "predicted_minutes": 19.1167049407959,
+        "deadline_minutes": 65.11554153715085,
+        "distance_km": 4.201832,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d75-49",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 24.887990951538086,
+        "deadline_minutes": 41.26473429482408,
+        "distance_km": 0.886583,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d75-34",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 21.21755599975586,
+        "deadline_minutes": 46.424672357509365,
+        "distance_km": 3.929355,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d75-26",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 13.21643352508545,
+        "deadline_minutes": 47.14060059534718,
+        "distance_km": 3.559531,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d75-37",
+        "store": "store-0",
+        "items": 5,
+        "predicted_minutes": 10.61037826538086,
+        "deadline_minutes": 49.37783591844756,
+        "distance_km": 1.340291,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d75-45",
+        "store": "store-0",
+        "items": 11,
+        "predicted_minutes": 18.587928771972656,
+        "deadline_minutes": 43.98808545324807,
+        "distance_km": 4.57332,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d75-57",
+        "store": "store-1",
+        "items": 8,
+        "predicted_minutes": 13.530698776245117,
+        "deadline_minutes": 47.47420524551413,
+        "distance_km": 3.828916,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d75-31",
+        "store": "store-1",
+        "items": 5,
+        "predicted_minutes": 12.014632225036621,
+        "deadline_minutes": 25.578370227988355,
+        "distance_km": 4.041478,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d75-59",
+        "store": "store-2",
+        "items": 19,
+        "predicted_minutes": 21.292896270751953,
+        "deadline_minutes": 65.23578399074124,
+        "distance_km": 0.517001,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d75-11",
+        "store": "store-0",
+        "items": 23,
+        "predicted_minutes": 21.88178253173828,
+        "deadline_minutes": 30.675140198491047,
+        "distance_km": 4.894328,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d75-07",
+        "store": "store-1",
+        "items": 20,
+        "predicted_minutes": 24.591157913208008,
+        "deadline_minutes": 47.63516068426165,
+        "distance_km": 3.820248,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d75-55",
+        "store": "store-1",
+        "items": 25,
+        "predicted_minutes": 25.82889175415039,
+        "deadline_minutes": 36.57985901852721,
+        "distance_km": 2.737603,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d75-56",
+        "store": "store-2",
+        "items": 27,
+        "predicted_minutes": 27.182451248168945,
+        "deadline_minutes": 38.229651122585,
+        "distance_km": 2.718544,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d75-47",
+        "store": "store-0",
+        "items": 17,
+        "predicted_minutes": 22.500499725341797,
+        "deadline_minutes": 43.402833328006416,
+        "distance_km": 2.114833,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d75-19",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 25.11567497253418,
+        "deadline_minutes": 25.37378623441853,
+        "distance_km": 3.780503,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d75-28",
+        "store": "store-2",
+        "items": 7,
+        "predicted_minutes": 14.465377807617188,
+        "deadline_minutes": 49.486726723499906,
+        "distance_km": 4.770406,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d75-53",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 18.10145378112793,
+        "deadline_minutes": 40.95386287138925,
+        "distance_km": 2.361385,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d75-04",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 20.118370056152344,
+        "deadline_minutes": 60.12521436449318,
+        "distance_km": 4.743614,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d75-46",
+        "store": "store-1",
+        "items": 17,
+        "predicted_minutes": 18.681116104125977,
+        "deadline_minutes": 44.7249804516665,
+        "distance_km": 1.204913,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d75-20",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 20.3103084564209,
+        "deadline_minutes": 65.4262294840659,
+        "distance_km": 1.514529,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d75-08",
+        "store": "store-2",
+        "items": 21,
+        "predicted_minutes": 23.677536010742188,
+        "deadline_minutes": 51.8723264063337,
+        "distance_km": 2.960818,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d75-42",
+        "store": "store-2",
+        "items": 6,
+        "predicted_minutes": 13.845053672790527,
+        "deadline_minutes": 39.12551874092133,
+        "distance_km": 4.930345,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d75-30",
+        "store": "store-1",
+        "items": 6,
+        "predicted_minutes": 12.731720924377441,
+        "deadline_minutes": 67.03457029043963,
+        "distance_km": 2.169491,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d75-51": 22.441515,
+      "d75-33": 20.172323,
+      "d75-49": 24.138814,
+      "d75-34": 22.137068,
+      "d75-26": 11.204402,
+      "d75-37": 7.063498,
+      "d75-45": 16.651497,
+      "d75-57": 13.721447,
+      "d75-31": 12.466129,
+      "d75-59": 23.161145,
+      "d75-11": 24.428034,
+      "d75-07": 24.441889,
+      "d75-55": 25.211778,
+      "d75-56": 22.671622,
+      "d75-47": 23.615862,
+      "d75-19": 24.835083,
+      "d75-28": 13.560042,
+      "d75-53": 17.245947,
+      "d75-04": 20.878832,
+      "d75-46": 18.677965,
+      "d75-20": 21.424334,
+      "d75-08": 21.928892,
+      "d75-42": 15.475373,
+      "d75-30": 14.264955
+    }
+  },
+  {
+    "day": 76,
+    "orders": [
+      {
+        "order_id": "d76-16",
+        "store": "store-1",
+        "items": 27,
+        "predicted_minutes": 24.62833023071289,
+        "deadline_minutes": 53.89456658775848,
+        "distance_km": 3.411547,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d76-59",
+        "store": "store-0",
+        "items": 25,
+        "predicted_minutes": 22.151748657226562,
+        "deadline_minutes": 33.71763368197657,
+        "distance_km": 4.246486,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d76-32",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 17.710647583007812,
+        "deadline_minutes": 37.81496937902814,
+        "distance_km": 3.886463,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d76-27",
+        "store": "store-1",
+        "items": 6,
+        "predicted_minutes": 13.338887214660645,
+        "deadline_minutes": 25.023345464131133,
+        "distance_km": 4.379149,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d76-37",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 23.58464241027832,
+        "deadline_minutes": 64.70611032880795,
+        "distance_km": 4.994098,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d76-13",
+        "store": "store-1",
+        "items": 6,
+        "predicted_minutes": 15.559005737304688,
+        "deadline_minutes": 25.480344920459743,
+        "distance_km": 1.337114,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d76-04",
+        "store": "store-2",
+        "items": 11,
+        "predicted_minutes": 13.617188453674316,
+        "deadline_minutes": 41.55962063477992,
+        "distance_km": 4.967376,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d76-05",
+        "store": "store-0",
+        "items": 20,
+        "predicted_minutes": 17.776968002319336,
+        "deadline_minutes": 56.98580346605895,
+        "distance_km": 3.592885,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d76-26",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 18.57137107849121,
+        "deadline_minutes": 60.64940163684574,
+        "distance_km": 3.946326,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d76-52",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 17.933563232421875,
+        "deadline_minutes": 31.839393546745555,
+        "distance_km": 4.992186,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d76-55",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 22.688865661621094,
+        "deadline_minutes": 65.1590596063522,
+        "distance_km": 2.886682,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d76-45",
+        "store": "store-1",
+        "items": 6,
+        "predicted_minutes": 14.999653816223145,
+        "deadline_minutes": 47.01933694070772,
+        "distance_km": 2.641176,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d76-06",
+        "store": "store-2",
+        "items": 5,
+        "predicted_minutes": 11.73922348022461,
+        "deadline_minutes": 54.65291135707824,
+        "distance_km": 3.319291,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d76-11",
+        "store": "store-0",
+        "items": 28,
+        "predicted_minutes": 31.373870849609375,
+        "deadline_minutes": 29.892420656413996,
+        "distance_km": 2.850232,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d76-35",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 19.844114303588867,
+        "deadline_minutes": 48.09466349824247,
+        "distance_km": 1.443647,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d76-02",
+        "store": "store-1",
+        "items": 8,
+        "predicted_minutes": 13.821693420410156,
+        "deadline_minutes": 30.474062711881228,
+        "distance_km": 3.054804,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d76-14",
+        "store": "store-2",
+        "items": 26,
+        "predicted_minutes": 24.803991317749023,
+        "deadline_minutes": 46.50990866982338,
+        "distance_km": 1.590387,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d76-22",
+        "store": "store-0",
+        "items": 9,
+        "predicted_minutes": 13.726404190063477,
+        "deadline_minutes": 58.38062420117451,
+        "distance_km": 1.723327,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d76-23",
+        "store": "store-1",
+        "items": 12,
+        "predicted_minutes": 12.77647590637207,
+        "deadline_minutes": 54.4626810816938,
+        "distance_km": 4.300714,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d76-20",
+        "store": "store-2",
+        "items": 13,
+        "predicted_minutes": 17.340972900390625,
+        "deadline_minutes": 28.014415753494838,
+        "distance_km": 3.795896,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d76-58",
+        "store": "store-2",
+        "items": 21,
+        "predicted_minutes": 19.31289291381836,
+        "deadline_minutes": 25.594325248746927,
+        "distance_km": 0.527284,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d76-30",
+        "store": "store-2",
+        "items": 21,
+        "predicted_minutes": 20.842575073242188,
+        "deadline_minutes": 25.949840715795503,
+        "distance_km": 3.345777,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d76-48",
+        "store": "store-1",
+        "items": 17,
+        "predicted_minutes": 20.65652084350586,
+        "deadline_minutes": 66.19890744809246,
+        "distance_km": 4.439222,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d76-17",
+        "store": "store-2",
+        "items": 17,
+        "predicted_minutes": 24.659360885620117,
+        "deadline_minutes": 27.444228082818103,
+        "distance_km": 4.413942,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d76-16": 22.490963,
+      "d76-59": 21.783416,
+      "d76-32": 18.480625,
+      "d76-27": 12.843937,
+      "d76-37": 21.874033,
+      "d76-13": 17.811728,
+      "d76-04": 12.951094,
+      "d76-05": 16.442597,
+      "d76-26": 18.995684,
+      "d76-52": 17.877604,
+      "d76-55": 21.646981,
+      "d76-45": 15.783381,
+      "d76-06": 11.69155,
+      "d76-11": 28.376618,
+      "d76-35": 20.346132,
+      "d76-02": 14.34637,
+      "d76-14": 23.778166,
+      "d76-22": 13.575721,
+      "d76-23": 13.837796,
+      "d76-20": 16.767546,
+      "d76-58": 20.084485,
+      "d76-30": 21.013712,
+      "d76-48": 18.450638,
+      "d76-17": 24.280436
+    }
+  },
+  {
+    "day": 77,
+    "orders": [
+      {
+        "order_id": "d77-19",
+        "store": "store-0",
+        "items": 6,
+        "predicted_minutes": 10.29519271850586,
+        "deadline_minutes": 51.84150526322588,
+        "distance_km": 0.766865,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d77-56",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 21.62891960144043,
+        "deadline_minutes": 31.00558204903303,
+        "distance_km": 3.690804,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d77-04",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 31.63787269592285,
+        "deadline_minutes": 41.63379801299211,
+        "distance_km": 3.655242,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d77-47",
+        "store": "store-0",
+        "items": 13,
+        "predicted_minutes": 18.51316261291504,
+        "deadline_minutes": 65.80643203009475,
+        "distance_km": 0.787625,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d77-16",
+        "store": "store-0",
+        "items": 26,
+        "predicted_minutes": 21.93478775024414,
+        "deadline_minutes": 66.6025292479518,
+        "distance_km": 2.956506,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d77-15",
+        "store": "store-0",
+        "items": 11,
+        "predicted_minutes": 16.686431884765625,
+        "deadline_minutes": 35.742777694315244,
+        "distance_km": 4.08352,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d77-29",
+        "store": "store-0",
+        "items": 25,
+        "predicted_minutes": 22.233156204223633,
+        "deadline_minutes": 43.04296198759936,
+        "distance_km": 3.217521,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d77-11",
+        "store": "store-0",
+        "items": 18,
+        "predicted_minutes": 13.900583267211914,
+        "deadline_minutes": 41.839891569307895,
+        "distance_km": 1.117325,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d77-00",
+        "store": "store-2",
+        "items": 11,
+        "predicted_minutes": 17.139842987060547,
+        "deadline_minutes": 47.61486714582893,
+        "distance_km": 1.887196,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d77-07",
+        "store": "store-0",
+        "items": 22,
+        "predicted_minutes": 25.71588134765625,
+        "deadline_minutes": 53.25117412722902,
+        "distance_km": 3.463535,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d77-59",
+        "store": "store-2",
+        "items": 26,
+        "predicted_minutes": 33.60248947143555,
+        "deadline_minutes": 50.21030866011225,
+        "distance_km": 3.578666,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d77-01",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 29.955686569213867,
+        "deadline_minutes": 39.98265881338941,
+        "distance_km": 4.516025,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d77-38",
+        "store": "store-2",
+        "items": 7,
+        "predicted_minutes": 13.751225471496582,
+        "deadline_minutes": 60.3419055079741,
+        "distance_km": 0.686496,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d77-23",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 21.322906494140625,
+        "deadline_minutes": 26.816566359384495,
+        "distance_km": 1.140254,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d77-44",
+        "store": "store-1",
+        "items": 10,
+        "predicted_minutes": 14.993053436279297,
+        "deadline_minutes": 40.013913226525574,
+        "distance_km": 3.08322,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d77-28",
+        "store": "store-1",
+        "items": 9,
+        "predicted_minutes": 15.433880805969238,
+        "deadline_minutes": 61.93070679811552,
+        "distance_km": 2.748894,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d77-17",
+        "store": "store-0",
+        "items": 18,
+        "predicted_minutes": 16.997909545898438,
+        "deadline_minutes": 48.897108265082764,
+        "distance_km": 1.333602,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d77-37",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 17.810035705566406,
+        "deadline_minutes": 58.1785897103092,
+        "distance_km": 1.771096,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d77-36",
+        "store": "store-1",
+        "items": 14,
+        "predicted_minutes": 21.439191818237305,
+        "deadline_minutes": 38.60972167188733,
+        "distance_km": 4.093943,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d77-45",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 18.448774337768555,
+        "deadline_minutes": 56.16223785557803,
+        "distance_km": 1.933321,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d77-03",
+        "store": "store-0",
+        "items": 27,
+        "predicted_minutes": 27.095905303955078,
+        "deadline_minutes": 46.098855857883194,
+        "distance_km": 2.523041,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d77-12",
+        "store": "store-0",
+        "items": 28,
+        "predicted_minutes": 28.135135650634766,
+        "deadline_minutes": 27.310866754145493,
+        "distance_km": 2.477646,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d77-39",
+        "store": "store-2",
+        "items": 5,
+        "predicted_minutes": 16.714841842651367,
+        "deadline_minutes": 46.53280285424574,
+        "distance_km": 2.846761,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d77-30",
+        "store": "store-0",
+        "items": 9,
+        "predicted_minutes": 16.762592315673828,
+        "deadline_minutes": 33.67834398576649,
+        "distance_km": 4.918449,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d77-19": 11.057834,
+      "d77-56": 23.109493,
+      "d77-04": 31.247243,
+      "d77-47": 18.247278,
+      "d77-16": 21.826889,
+      "d77-15": 14.528914,
+      "d77-29": 20.717042,
+      "d77-11": 12.780637,
+      "d77-00": 17.445574,
+      "d77-07": 25.775514,
+      "d77-59": 34.608022,
+      "d77-01": 29.996658,
+      "d77-38": 12.794069,
+      "d77-23": 18.940842,
+      "d77-44": 14.554776,
+      "d77-28": 14.2743,
+      "d77-17": 16.824352,
+      "d77-37": 15.47476,
+      "d77-36": 20.655452,
+      "d77-45": 20.69085,
+      "d77-03": 25.825676,
+      "d77-12": 28.398681,
+      "d77-39": 14.125485,
+      "d77-30": 17.026606
+    }
+  },
+  {
+    "day": 78,
+    "orders": [
+      {
+        "order_id": "d78-23",
+        "store": "store-2",
+        "items": 21,
+        "predicted_minutes": 20.261545181274414,
+        "deadline_minutes": 55.032761262483625,
+        "distance_km": 3.499499,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d78-13",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 23.410808563232422,
+        "deadline_minutes": 33.53709123583309,
+        "distance_km": 1.872249,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d78-11",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 12.550926208496094,
+        "deadline_minutes": 37.67542222109749,
+        "distance_km": 4.025368,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d78-37",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 17.220863342285156,
+        "deadline_minutes": 45.48984357641112,
+        "distance_km": 3.322424,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d78-32",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 20.887052536010742,
+        "deadline_minutes": 44.33074041887336,
+        "distance_km": 4.805726,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d78-48",
+        "store": "store-0",
+        "items": 15,
+        "predicted_minutes": 18.87085723876953,
+        "deadline_minutes": 67.0669385318673,
+        "distance_km": 1.702097,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d78-31",
+        "store": "store-0",
+        "items": 15,
+        "predicted_minutes": 19.880123138427734,
+        "deadline_minutes": 47.509635775014914,
+        "distance_km": 4.708371,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d78-49",
+        "store": "store-0",
+        "items": 6,
+        "predicted_minutes": 11.769998550415039,
+        "deadline_minutes": 31.204991740799244,
+        "distance_km": 3.491817,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d78-45",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 29.520719528198242,
+        "deadline_minutes": 26.292618800023973,
+        "distance_km": 2.000141,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d78-00",
+        "store": "store-0",
+        "items": 9,
+        "predicted_minutes": 14.3760404586792,
+        "deadline_minutes": 41.94220686029882,
+        "distance_km": 2.258453,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d78-27",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 19.921445846557617,
+        "deadline_minutes": 36.81290127052033,
+        "distance_km": 2.607374,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d78-15",
+        "store": "store-0",
+        "items": 15,
+        "predicted_minutes": 11.504878997802734,
+        "deadline_minutes": 43.36670453942738,
+        "distance_km": 4.563577,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d78-57",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 17.994518280029297,
+        "deadline_minutes": 31.76930624803736,
+        "distance_km": 4.396804,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d78-54",
+        "store": "store-1",
+        "items": 5,
+        "predicted_minutes": 9.877224922180176,
+        "deadline_minutes": 51.87586576759567,
+        "distance_km": 2.936143,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d78-58",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 23.00919532775879,
+        "deadline_minutes": 26.00243467329548,
+        "distance_km": 2.616743,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d78-25",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 13.839479446411133,
+        "deadline_minutes": 38.5887175377801,
+        "distance_km": 3.618369,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d78-22",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 20.53050422668457,
+        "deadline_minutes": 33.33832339962127,
+        "distance_km": 1.739645,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d78-43",
+        "store": "store-0",
+        "items": 25,
+        "predicted_minutes": 18.67276954650879,
+        "deadline_minutes": 56.503055020526205,
+        "distance_km": 2.070761,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d78-53",
+        "store": "store-0",
+        "items": 19,
+        "predicted_minutes": 19.482179641723633,
+        "deadline_minutes": 28.001539291395805,
+        "distance_km": 4.869958,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d78-18",
+        "store": "store-2",
+        "items": 10,
+        "predicted_minutes": 20.413660049438477,
+        "deadline_minutes": 60.0186176202562,
+        "distance_km": 4.599554,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d78-12",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 18.287996292114258,
+        "deadline_minutes": 38.34704428185748,
+        "distance_km": 2.349356,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d78-55",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 20.532411575317383,
+        "deadline_minutes": 32.33698553753326,
+        "distance_km": 0.517142,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d78-16",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 24.31679916381836,
+        "deadline_minutes": 47.63283480953892,
+        "distance_km": 2.686559,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d78-07",
+        "store": "store-0",
+        "items": 24,
+        "predicted_minutes": 20.911819458007812,
+        "deadline_minutes": 26.911481088522823,
+        "distance_km": 3.835523,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d78-23": 19.489907,
+      "d78-13": 21.255009,
+      "d78-11": 12.187017,
+      "d78-37": 17.175083,
+      "d78-32": 21.198563,
+      "d78-48": 17.792492,
+      "d78-31": 19.84599,
+      "d78-49": 11.837895,
+      "d78-45": 28.214173,
+      "d78-00": 15.793322,
+      "d78-27": 20.021984,
+      "d78-15": 11.036701,
+      "d78-57": 17.040564,
+      "d78-54": 8.576686,
+      "d78-58": 20.153532,
+      "d78-25": 14.207243,
+      "d78-22": 21.208327,
+      "d78-43": 16.508284,
+      "d78-53": 20.211556,
+      "d78-18": 20.796571,
+      "d78-12": 16.409882,
+      "d78-55": 19.176724,
+      "d78-16": 22.144972,
+      "d78-07": 21.7965
+    }
+  },
+  {
+    "day": 79,
+    "orders": [
+      {
+        "order_id": "d79-30",
+        "store": "store-1",
+        "items": 27,
+        "predicted_minutes": 27.965774536132812,
+        "deadline_minutes": 63.5578923244914,
+        "distance_km": 3.400292,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d79-43",
+        "store": "store-0",
+        "items": 24,
+        "predicted_minutes": 23.289751052856445,
+        "deadline_minutes": 28.827119710381336,
+        "distance_km": 4.43615,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d79-29",
+        "store": "store-0",
+        "items": 8,
+        "predicted_minutes": 10.293105125427246,
+        "deadline_minutes": 62.198277889600135,
+        "distance_km": 2.867271,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d79-46",
+        "store": "store-1",
+        "items": 21,
+        "predicted_minutes": 21.83232879638672,
+        "deadline_minutes": 59.65702169710603,
+        "distance_km": 4.796181,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d79-21",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 14.430270195007324,
+        "deadline_minutes": 27.317631971288503,
+        "distance_km": 1.403762,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d79-27",
+        "store": "store-1",
+        "items": 27,
+        "predicted_minutes": 23.728986740112305,
+        "deadline_minutes": 39.71157849515186,
+        "distance_km": 4.501406,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d79-16",
+        "store": "store-0",
+        "items": 25,
+        "predicted_minutes": 24.182065963745117,
+        "deadline_minutes": 38.33816689651657,
+        "distance_km": 4.644798,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d79-19",
+        "store": "store-2",
+        "items": 25,
+        "predicted_minutes": 22.6397647857666,
+        "deadline_minutes": 30.964858045746695,
+        "distance_km": 0.820684,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d79-50",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 19.648984909057617,
+        "deadline_minutes": 61.49287735846784,
+        "distance_km": 4.522291,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d79-37",
+        "store": "store-1",
+        "items": 12,
+        "predicted_minutes": 19.915462493896484,
+        "deadline_minutes": 25.17352111338425,
+        "distance_km": 4.183372,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d79-31",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 20.485898971557617,
+        "deadline_minutes": 63.485951661430974,
+        "distance_km": 1.059822,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d79-58",
+        "store": "store-2",
+        "items": 5,
+        "predicted_minutes": 15.168485641479492,
+        "deadline_minutes": 44.499440164998305,
+        "distance_km": 2.327551,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d79-15",
+        "store": "store-0",
+        "items": 14,
+        "predicted_minutes": 18.749591827392578,
+        "deadline_minutes": 29.780622486663514,
+        "distance_km": 1.278676,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d79-17",
+        "store": "store-2",
+        "items": 10,
+        "predicted_minutes": 13.01252269744873,
+        "deadline_minutes": 61.43558646212988,
+        "distance_km": 2.845575,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d79-10",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 9.720401763916016,
+        "deadline_minutes": 56.07849311758408,
+        "distance_km": 1.318655,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d79-48",
+        "store": "store-0",
+        "items": 28,
+        "predicted_minutes": 24.289657592773438,
+        "deadline_minutes": 26.93619446306571,
+        "distance_km": 1.134608,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d79-01",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 24.57176399230957,
+        "deadline_minutes": 56.253836152166286,
+        "distance_km": 3.918827,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d79-11",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 11.928290367126465,
+        "deadline_minutes": 42.77366470275102,
+        "distance_km": 4.185426,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d79-36",
+        "store": "store-0",
+        "items": 28,
+        "predicted_minutes": 25.98533821105957,
+        "deadline_minutes": 28.417485037354144,
+        "distance_km": 3.958845,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d79-49",
+        "store": "store-0",
+        "items": 28,
+        "predicted_minutes": 30.831815719604492,
+        "deadline_minutes": 43.56752027787803,
+        "distance_km": 4.723496,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d79-47",
+        "store": "store-2",
+        "items": 15,
+        "predicted_minutes": 19.10111427307129,
+        "deadline_minutes": 52.761924784702764,
+        "distance_km": 2.115753,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d79-14",
+        "store": "store-2",
+        "items": 11,
+        "predicted_minutes": 15.586326599121094,
+        "deadline_minutes": 34.92401804246135,
+        "distance_km": 0.831168,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d79-25",
+        "store": "store-2",
+        "items": 16,
+        "predicted_minutes": 20.700881958007812,
+        "deadline_minutes": 29.313514637754587,
+        "distance_km": 4.103977,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d79-35",
+        "store": "store-0",
+        "items": 7,
+        "predicted_minutes": 13.53010368347168,
+        "deadline_minutes": 38.07391230245739,
+        "distance_km": 0.833887,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d79-30": 30.447527,
+      "d79-43": 27.041074,
+      "d79-29": 10.900557,
+      "d79-46": 24.759986,
+      "d79-21": 14.389949,
+      "d79-27": 23.600846,
+      "d79-16": 23.771711,
+      "d79-19": 22.242389,
+      "d79-50": 18.196966,
+      "d79-37": 22.05938,
+      "d79-31": 17.553293,
+      "d79-58": 16.608552,
+      "d79-15": 18.876695,
+      "d79-17": 11.388098,
+      "d79-10": 8.777391,
+      "d79-48": 25.84296,
+      "d79-01": 28.841461,
+      "d79-11": 13.25195,
+      "d79-36": 24.913755,
+      "d79-49": 31.378834,
+      "d79-47": 17.413762,
+      "d79-14": 15.861246,
+      "d79-25": 19.641721,
+      "d79-35": 14.470545
+    }
+  },
+  {
+    "day": 80,
+    "orders": [
+      {
+        "order_id": "d80-51",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 28.905763626098633,
+        "deadline_minutes": 51.344176780106196,
+        "distance_km": 3.979239,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d80-48",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 16.413169860839844,
+        "deadline_minutes": 47.76942253861259,
+        "distance_km": 4.579178,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d80-58",
+        "store": "store-1",
+        "items": 21,
+        "predicted_minutes": 17.810617446899414,
+        "deadline_minutes": 52.74365552402889,
+        "distance_km": 2.866976,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d80-20",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 22.678478240966797,
+        "deadline_minutes": 50.406792474430375,
+        "distance_km": 2.097451,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d80-02",
+        "store": "store-2",
+        "items": 6,
+        "predicted_minutes": 13.644479751586914,
+        "deadline_minutes": 37.648896246313036,
+        "distance_km": 3.41137,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d80-18",
+        "store": "store-1",
+        "items": 26,
+        "predicted_minutes": 23.14459228515625,
+        "deadline_minutes": 61.175822691333515,
+        "distance_km": 2.997735,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d80-12",
+        "store": "store-1",
+        "items": 5,
+        "predicted_minutes": 13.306843757629395,
+        "deadline_minutes": 53.84883070510689,
+        "distance_km": 4.842813,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d80-41",
+        "store": "store-1",
+        "items": 6,
+        "predicted_minutes": 12.16810131072998,
+        "deadline_minutes": 33.67272265223492,
+        "distance_km": 1.442233,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d80-37",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 20.019227981567383,
+        "deadline_minutes": 62.1828401269732,
+        "distance_km": 4.455094,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d80-43",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 16.725481033325195,
+        "deadline_minutes": 44.148412394439205,
+        "distance_km": 0.579753,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d80-00",
+        "store": "store-1",
+        "items": 15,
+        "predicted_minutes": 24.99886131286621,
+        "deadline_minutes": 31.81052114321541,
+        "distance_km": 3.242887,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d80-31",
+        "store": "store-2",
+        "items": 5,
+        "predicted_minutes": 8.660290718078613,
+        "deadline_minutes": 30.087299552801113,
+        "distance_km": 0.796232,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d80-39",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 10.091165542602539,
+        "deadline_minutes": 43.15170435300518,
+        "distance_km": 3.629346,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d80-13",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 17.527217864990234,
+        "deadline_minutes": 30.707105260559572,
+        "distance_km": 4.465775,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d80-36",
+        "store": "store-1",
+        "items": 9,
+        "predicted_minutes": 16.441869735717773,
+        "deadline_minutes": 58.06084739422709,
+        "distance_km": 2.53712,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d80-28",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 26.865022659301758,
+        "deadline_minutes": 41.76051085692343,
+        "distance_km": 2.181024,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d80-26",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 25.985681533813477,
+        "deadline_minutes": 28.00038831033703,
+        "distance_km": 2.688268,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d80-03",
+        "store": "store-2",
+        "items": 21,
+        "predicted_minutes": 24.24791145324707,
+        "deadline_minutes": 52.58545983947371,
+        "distance_km": 2.508482,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d80-32",
+        "store": "store-2",
+        "items": 4,
+        "predicted_minutes": 10.793485641479492,
+        "deadline_minutes": 30.435178490816106,
+        "distance_km": 3.118606,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d80-35",
+        "store": "store-2",
+        "items": 8,
+        "predicted_minutes": 13.566704750061035,
+        "deadline_minutes": 32.814028753803626,
+        "distance_km": 1.730919,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d80-46",
+        "store": "store-2",
+        "items": 28,
+        "predicted_minutes": 21.764909744262695,
+        "deadline_minutes": 63.54502820722037,
+        "distance_km": 0.879553,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d80-29",
+        "store": "store-1",
+        "items": 18,
+        "predicted_minutes": 21.88218116760254,
+        "deadline_minutes": 25.660263285742143,
+        "distance_km": 1.747962,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d80-30",
+        "store": "store-0",
+        "items": 11,
+        "predicted_minutes": 14.722147941589355,
+        "deadline_minutes": 51.87378039703454,
+        "distance_km": 1.226399,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d80-38",
+        "store": "store-2",
+        "items": 24,
+        "predicted_minutes": 26.005739212036133,
+        "deadline_minutes": 29.14840142908576,
+        "distance_km": 4.644391,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d80-51": 30.174094,
+      "d80-48": 15.86557,
+      "d80-58": 18.082648,
+      "d80-20": 22.798195,
+      "d80-02": 13.007553,
+      "d80-18": 23.239693,
+      "d80-12": 12.089806,
+      "d80-41": 12.544763,
+      "d80-37": 20.254253,
+      "d80-43": 16.484359,
+      "d80-00": 26.631101,
+      "d80-31": 7.305559,
+      "d80-39": 8.247676,
+      "d80-13": 19.245525,
+      "d80-36": 15.365249,
+      "d80-28": 26.583569,
+      "d80-26": 25.467929,
+      "d80-03": 22.622508,
+      "d80-32": 11.154124,
+      "d80-35": 13.660451,
+      "d80-46": 20.647496,
+      "d80-29": 19.270848,
+      "d80-30": 14.116297,
+      "d80-38": 25.35073
+    }
+  },
+  {
+    "day": 81,
+    "orders": [
+      {
+        "order_id": "d81-05",
+        "store": "store-2",
+        "items": 23,
+        "predicted_minutes": 21.882156372070312,
+        "deadline_minutes": 47.41978215961346,
+        "distance_km": 4.761878,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d81-48",
+        "store": "store-2",
+        "items": 24,
+        "predicted_minutes": 29.58453941345215,
+        "deadline_minutes": 67.89616643017905,
+        "distance_km": 2.632267,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d81-14",
+        "store": "store-1",
+        "items": 8,
+        "predicted_minutes": 10.075299263000488,
+        "deadline_minutes": 44.73424892036371,
+        "distance_km": 4.864147,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d81-02",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 15.975678443908691,
+        "deadline_minutes": 31.1967998630853,
+        "distance_km": 2.055763,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d81-15",
+        "store": "store-1",
+        "items": 17,
+        "predicted_minutes": 15.497612953186035,
+        "deadline_minutes": 54.6408005546828,
+        "distance_km": 3.534542,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d81-20",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 8.546853065490723,
+        "deadline_minutes": 65.29150399347313,
+        "distance_km": 2.355683,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d81-58",
+        "store": "store-2",
+        "items": 18,
+        "predicted_minutes": 21.514646530151367,
+        "deadline_minutes": 62.34173961495048,
+        "distance_km": 1.571111,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d81-55",
+        "store": "store-2",
+        "items": 10,
+        "predicted_minutes": 19.48200798034668,
+        "deadline_minutes": 62.47258521082612,
+        "distance_km": 1.866535,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d81-26",
+        "store": "store-0",
+        "items": 26,
+        "predicted_minutes": 28.91731071472168,
+        "deadline_minutes": 36.3004953714813,
+        "distance_km": 2.555924,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d81-31",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 9.577424049377441,
+        "deadline_minutes": 40.83415773230995,
+        "distance_km": 4.867689,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d81-43",
+        "store": "store-2",
+        "items": 27,
+        "predicted_minutes": 32.94552993774414,
+        "deadline_minutes": 58.73485109034898,
+        "distance_km": 1.753978,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d81-00",
+        "store": "store-0",
+        "items": 19,
+        "predicted_minutes": 19.859140396118164,
+        "deadline_minutes": 29.63121238976413,
+        "distance_km": 0.78758,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d81-29",
+        "store": "store-0",
+        "items": 28,
+        "predicted_minutes": 29.316112518310547,
+        "deadline_minutes": 50.32019209491165,
+        "distance_km": 3.288547,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d81-12",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 13.169020652770996,
+        "deadline_minutes": 65.53180651697204,
+        "distance_km": 0.746175,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d81-11",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 12.592253684997559,
+        "deadline_minutes": 39.04054053392309,
+        "distance_km": 4.768361,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d81-42",
+        "store": "store-2",
+        "items": 5,
+        "predicted_minutes": 14.47758960723877,
+        "deadline_minutes": 27.65634407928475,
+        "distance_km": 0.888255,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d81-25",
+        "store": "store-0",
+        "items": 14,
+        "predicted_minutes": 15.634061813354492,
+        "deadline_minutes": 38.24140400263703,
+        "distance_km": 1.278611,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d81-47",
+        "store": "store-0",
+        "items": 12,
+        "predicted_minutes": 20.98633575439453,
+        "deadline_minutes": 56.521420285223314,
+        "distance_km": 2.163694,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d81-53",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 23.91788673400879,
+        "deadline_minutes": 53.55568740383241,
+        "distance_km": 4.747134,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d81-39",
+        "store": "store-1",
+        "items": 12,
+        "predicted_minutes": 20.558837890625,
+        "deadline_minutes": 45.22650220101914,
+        "distance_km": 3.618038,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d81-52",
+        "store": "store-2",
+        "items": 10,
+        "predicted_minutes": 20.506162643432617,
+        "deadline_minutes": 43.74517352848689,
+        "distance_km": 1.81292,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d81-32",
+        "store": "store-0",
+        "items": 24,
+        "predicted_minutes": 24.80841064453125,
+        "deadline_minutes": 41.07035273162487,
+        "distance_km": 3.329278,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d81-51",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 16.273954391479492,
+        "deadline_minutes": 40.669253269454515,
+        "distance_km": 4.416706,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d81-59",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 18.549219131469727,
+        "deadline_minutes": 33.46470271645905,
+        "distance_km": 0.798216,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d81-05": 22.804473,
+      "d81-48": 31.1567,
+      "d81-14": 11.205039,
+      "d81-02": 15.367059,
+      "d81-15": 16.812506,
+      "d81-20": 6.709938,
+      "d81-58": 21.641328,
+      "d81-55": 18.631997,
+      "d81-26": 27.321903,
+      "d81-31": 7.410228,
+      "d81-43": 34.025753,
+      "d81-00": 19.688356,
+      "d81-29": 30.420757,
+      "d81-12": 12.043325,
+      "d81-11": 10.997242,
+      "d81-42": 13.875545,
+      "d81-25": 14.531161,
+      "d81-47": 21.898915,
+      "d81-53": 22.571136,
+      "d81-39": 19.214634,
+      "d81-52": 20.773145,
+      "d81-32": 26.247058,
+      "d81-51": 17.704591,
+      "d81-59": 19.037999
+    }
+  },
+  {
+    "day": 82,
+    "orders": [
+      {
+        "order_id": "d82-16",
+        "store": "store-1",
+        "items": 10,
+        "predicted_minutes": 12.925395011901855,
+        "deadline_minutes": 34.92762253360067,
+        "distance_km": 2.313378,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d82-38",
+        "store": "store-1",
+        "items": 15,
+        "predicted_minutes": 18.434268951416016,
+        "deadline_minutes": 55.36424882897769,
+        "distance_km": 3.652071,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d82-20",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 13.4291410446167,
+        "deadline_minutes": 49.409191601558945,
+        "distance_km": 2.191622,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d82-28",
+        "store": "store-2",
+        "items": 19,
+        "predicted_minutes": 17.37347412109375,
+        "deadline_minutes": 42.32891408527231,
+        "distance_km": 2.727154,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d82-05",
+        "store": "store-1",
+        "items": 5,
+        "predicted_minutes": 10.808298110961914,
+        "deadline_minutes": 48.17571988344594,
+        "distance_km": 3.125714,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d82-14",
+        "store": "store-1",
+        "items": 19,
+        "predicted_minutes": 21.14346694946289,
+        "deadline_minutes": 39.4550245666776,
+        "distance_km": 1.919175,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d82-41",
+        "store": "store-0",
+        "items": 10,
+        "predicted_minutes": 16.05381965637207,
+        "deadline_minutes": 45.989961893073904,
+        "distance_km": 4.852731,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d82-21",
+        "store": "store-2",
+        "items": 8,
+        "predicted_minutes": 12.629403114318848,
+        "deadline_minutes": 57.34972747821798,
+        "distance_km": 4.372403,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d82-48",
+        "store": "store-2",
+        "items": 9,
+        "predicted_minutes": 16.917316436767578,
+        "deadline_minutes": 27.57541877030709,
+        "distance_km": 2.836068,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d82-06",
+        "store": "store-2",
+        "items": 13,
+        "predicted_minutes": 17.153697967529297,
+        "deadline_minutes": 47.07663112381848,
+        "distance_km": 4.158827,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d82-56",
+        "store": "store-1",
+        "items": 5,
+        "predicted_minutes": 16.8903865814209,
+        "deadline_minutes": 67.00990894783851,
+        "distance_km": 4.722555,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d82-01",
+        "store": "store-1",
+        "items": 8,
+        "predicted_minutes": 11.153233528137207,
+        "deadline_minutes": 34.56080397846071,
+        "distance_km": 4.924761,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d82-02",
+        "store": "store-0",
+        "items": 26,
+        "predicted_minutes": 24.8802490234375,
+        "deadline_minutes": 50.00551353492156,
+        "distance_km": 3.777709,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d82-04",
+        "store": "store-0",
+        "items": 19,
+        "predicted_minutes": 21.142154693603516,
+        "deadline_minutes": 25.9126942831481,
+        "distance_km": 4.415597,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d82-08",
+        "store": "store-2",
+        "items": 17,
+        "predicted_minutes": 17.26689910888672,
+        "deadline_minutes": 35.38608673881521,
+        "distance_km": 1.470943,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d82-40",
+        "store": "store-1",
+        "items": 12,
+        "predicted_minutes": 12.651634216308594,
+        "deadline_minutes": 66.94565342380017,
+        "distance_km": 2.514736,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d82-25",
+        "store": "store-1",
+        "items": 4,
+        "predicted_minutes": 11.517325401306152,
+        "deadline_minutes": 33.34074588863646,
+        "distance_km": 1.51942,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d82-39",
+        "store": "store-2",
+        "items": 16,
+        "predicted_minutes": 19.462549209594727,
+        "deadline_minutes": 38.61675970592925,
+        "distance_km": 0.720419,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d82-44",
+        "store": "store-0",
+        "items": 5,
+        "predicted_minutes": 10.000238418579102,
+        "deadline_minutes": 33.45654417799514,
+        "distance_km": 0.712927,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d82-09",
+        "store": "store-0",
+        "items": 8,
+        "predicted_minutes": 15.01505184173584,
+        "deadline_minutes": 58.58351034268753,
+        "distance_km": 3.42152,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d82-47",
+        "store": "store-0",
+        "items": 20,
+        "predicted_minutes": 20.449087142944336,
+        "deadline_minutes": 35.51039962738789,
+        "distance_km": 1.386593,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d82-52",
+        "store": "store-0",
+        "items": 13,
+        "predicted_minutes": 18.881628036499023,
+        "deadline_minutes": 53.9883985400278,
+        "distance_km": 2.995552,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d82-37",
+        "store": "store-2",
+        "items": 26,
+        "predicted_minutes": 25.764198303222656,
+        "deadline_minutes": 26.142725021379604,
+        "distance_km": 3.242138,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d82-53",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 19.26801109313965,
+        "deadline_minutes": 56.98714539510395,
+        "distance_km": 4.229186,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d82-16": 11.607045,
+      "d82-38": 16.942856,
+      "d82-20": 11.846778,
+      "d82-28": 18.320312,
+      "d82-05": 10.479729,
+      "d82-14": 22.261045,
+      "d82-41": 17.675464,
+      "d82-21": 12.503578,
+      "d82-48": 18.653469,
+      "d82-06": 16.559936,
+      "d82-56": 17.300127,
+      "d82-01": 10.534892,
+      "d82-02": 22.812795,
+      "d82-04": 20.360404,
+      "d82-08": 16.320954,
+      "d82-40": 13.071764,
+      "d82-25": 12.46232,
+      "d82-39": 20.136291,
+      "d82-44": 10.45583,
+      "d82-09": 15.031104,
+      "d82-47": 20.034591,
+      "d82-52": 17.480688,
+      "d82-37": 26.189281,
+      "d82-53": 20.178236
+    }
+  },
+  {
+    "day": 83,
+    "orders": [
+      {
+        "order_id": "d83-11",
+        "store": "store-0",
+        "items": 22,
+        "predicted_minutes": 17.39301872253418,
+        "deadline_minutes": 56.59508780715855,
+        "distance_km": 1.536394,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d83-24",
+        "store": "store-0",
+        "items": 8,
+        "predicted_minutes": 15.017842292785645,
+        "deadline_minutes": 31.52952057534376,
+        "distance_km": 2.264817,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d83-49",
+        "store": "store-2",
+        "items": 13,
+        "predicted_minutes": 16.807907104492188,
+        "deadline_minutes": 26.871946929952692,
+        "distance_km": 3.484826,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d83-21",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 15.650162696838379,
+        "deadline_minutes": 67.49343389275202,
+        "distance_km": 2.977121,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d83-42",
+        "store": "store-0",
+        "items": 23,
+        "predicted_minutes": 27.33762550354004,
+        "deadline_minutes": 40.384370521939765,
+        "distance_km": 1.601265,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d83-40",
+        "store": "store-0",
+        "items": 5,
+        "predicted_minutes": 9.496058464050293,
+        "deadline_minutes": 42.992939942591725,
+        "distance_km": 4.055918,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d83-18",
+        "store": "store-2",
+        "items": 6,
+        "predicted_minutes": 16.976890563964844,
+        "deadline_minutes": 32.016999982325174,
+        "distance_km": 2.376728,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d83-28",
+        "store": "store-0",
+        "items": 13,
+        "predicted_minutes": 14.746614456176758,
+        "deadline_minutes": 33.4114043196496,
+        "distance_km": 4.465646,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d83-15",
+        "store": "store-2",
+        "items": 25,
+        "predicted_minutes": 25.26378059387207,
+        "deadline_minutes": 49.0668385214811,
+        "distance_km": 2.284893,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d83-52",
+        "store": "store-0",
+        "items": 19,
+        "predicted_minutes": 19.797622680664062,
+        "deadline_minutes": 67.39076708716232,
+        "distance_km": 3.48677,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d83-25",
+        "store": "store-2",
+        "items": 16,
+        "predicted_minutes": 17.710830688476562,
+        "deadline_minutes": 53.16663757250467,
+        "distance_km": 4.997562,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d83-29",
+        "store": "store-0",
+        "items": 17,
+        "predicted_minutes": 18.65229034423828,
+        "deadline_minutes": 66.07506403575636,
+        "distance_km": 1.689853,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d83-31",
+        "store": "store-1",
+        "items": 18,
+        "predicted_minutes": 26.67081069946289,
+        "deadline_minutes": 50.120685208046154,
+        "distance_km": 0.786401,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d83-53",
+        "store": "store-2",
+        "items": 19,
+        "predicted_minutes": 20.50397491455078,
+        "deadline_minutes": 28.28256494195761,
+        "distance_km": 4.670966,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d83-39",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 16.548572540283203,
+        "deadline_minutes": 28.451979978645273,
+        "distance_km": 2.040864,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d83-02",
+        "store": "store-1",
+        "items": 4,
+        "predicted_minutes": 7.764026641845703,
+        "deadline_minutes": 26.327034698453964,
+        "distance_km": 2.383064,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d83-38",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 20.18381118774414,
+        "deadline_minutes": 36.135368256555815,
+        "distance_km": 0.938477,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d83-34",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 18.81132698059082,
+        "deadline_minutes": 48.534897598957144,
+        "distance_km": 1.311277,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d83-35",
+        "store": "store-0",
+        "items": 17,
+        "predicted_minutes": 19.565937042236328,
+        "deadline_minutes": 57.20192734545904,
+        "distance_km": 2.736187,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d83-14",
+        "store": "store-2",
+        "items": 19,
+        "predicted_minutes": 23.773298263549805,
+        "deadline_minutes": 59.50504670401692,
+        "distance_km": 4.756777,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d83-19",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 27.088951110839844,
+        "deadline_minutes": 34.87397676726567,
+        "distance_km": 3.854314,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d83-27",
+        "store": "store-2",
+        "items": 5,
+        "predicted_minutes": 10.694036483764648,
+        "deadline_minutes": 65.88170718567021,
+        "distance_km": 3.07323,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d83-08",
+        "store": "store-2",
+        "items": 17,
+        "predicted_minutes": 18.812864303588867,
+        "deadline_minutes": 50.15317313537618,
+        "distance_km": 0.750327,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d83-03",
+        "store": "store-1",
+        "items": 20,
+        "predicted_minutes": 21.165281295776367,
+        "deadline_minutes": 26.403137553601148,
+        "distance_km": 4.4404,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d83-11": 17.40623,
+      "d83-24": 16.936614,
+      "d83-49": 16.529172,
+      "d83-21": 16.470719,
+      "d83-42": 26.500878,
+      "d83-40": 8.947222,
+      "d83-18": 16.905712,
+      "d83-28": 16.861813,
+      "d83-15": 23.705626,
+      "d83-52": 16.229463,
+      "d83-25": 18.362605,
+      "d83-29": 20.732621,
+      "d83-31": 27.776982,
+      "d83-53": 20.656645,
+      "d83-39": 16.646144,
+      "d83-02": 9.102518,
+      "d83-38": 21.006992,
+      "d83-34": 19.281789,
+      "d83-35": 21.63173,
+      "d83-14": 24.052379,
+      "d83-19": 26.046652,
+      "d83-27": 10.630616,
+      "d83-08": 18.756955,
+      "d83-03": 18.197048
+    }
+  },
+  {
+    "day": 84,
+    "orders": [
+      {
+        "order_id": "d84-12",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 9.632308006286621,
+        "deadline_minutes": 38.04295818464773,
+        "distance_km": 3.232641,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d84-43",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 22.697349548339844,
+        "deadline_minutes": 30.17668121858099,
+        "distance_km": 4.471279,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d84-23",
+        "store": "store-1",
+        "items": 4,
+        "predicted_minutes": 9.006999015808105,
+        "deadline_minutes": 27.07806386794028,
+        "distance_km": 1.597693,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d84-18",
+        "store": "store-1",
+        "items": 18,
+        "predicted_minutes": 19.370044708251953,
+        "deadline_minutes": 38.61828326389161,
+        "distance_km": 3.143412,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d84-26",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 17.642139434814453,
+        "deadline_minutes": 33.258981704413536,
+        "distance_km": 4.774995,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d84-11",
+        "store": "store-2",
+        "items": 23,
+        "predicted_minutes": 26.818761825561523,
+        "deadline_minutes": 52.88658757779501,
+        "distance_km": 3.103819,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d84-10",
+        "store": "store-2",
+        "items": 18,
+        "predicted_minutes": 23.990516662597656,
+        "deadline_minutes": 54.283959804235565,
+        "distance_km": 2.350289,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d84-44",
+        "store": "store-0",
+        "items": 15,
+        "predicted_minutes": 17.94507598876953,
+        "deadline_minutes": 57.18582703640975,
+        "distance_km": 0.610807,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d84-37",
+        "store": "store-0",
+        "items": 17,
+        "predicted_minutes": 23.85662841796875,
+        "deadline_minutes": 35.0761123009226,
+        "distance_km": 0.736061,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d84-13",
+        "store": "store-1",
+        "items": 8,
+        "predicted_minutes": 13.157522201538086,
+        "deadline_minutes": 32.373951449474234,
+        "distance_km": 3.258684,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d84-45",
+        "store": "store-0",
+        "items": 4,
+        "predicted_minutes": 9.831559181213379,
+        "deadline_minutes": 57.08672810454103,
+        "distance_km": 2.998704,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d84-38",
+        "store": "store-1",
+        "items": 24,
+        "predicted_minutes": 17.899667739868164,
+        "deadline_minutes": 32.58555176151877,
+        "distance_km": 2.999727,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d84-17",
+        "store": "store-2",
+        "items": 8,
+        "predicted_minutes": 14.079327583312988,
+        "deadline_minutes": 51.90988536851495,
+        "distance_km": 4.039997,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d84-01",
+        "store": "store-1",
+        "items": 21,
+        "predicted_minutes": 21.99683952331543,
+        "deadline_minutes": 36.47727144711051,
+        "distance_km": 2.843395,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d84-24",
+        "store": "store-0",
+        "items": 16,
+        "predicted_minutes": 15.539959907531738,
+        "deadline_minutes": 58.32976021903419,
+        "distance_km": 1.252546,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d84-33",
+        "store": "store-2",
+        "items": 15,
+        "predicted_minutes": 21.756250381469727,
+        "deadline_minutes": 66.46859539732374,
+        "distance_km": 4.575393,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d84-46",
+        "store": "store-1",
+        "items": 13,
+        "predicted_minutes": 14.133094787597656,
+        "deadline_minutes": 45.416079086222915,
+        "distance_km": 3.17745,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d84-25",
+        "store": "store-1",
+        "items": 5,
+        "predicted_minutes": 15.990694046020508,
+        "deadline_minutes": 48.75428340539888,
+        "distance_km": 1.214694,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d84-36",
+        "store": "store-0",
+        "items": 19,
+        "predicted_minutes": 20.534805297851562,
+        "deadline_minutes": 58.43645861155383,
+        "distance_km": 3.132485,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d84-50",
+        "store": "store-2",
+        "items": 18,
+        "predicted_minutes": 23.38226890563965,
+        "deadline_minutes": 33.37961708745094,
+        "distance_km": 4.392707,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d84-40",
+        "store": "store-2",
+        "items": 27,
+        "predicted_minutes": 21.516977310180664,
+        "deadline_minutes": 25.928625239727076,
+        "distance_km": 2.932898,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d84-31",
+        "store": "store-0",
+        "items": 25,
+        "predicted_minutes": 22.013578414916992,
+        "deadline_minutes": 54.365911826031315,
+        "distance_km": 3.87787,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d84-41",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 23.37202262878418,
+        "deadline_minutes": 52.75834254677376,
+        "distance_km": 1.304041,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d84-58",
+        "store": "store-1",
+        "items": 20,
+        "predicted_minutes": 22.379615783691406,
+        "deadline_minutes": 40.67595756451652,
+        "distance_km": 4.091739,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d84-12": 8.59054,
+      "d84-43": 23.425114,
+      "d84-23": 10.737692,
+      "d84-18": 19.953637,
+      "d84-26": 16.563369,
+      "d84-11": 26.705743,
+      "d84-10": 25.680324,
+      "d84-44": 14.992664,
+      "d84-37": 23.56456,
+      "d84-13": 13.440478,
+      "d84-45": 8.775823,
+      "d84-38": 19.262494,
+      "d84-17": 14.278771,
+      "d84-01": 21.362026,
+      "d84-24": 13.171045,
+      "d84-33": 22.911824,
+      "d84-46": 16.471603,
+      "d84-25": 16.435682,
+      "d84-36": 21.043333,
+      "d84-50": 26.140761,
+      "d84-40": 21.406051,
+      "d84-31": 22.459094,
+      "d84-41": 23.997999,
+      "d84-58": 22.854539
+    }
+  },
+  {
+    "day": 85,
+    "orders": [
+      {
+        "order_id": "d85-44",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 13.52328109741211,
+        "deadline_minutes": 43.59829180949836,
+        "distance_km": 4.712081,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d85-20",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 22.55224609375,
+        "deadline_minutes": 27.119396811381268,
+        "distance_km": 2.253943,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d85-03",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 16.248546600341797,
+        "deadline_minutes": 48.79208448684783,
+        "distance_km": 3.608574,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d85-52",
+        "store": "store-2",
+        "items": 4,
+        "predicted_minutes": 9.727946281433105,
+        "deadline_minutes": 40.55136702575551,
+        "distance_km": 4.622223,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d85-04",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 27.50773048400879,
+        "deadline_minutes": 64.95998537224386,
+        "distance_km": 1.899997,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d85-09",
+        "store": "store-0",
+        "items": 5,
+        "predicted_minutes": 11.895856857299805,
+        "deadline_minutes": 65.64523010151535,
+        "distance_km": 2.850704,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d85-16",
+        "store": "store-0",
+        "items": 24,
+        "predicted_minutes": 26.843856811523438,
+        "deadline_minutes": 36.86680588730354,
+        "distance_km": 3.78865,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d85-01",
+        "store": "store-1",
+        "items": 21,
+        "predicted_minutes": 20.240053176879883,
+        "deadline_minutes": 65.04665400357224,
+        "distance_km": 1.936594,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d85-15",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 19.782962799072266,
+        "deadline_minutes": 53.03616824360205,
+        "distance_km": 4.277484,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d85-22",
+        "store": "store-2",
+        "items": 19,
+        "predicted_minutes": 22.139331817626953,
+        "deadline_minutes": 29.140949927155987,
+        "distance_km": 3.330542,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d85-49",
+        "store": "store-0",
+        "items": 16,
+        "predicted_minutes": 18.420654296875,
+        "deadline_minutes": 32.90403853887376,
+        "distance_km": 2.712285,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d85-17",
+        "store": "store-1",
+        "items": 18,
+        "predicted_minutes": 20.178325653076172,
+        "deadline_minutes": 40.82543454117028,
+        "distance_km": 4.301242,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d85-48",
+        "store": "store-0",
+        "items": 13,
+        "predicted_minutes": 11.689379692077637,
+        "deadline_minutes": 48.469451292616895,
+        "distance_km": 3.063592,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d85-54",
+        "store": "store-1",
+        "items": 26,
+        "predicted_minutes": 22.994876861572266,
+        "deadline_minutes": 47.862606652608164,
+        "distance_km": 3.211518,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d85-23",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 17.63477325439453,
+        "deadline_minutes": 67.15496098708192,
+        "distance_km": 3.417648,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d85-55",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 11.550267219543457,
+        "deadline_minutes": 41.0070685341442,
+        "distance_km": 1.434274,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d85-07",
+        "store": "store-1",
+        "items": 28,
+        "predicted_minutes": 20.95994758605957,
+        "deadline_minutes": 58.54406261782815,
+        "distance_km": 2.093833,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d85-30",
+        "store": "store-2",
+        "items": 7,
+        "predicted_minutes": 17.733068466186523,
+        "deadline_minutes": 27.757150880004705,
+        "distance_km": 2.026346,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d85-39",
+        "store": "store-2",
+        "items": 23,
+        "predicted_minutes": 20.075572967529297,
+        "deadline_minutes": 44.92778306348071,
+        "distance_km": 3.078349,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d85-53",
+        "store": "store-2",
+        "items": 25,
+        "predicted_minutes": 23.8162841796875,
+        "deadline_minutes": 47.05124251171512,
+        "distance_km": 4.326579,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d85-05",
+        "store": "store-0",
+        "items": 27,
+        "predicted_minutes": 18.748493194580078,
+        "deadline_minutes": 66.14393502780561,
+        "distance_km": 4.211907,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d85-13",
+        "store": "store-2",
+        "items": 10,
+        "predicted_minutes": 19.14445686340332,
+        "deadline_minutes": 60.436006230627385,
+        "distance_km": 1.46677,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d85-27",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 20.671419143676758,
+        "deadline_minutes": 32.695936362153645,
+        "distance_km": 0.85493,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d85-29",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 22.860950469970703,
+        "deadline_minutes": 26.210173166917333,
+        "distance_km": 3.940047,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d85-44": 12.624661,
+      "d85-20": 23.033097,
+      "d85-03": 15.388668,
+      "d85-52": 10.972545,
+      "d85-04": 24.598255,
+      "d85-09": 13.664319,
+      "d85-16": 24.474683,
+      "d85-01": 21.61291,
+      "d85-15": 18.395133,
+      "d85-22": 20.520966,
+      "d85-49": 15.791764,
+      "d85-17": 18.966445,
+      "d85-48": 10.438902,
+      "d85-54": 24.393584,
+      "d85-23": 18.639788,
+      "d85-55": 13.803434,
+      "d85-07": 20.802111,
+      "d85-30": 19.311394,
+      "d85-39": 19.504507,
+      "d85-53": 22.938622,
+      "d85-05": 19.340679,
+      "d85-13": 16.532204,
+      "d85-27": 18.549619,
+      "d85-29": 23.692314
+    }
+  },
+  {
+    "day": 86,
+    "orders": [
+      {
+        "order_id": "d86-28",
+        "store": "store-2",
+        "items": 23,
+        "predicted_minutes": 20.14923095703125,
+        "deadline_minutes": 56.40010317777087,
+        "distance_km": 2.603204,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d86-02",
+        "store": "store-2",
+        "items": 9,
+        "predicted_minutes": 18.687725067138672,
+        "deadline_minutes": 27.67855275730315,
+        "distance_km": 1.104096,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d86-13",
+        "store": "store-2",
+        "items": 26,
+        "predicted_minutes": 22.777414321899414,
+        "deadline_minutes": 46.68683577919339,
+        "distance_km": 3.773972,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d86-12",
+        "store": "store-0",
+        "items": 19,
+        "predicted_minutes": 16.326017379760742,
+        "deadline_minutes": 28.93916925380789,
+        "distance_km": 1.199756,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d86-24",
+        "store": "store-2",
+        "items": 13,
+        "predicted_minutes": 21.053037643432617,
+        "deadline_minutes": 48.9496119449461,
+        "distance_km": 3.635404,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d86-32",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 14.576273918151855,
+        "deadline_minutes": 42.848422345582236,
+        "distance_km": 3.672929,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d86-34",
+        "store": "store-0",
+        "items": 7,
+        "predicted_minutes": 12.609848022460938,
+        "deadline_minutes": 56.6297009042769,
+        "distance_km": 2.602491,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d86-04",
+        "store": "store-2",
+        "items": 10,
+        "predicted_minutes": 17.9587459564209,
+        "deadline_minutes": 32.83776539573516,
+        "distance_km": 2.997062,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d86-03",
+        "store": "store-0",
+        "items": 13,
+        "predicted_minutes": 17.4648380279541,
+        "deadline_minutes": 42.31863517400264,
+        "distance_km": 3.961291,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d86-16",
+        "store": "store-0",
+        "items": 6,
+        "predicted_minutes": 14.48631477355957,
+        "deadline_minutes": 51.17900285548599,
+        "distance_km": 1.648946,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d86-15",
+        "store": "store-2",
+        "items": 23,
+        "predicted_minutes": 24.488981246948242,
+        "deadline_minutes": 58.42103826315074,
+        "distance_km": 1.377882,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d86-50",
+        "store": "store-2",
+        "items": 24,
+        "predicted_minutes": 21.704397201538086,
+        "deadline_minutes": 53.566599224445284,
+        "distance_km": 0.527543,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d86-48",
+        "store": "store-1",
+        "items": 27,
+        "predicted_minutes": 21.694374084472656,
+        "deadline_minutes": 37.75070566340524,
+        "distance_km": 4.938332,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d86-26",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 25.548486709594727,
+        "deadline_minutes": 54.373829040603766,
+        "distance_km": 4.061849,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d86-27",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 14.600016593933105,
+        "deadline_minutes": 64.89737284326753,
+        "distance_km": 2.268212,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d86-07",
+        "store": "store-2",
+        "items": 23,
+        "predicted_minutes": 21.90587043762207,
+        "deadline_minutes": 53.40879076655645,
+        "distance_km": 0.61583,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d86-33",
+        "store": "store-0",
+        "items": 17,
+        "predicted_minutes": 14.781121253967285,
+        "deadline_minutes": 51.33860728283617,
+        "distance_km": 0.695385,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d86-35",
+        "store": "store-2",
+        "items": 16,
+        "predicted_minutes": 21.888103485107422,
+        "deadline_minutes": 27.57859918066592,
+        "distance_km": 4.48706,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d86-36",
+        "store": "store-2",
+        "items": 6,
+        "predicted_minutes": 15.99743938446045,
+        "deadline_minutes": 27.305930674000123,
+        "distance_km": 1.980952,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d86-19",
+        "store": "store-0",
+        "items": 12,
+        "predicted_minutes": 19.59207534790039,
+        "deadline_minutes": 27.37062097110749,
+        "distance_km": 4.129822,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d86-25",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 19.665279388427734,
+        "deadline_minutes": 67.787664538982,
+        "distance_km": 2.902515,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d86-18",
+        "store": "store-0",
+        "items": 22,
+        "predicted_minutes": 25.322139739990234,
+        "deadline_minutes": 27.545778783691308,
+        "distance_km": 1.50264,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d86-45",
+        "store": "store-2",
+        "items": 10,
+        "predicted_minutes": 14.824438095092773,
+        "deadline_minutes": 67.4654848145478,
+        "distance_km": 3.973179,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d86-00",
+        "store": "store-1",
+        "items": 17,
+        "predicted_minutes": 22.085317611694336,
+        "deadline_minutes": 37.785776586095366,
+        "distance_km": 0.966814,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d86-28": 19.388402,
+      "d86-02": 20.908261,
+      "d86-13": 20.889884,
+      "d86-12": 16.685134,
+      "d86-24": 19.514992,
+      "d86-32": 14.170937,
+      "d86-34": 11.752869,
+      "d86-04": 16.805467,
+      "d86-03": 17.404547,
+      "d86-16": 14.260812,
+      "d86-15": 22.776167,
+      "d86-50": 22.972971,
+      "d86-48": 23.624794,
+      "d86-26": 26.262355,
+      "d86-27": 15.463902,
+      "d86-07": 22.425856,
+      "d86-33": 11.68658,
+      "d86-35": 19.60344,
+      "d86-36": 17.657964,
+      "d86-19": 20.469554,
+      "d86-25": 19.502577,
+      "d86-18": 24.138576,
+      "d86-45": 13.994442,
+      "d86-00": 22.158572
+    }
+  },
+  {
+    "day": 87,
+    "orders": [
+      {
+        "order_id": "d87-56",
+        "store": "store-1",
+        "items": 26,
+        "predicted_minutes": 19.60649299621582,
+        "deadline_minutes": 44.55491026439078,
+        "distance_km": 0.840338,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d87-36",
+        "store": "store-2",
+        "items": 4,
+        "predicted_minutes": 15.595133781433105,
+        "deadline_minutes": 64.86573900504646,
+        "distance_km": 0.615905,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d87-52",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 19.297624588012695,
+        "deadline_minutes": 34.61827763731559,
+        "distance_km": 1.013293,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d87-38",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 19.879314422607422,
+        "deadline_minutes": 33.8924180944323,
+        "distance_km": 1.408327,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d87-45",
+        "store": "store-2",
+        "items": 25,
+        "predicted_minutes": 20.451547622680664,
+        "deadline_minutes": 64.88113639904373,
+        "distance_km": 1.901158,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d87-16",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 17.64129066467285,
+        "deadline_minutes": 50.27483303266875,
+        "distance_km": 3.936457,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d87-06",
+        "store": "store-1",
+        "items": 19,
+        "predicted_minutes": 23.50548553466797,
+        "deadline_minutes": 62.39662725942966,
+        "distance_km": 4.969321,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d87-00",
+        "store": "store-0",
+        "items": 9,
+        "predicted_minutes": 15.901436805725098,
+        "deadline_minutes": 51.15538113397998,
+        "distance_km": 4.387911,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d87-17",
+        "store": "store-2",
+        "items": 13,
+        "predicted_minutes": 20.60944175720215,
+        "deadline_minutes": 37.94250317789101,
+        "distance_km": 3.31841,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d87-59",
+        "store": "store-0",
+        "items": 13,
+        "predicted_minutes": 19.646974563598633,
+        "deadline_minutes": 37.22362968441868,
+        "distance_km": 3.58094,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d87-55",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 12.04533576965332,
+        "deadline_minutes": 48.86086763174988,
+        "distance_km": 3.35164,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d87-03",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 14.606054306030273,
+        "deadline_minutes": 67.51668358734304,
+        "distance_km": 2.785958,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d87-44",
+        "store": "store-1",
+        "items": 25,
+        "predicted_minutes": 27.554105758666992,
+        "deadline_minutes": 59.4398921925383,
+        "distance_km": 3.732601,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d87-33",
+        "store": "store-2",
+        "items": 17,
+        "predicted_minutes": 18.63751983642578,
+        "deadline_minutes": 66.70385338909675,
+        "distance_km": 2.976757,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d87-05",
+        "store": "store-1",
+        "items": 11,
+        "predicted_minutes": 19.361242294311523,
+        "deadline_minutes": 55.88596350566779,
+        "distance_km": 2.081633,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d87-34",
+        "store": "store-0",
+        "items": 19,
+        "predicted_minutes": 18.51410484313965,
+        "deadline_minutes": 33.347380762096044,
+        "distance_km": 1.431688,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d87-22",
+        "store": "store-2",
+        "items": 11,
+        "predicted_minutes": 19.215667724609375,
+        "deadline_minutes": 32.25807448269574,
+        "distance_km": 4.001073,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d87-26",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 19.06553077697754,
+        "deadline_minutes": 52.1372099884867,
+        "distance_km": 0.632165,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d87-51",
+        "store": "store-0",
+        "items": 11,
+        "predicted_minutes": 21.114849090576172,
+        "deadline_minutes": 51.96822100377025,
+        "distance_km": 1.42839,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d87-15",
+        "store": "store-2",
+        "items": 7,
+        "predicted_minutes": 14.964097023010254,
+        "deadline_minutes": 47.334496085861375,
+        "distance_km": 1.89499,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d87-40",
+        "store": "store-0",
+        "items": 27,
+        "predicted_minutes": 28.29108428955078,
+        "deadline_minutes": 35.9329918230788,
+        "distance_km": 3.01506,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d87-01",
+        "store": "store-2",
+        "items": 5,
+        "predicted_minutes": 14.698697090148926,
+        "deadline_minutes": 65.92212284752449,
+        "distance_km": 2.35599,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d87-07",
+        "store": "store-2",
+        "items": 6,
+        "predicted_minutes": 13.077235221862793,
+        "deadline_minutes": 48.358106515067206,
+        "distance_km": 4.050575,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d87-20",
+        "store": "store-0",
+        "items": 20,
+        "predicted_minutes": 16.66827964782715,
+        "deadline_minutes": 36.58649978030098,
+        "distance_km": 0.941754,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d87-56": 19.502801,
+      "d87-36": 16.280904,
+      "d87-52": 18.504958,
+      "d87-38": 20.913124,
+      "d87-45": 19.887701,
+      "d87-16": 17.48522,
+      "d87-06": 20.769604,
+      "d87-00": 15.589701,
+      "d87-17": 18.373429,
+      "d87-59": 20.434525,
+      "d87-55": 11.18712,
+      "d87-03": 14.025053,
+      "d87-44": 26.80071,
+      "d87-33": 16.689651,
+      "d87-05": 21.003453,
+      "d87-34": 18.912529,
+      "d87-22": 19.265031,
+      "d87-26": 19.17374,
+      "d87-51": 22.32359,
+      "d87-15": 18.012682,
+      "d87-40": 26.353306,
+      "d87-01": 13.939389,
+      "d87-07": 13.132832,
+      "d87-20": 17.574633
+    }
+  },
+  {
+    "day": 88,
+    "orders": [
+      {
+        "order_id": "d88-09",
+        "store": "store-2",
+        "items": 4,
+        "predicted_minutes": 12.67609977722168,
+        "deadline_minutes": 33.29896045027789,
+        "distance_km": 1.204296,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d88-42",
+        "store": "store-0",
+        "items": 12,
+        "predicted_minutes": 16.385473251342773,
+        "deadline_minutes": 46.88647474702903,
+        "distance_km": 2.554381,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d88-51",
+        "store": "store-1",
+        "items": 6,
+        "predicted_minutes": 10.657453536987305,
+        "deadline_minutes": 46.43410380351729,
+        "distance_km": 2.500771,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d88-01",
+        "store": "store-2",
+        "items": 14,
+        "predicted_minutes": 18.558013916015625,
+        "deadline_minutes": 44.71895056998904,
+        "distance_km": 2.409024,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d88-04",
+        "store": "store-2",
+        "items": 25,
+        "predicted_minutes": 29.945547103881836,
+        "deadline_minutes": 65.68778045468102,
+        "distance_km": 3.711837,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d88-30",
+        "store": "store-1",
+        "items": 12,
+        "predicted_minutes": 12.508856773376465,
+        "deadline_minutes": 26.1980130985063,
+        "distance_km": 0.656058,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d88-06",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 22.2955379486084,
+        "deadline_minutes": 64.47824133930287,
+        "distance_km": 1.500332,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d88-25",
+        "store": "store-0",
+        "items": 11,
+        "predicted_minutes": 16.98456573486328,
+        "deadline_minutes": 57.0513918694494,
+        "distance_km": 1.421355,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d88-22",
+        "store": "store-2",
+        "items": 20,
+        "predicted_minutes": 21.034072875976562,
+        "deadline_minutes": 60.84114690529105,
+        "distance_km": 0.739503,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d88-26",
+        "store": "store-2",
+        "items": 7,
+        "predicted_minutes": 12.734945297241211,
+        "deadline_minutes": 49.77489794651876,
+        "distance_km": 0.907258,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d88-56",
+        "store": "store-0",
+        "items": 10,
+        "predicted_minutes": 15.677750587463379,
+        "deadline_minutes": 57.583351525278594,
+        "distance_km": 4.268541,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d88-53",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 19.90949249267578,
+        "deadline_minutes": 36.26577523433836,
+        "distance_km": 3.728448,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d88-07",
+        "store": "store-1",
+        "items": 4,
+        "predicted_minutes": 9.952445030212402,
+        "deadline_minutes": 35.20731342224433,
+        "distance_km": 2.438724,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d88-19",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 24.548608779907227,
+        "deadline_minutes": 35.02176056518699,
+        "distance_km": 4.597977,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d88-47",
+        "store": "store-0",
+        "items": 6,
+        "predicted_minutes": 8.972769737243652,
+        "deadline_minutes": 45.868380080778344,
+        "distance_km": 2.397237,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d88-34",
+        "store": "store-1",
+        "items": 18,
+        "predicted_minutes": 17.29376792907715,
+        "deadline_minutes": 53.83601647079762,
+        "distance_km": 2.784522,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d88-49",
+        "store": "store-1",
+        "items": 6,
+        "predicted_minutes": 10.038681983947754,
+        "deadline_minutes": 47.96059822732134,
+        "distance_km": 4.28879,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d88-14",
+        "store": "store-0",
+        "items": 17,
+        "predicted_minutes": 13.807852745056152,
+        "deadline_minutes": 50.76293129698381,
+        "distance_km": 4.003519,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d88-20",
+        "store": "store-2",
+        "items": 6,
+        "predicted_minutes": 15.306241035461426,
+        "deadline_minutes": 63.970222151364034,
+        "distance_km": 2.589184,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d88-12",
+        "store": "store-1",
+        "items": 25,
+        "predicted_minutes": 20.240375518798828,
+        "deadline_minutes": 51.37374001712419,
+        "distance_km": 3.773067,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d88-17",
+        "store": "store-0",
+        "items": 27,
+        "predicted_minutes": 29.901485443115234,
+        "deadline_minutes": 58.7572563127219,
+        "distance_km": 4.621141,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d88-00",
+        "store": "store-2",
+        "items": 8,
+        "predicted_minutes": 14.905746459960938,
+        "deadline_minutes": 66.76677495053734,
+        "distance_km": 4.475455,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d88-43",
+        "store": "store-1",
+        "items": 4,
+        "predicted_minutes": 10.875934600830078,
+        "deadline_minutes": 53.225486400527714,
+        "distance_km": 3.83923,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d88-24",
+        "store": "store-2",
+        "items": 17,
+        "predicted_minutes": 20.39693260192871,
+        "deadline_minutes": 28.088748186135078,
+        "distance_km": 3.900417,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d88-09": 11.918711,
+      "d88-42": 18.04909,
+      "d88-51": 9.298535,
+      "d88-01": 17.880915,
+      "d88-04": 29.41324,
+      "d88-30": 13.941189,
+      "d88-06": 22.313537,
+      "d88-25": 14.049076,
+      "d88-22": 19.097343,
+      "d88-26": 13.537672,
+      "d88-56": 14.551213,
+      "d88-53": 20.568019,
+      "d88-07": 12.075977,
+      "d88-19": 24.040237,
+      "d88-47": 7.819933,
+      "d88-34": 17.839156,
+      "d88-49": 11.042482,
+      "d88-14": 13.816424,
+      "d88-20": 12.133635,
+      "d88-12": 20.981042,
+      "d88-17": 30.13956,
+      "d88-00": 12.247373,
+      "d88-43": 9.107249,
+      "d88-24": 18.237059
+    }
+  },
+  {
+    "day": 89,
+    "orders": [
+      {
+        "order_id": "d89-08",
+        "store": "store-1",
+        "items": 7,
+        "predicted_minutes": 15.406000137329102,
+        "deadline_minutes": 67.26410930000401,
+        "distance_km": 0.806219,
+        "accepted_index": 0
+      },
+      {
+        "order_id": "d89-28",
+        "store": "store-2",
+        "items": 15,
+        "predicted_minutes": 14.553962707519531,
+        "deadline_minutes": 28.9167344746193,
+        "distance_km": 1.275168,
+        "accepted_index": 1
+      },
+      {
+        "order_id": "d89-27",
+        "store": "store-0",
+        "items": 18,
+        "predicted_minutes": 18.840482711791992,
+        "deadline_minutes": 36.38426946805319,
+        "distance_km": 3.034046,
+        "accepted_index": 2
+      },
+      {
+        "order_id": "d89-36",
+        "store": "store-2",
+        "items": 21,
+        "predicted_minutes": 22.413850784301758,
+        "deadline_minutes": 61.219090711689056,
+        "distance_km": 3.653945,
+        "accepted_index": 3
+      },
+      {
+        "order_id": "d89-00",
+        "store": "store-2",
+        "items": 22,
+        "predicted_minutes": 23.640668869018555,
+        "deadline_minutes": 40.46129884159677,
+        "distance_km": 3.925146,
+        "accepted_index": 4
+      },
+      {
+        "order_id": "d89-51",
+        "store": "store-2",
+        "items": 12,
+        "predicted_minutes": 15.925240516662598,
+        "deadline_minutes": 50.43370093023137,
+        "distance_km": 1.275822,
+        "accepted_index": 5
+      },
+      {
+        "order_id": "d89-32",
+        "store": "store-1",
+        "items": 4,
+        "predicted_minutes": 11.21547794342041,
+        "deadline_minutes": 52.02534195901098,
+        "distance_km": 3.360251,
+        "accepted_index": 6
+      },
+      {
+        "order_id": "d89-31",
+        "store": "store-2",
+        "items": 25,
+        "predicted_minutes": 20.45643424987793,
+        "deadline_minutes": 57.443909344907375,
+        "distance_km": 3.977502,
+        "accepted_index": 7
+      },
+      {
+        "order_id": "d89-01",
+        "store": "store-0",
+        "items": 5,
+        "predicted_minutes": 13.555394172668457,
+        "deadline_minutes": 41.160324270235265,
+        "distance_km": 1.345091,
+        "accepted_index": 8
+      },
+      {
+        "order_id": "d89-21",
+        "store": "store-0",
+        "items": 27,
+        "predicted_minutes": 26.384418487548828,
+        "deadline_minutes": 32.2202518974584,
+        "distance_km": 3.252404,
+        "accepted_index": 9
+      },
+      {
+        "order_id": "d89-29",
+        "store": "store-1",
+        "items": 10,
+        "predicted_minutes": 20.1375789642334,
+        "deadline_minutes": 53.5283390205896,
+        "distance_km": 2.21426,
+        "accepted_index": 10
+      },
+      {
+        "order_id": "d89-24",
+        "store": "store-2",
+        "items": 19,
+        "predicted_minutes": 24.25731086730957,
+        "deadline_minutes": 61.60081968040361,
+        "distance_km": 3.336883,
+        "accepted_index": 11
+      },
+      {
+        "order_id": "d89-59",
+        "store": "store-1",
+        "items": 16,
+        "predicted_minutes": 17.409423828125,
+        "deadline_minutes": 62.69210319048773,
+        "distance_km": 4.090912,
+        "accepted_index": 12
+      },
+      {
+        "order_id": "d89-19",
+        "store": "store-0",
+        "items": 21,
+        "predicted_minutes": 21.327030181884766,
+        "deadline_minutes": 65.79423750985853,
+        "distance_km": 4.364767,
+        "accepted_index": 13
+      },
+      {
+        "order_id": "d89-10",
+        "store": "store-1",
+        "items": 27,
+        "predicted_minutes": 24.648574829101562,
+        "deadline_minutes": 58.314868139462256,
+        "distance_km": 0.851671,
+        "accepted_index": 14
+      },
+      {
+        "order_id": "d89-23",
+        "store": "store-1",
+        "items": 22,
+        "predicted_minutes": 27.872817993164062,
+        "deadline_minutes": 53.239732571626476,
+        "distance_km": 3.58537,
+        "accepted_index": 15
+      },
+      {
+        "order_id": "d89-49",
+        "store": "store-0",
+        "items": 20,
+        "predicted_minutes": 21.323156356811523,
+        "deadline_minutes": 41.91535407660727,
+        "distance_km": 3.97309,
+        "accepted_index": 16
+      },
+      {
+        "order_id": "d89-56",
+        "store": "store-2",
+        "items": 26,
+        "predicted_minutes": 26.669456481933594,
+        "deadline_minutes": 38.9556904801968,
+        "distance_km": 1.628707,
+        "accepted_index": 17
+      },
+      {
+        "order_id": "d89-43",
+        "store": "store-1",
+        "items": 12,
+        "predicted_minutes": 16.177379608154297,
+        "deadline_minutes": 36.83289057243368,
+        "distance_km": 1.75978,
+        "accepted_index": 18
+      },
+      {
+        "order_id": "d89-45",
+        "store": "store-2",
+        "items": 27,
+        "predicted_minutes": 25.746112823486328,
+        "deadline_minutes": 29.731548684306965,
+        "distance_km": 4.459387,
+        "accepted_index": 19
+      },
+      {
+        "order_id": "d89-09",
+        "store": "store-0",
+        "items": 12,
+        "predicted_minutes": 18.586427688598633,
+        "deadline_minutes": 34.602036375226895,
+        "distance_km": 4.50252,
+        "accepted_index": 20
+      },
+      {
+        "order_id": "d89-41",
+        "store": "store-2",
+        "items": 16,
+        "predicted_minutes": 15.440651893615723,
+        "deadline_minutes": 66.53745887983234,
+        "distance_km": 2.138445,
+        "accepted_index": 21
+      },
+      {
+        "order_id": "d89-11",
+        "store": "store-1",
+        "items": 8,
+        "predicted_minutes": 14.323588371276855,
+        "deadline_minutes": 49.93192396788393,
+        "distance_km": 4.998749,
+        "accepted_index": 22
+      },
+      {
+        "order_id": "d89-53",
+        "store": "store-1",
+        "items": 23,
+        "predicted_minutes": 20.215099334716797,
+        "deadline_minutes": 65.31944731645831,
+        "distance_km": 4.100712,
+        "accepted_index": 23
+      }
+    ],
+    "shoppers": [
+      {
+        "shopper_id": "s0-0",
+        "store": "store-0",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s0-1",
+        "store": "store-0",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s1-0",
+        "store": "store-1",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s1-1",
+        "store": "store-1",
+        "capacity_items": 57,
+        "pace": 1.12
+      },
+      {
+        "shopper_id": "s2-0",
+        "store": "store-2",
+        "capacity_items": 43,
+        "pace": 1.0
+      },
+      {
+        "shopper_id": "s2-1",
+        "store": "store-2",
+        "capacity_items": 57,
+        "pace": 1.12
+      }
+    ],
+    "realized_duration_minutes": {
+      "d89-08": 15.849992,
+      "d89-28": 15.472515,
+      "d89-27": 19.127838,
+      "d89-36": 22.994561,
+      "d89-00": 24.703466,
+      "d89-51": 15.975354,
+      "d89-32": 13.674456,
+      "d89-31": 18.497923,
+      "d89-01": 13.355081,
+      "d89-21": 28.708095,
+      "d89-29": 18.417348,
+      "d89-24": 25.778338,
+      "d89-59": 16.848879,
+      "d89-19": 20.686172,
+      "d89-10": 24.909471,
+      "d89-23": 31.140792,
+      "d89-49": 21.240328,
+      "d89-56": 24.422834,
+      "d89-43": 16.486838,
+      "d89-45": 22.564929,
+      "d89-09": 18.811809,
+      "d89-41": 16.724738,
+      "d89-11": 14.134847,
+      "d89-53": 19.592625
+    }
+  }
+]
