@@ -1,10 +1,8 @@
 # Grocery Batch Planner
 
-**A good duration model still needs a feasible assignment and a way to fail safely.**
+The buffered CP-SAT planner completed 284 grocery orders on time. Buffered greedy completed 275 across the same 600 fictional orders. The output includes the actual assignments, so you can pick one wave and check which shopper had the capacity to take a different batch. [Policy-by-wave results](results/wave-results.json) · [Independent feasibility checks](tests/test_planner.py)
 
-This independent portfolio experiment connects an actual XGBoost shopping-duration model to an OR-Tools CP-SAT batch planner. It compares decisions against FIFO and a competitive greedy policy, then rechecks every assignment outside the solver. Everything runs on a CPU with fictional orders; there are no paid services or retailer records.
-
-## The decision I wanted to make
+## Orders and shopper capacity
 
 At one planning instant, 24 orders compete for six shoppers across three stores. Which same-store batches should leave now, given item capacity and promised deadlines? An accurate prediction alone cannot answer that question. Picking the next order can consume the shopper who would have covered several other orders, and a solver result can still be unusable if the application trusts stale inputs or cached durations.
 
@@ -79,4 +77,4 @@ This is one dispatch wave, not a marketplace simulator. Each shopper starts at o
 
 ## References and authorship
 
-Original implementation and fictional data by Vedant Thaker with AI implementation assistance; see [provenance](docs/provenance.md). Conceptual references: [OR-Tools CP-SAT](https://developers.google.com/optimization/cp/cp_solver), [solver limits](https://developers.google.com/optimization/cp/cp_tasks), [XGBoost Python API](https://xgboost.readthedocs.io/en/stable/python/python_api.html), and ECC’s [verification workflow](https://github.com/affaan-m/ECC/blob/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/verification-loop/SKILL.md). The [Instacart role](https://www.instacart.careers/job?gh_jid=8240305) helped select lifecycle and decision-evaluation themes; this project has no affiliation with Instacart. No ECC code, retailer dataset or resume text was copied.
+[Project provenance and data sources](docs/provenance.md). Technical references include [OR-Tools CP-SAT](https://developers.google.com/optimization/cp/cp_solver), [solver limits](https://developers.google.com/optimization/cp/cp_tasks), [XGBoost Python API](https://xgboost.readthedocs.io/en/stable/python/python_api.html), and ECC’s [verification workflow](https://github.com/affaan-m/ECC/blob/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/verification-loop/SKILL.md). The [Instacart role](https://www.instacart.careers/job?gh_jid=8240305) helped select lifecycle and decision-evaluation themes; this project has no affiliation with Instacart. No ECC code, retailer dataset or resume text was copied.
