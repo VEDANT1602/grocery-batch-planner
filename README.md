@@ -1,36 +1,28 @@
 # Grocery Batch Planner
 
-On day 65, six shoppers have 24 orders to cover across three stores. Buffered greedy dispatches 12 orders on time. CP-SAT fits 13 into the same wave, with every assigned order meeting its deadline. Compare the `greedy` and `cp_sat` entries for day 65 to see which orders share a shopper. [Assignments and realized outcomes](results/wave-results.json)
+Can a batch planner get more grocery orders out on time than a greedy assignment? I gave both policies the same six shoppers, the same orders and the same time buffer. On the first held-out day, greedy handled twelve of the 24 orders on time. CP-SAT handled thirteen. The assignment log shows how: shopper `s0-1` took the three-order batch that greedy had given to `s0-0`, freeing `s0-0` to pick two other orders. [Day 65 assignments](results/wave-results.json)
 
-## How the planner picks a batch
+## From shopping time to a dispatch plan
 
-The duration model trains on days 0–49. Residuals from days 50–64 set a buffer on predicted time. A shopper can take up to three orders from the same store if the items fit and the batch can meet its predicted deadlines.
+I fit XGBoost on the first 50 days of fictional orders to predict how long an individual basket would take. I used the next 15 days to estimate how much those predictions could run short. Three times the 90th percentile of positive residuals gave me about five minutes of slack per trip. On the held-out orders the model missed individual shopping times by 1.103 minutes on average in absolute terms. Using each store’s training average missed by 4.284 minutes. [Data card](docs/data-card.md) · [Model and policy metrics](results/metrics.json)
 
-Greedy supplies a feasible starting assignment. CP-SAT has 200 ms to search for an assignment that covers more orders, using predicted shopper minutes to break ties. Before dispatch, a separate check recomputes capacity, order uniqueness, batch size, duration and deadlines. If the search returns no usable assignment, the planner can still use the checked greedy plan. [Planner](grocery_planner/planner.py) · [Feasibility tests](tests/test_planner.py)
+Then I let each shopper take up to three orders from one store, subject to basket capacity and predicted deadlines. Greedy picked a feasible plan. CP-SAT got 200 ms to look for one that served more orders, with shorter predicted shopper time breaking ties. A separate verifier recomputed the constraints before accepting the plan. When I set the search budget to zero, all 25 waves fell back to the greedy assignment. [Planner](grocery_planner/planner.py) · [Feasibility tests](tests/test_planner.py)
 
-## Across the 25 held-out waves
+## Where the nine extra orders came from
 
-Reference run: Python 3.11.9, Windows CPU, XGBoost 3.1.2, OR-Tools 9.10.4067. The dataset contains **5,400** fictional orders: 3,000 training, 900 calibration and 1,500 held out. Assignment evaluation uses **25 held-out daily waves / 600 orders**.
+Across 600 orders in 25 held-out waves, buffered CP-SAT got **284** out on time, buffered greedy **275**, and buffered FIFO **239**. The optimizer found one extra on-time order in nine waves and tied greedy in the other sixteen. Both policies used the same buffer, so that comparison tells me what the search bought in this simulation. The paired day-bootstrap interval was 0.16 to 0.56 additional on-time orders per wave across 2,000 resamples. [All 125 policy-wave outcomes](results/wave-results.json)
 
-The fitted model achieves **1.103 min MAE**, versus **4.284 min** for a training-only store-mean control. This measures individual shopping-duration prediction, not customer delivery-time accuracy.
+Turning the buffer off answered a different question. CP-SAT then assigned 315 orders. Of those, 302 were on time and 13 were late. With the buffer on, all 284 assignments met their deadlines, and 316 orders waited. Whether that’s preferable depends on what happens to the orders left behind.
 
-| Policy | Assigned | On time | Late | Left for a later wave | Shopper min / on-time order |
-|---|---:|---:|---:|---:|---:|
-| FIFO, buffered | 239 | 239 | 0 | 361 | 20.336 |
-| Greedy, buffered | 275 | 275 | 0 | 325 | 18.360 |
-| CP-SAT, buffered | 284 | 284 | 0 | 316 | 18.144 |
-| CP-SAT, no buffer | 315 | 302 | 13 | 285 | 18.554 |
-| Forced zero-search fallback | 275 | 275 | 0 | 325 | 18.360 |
+All 25 buffered searches reached `OPTIMAL`. On the reference Windows CPU, the full planning call took 17.9 ms at the median and 29.4 ms at p95 across those waves. The clock started after predictions were available. It covered candidate generation, search and verification. [Environment and timing summary](results/metrics.json) · [Case study](docs/case-study.md)
 
-Buffered optimization serves **9 additional on-time orders** over buffered greedy in these waves. The paired day-bootstrap interval for the difference is **0.16–0.56 on-time orders per wave** (2,000 resamples). This interval describes this simulator fixture; it is not a field treatment effect.
+## Notes to self
 
-A second dispatch wave would make the cost of deferral visible. This experiment ends after the first assignment in each day, so a pending order has no observed eventual delivery time. Dropping the buffer got more orders out on time overall, at the cost of 13 missed promises.
-
-All 25 buffered searches returned `OPTIMAL`; none needed fallback during the normal run. A separate zero-budget run exercises fallback on all 25 waves. Observed full planning-call latency was **17.9 ms median / 29.4 ms p95** on this machine. These are 25 small local calls, including candidate creation and verification, after predictions are available. They exclude model inference, loading, networking and training and are not a service SLO. The 200 ms limit applies to solver search, not to the full request.
+What I’d do differently is keep the clock running for a second dispatch. The current simulation stops after the first assignment of the day. It treats an order that waits five more minutes the same as one that misses its promise entirely. I’d record the original deadline and eventual completion time for every deferred order before choosing a buffer for a store.
 
 ## Run it
 
-Use Python 3.11 in a virtual environment:
+Use Python 3.11 in a virtual environment.
 
 ```bash
 python -m venv .venv
@@ -41,33 +33,14 @@ python -m unittest discover -s tests -v
 python -m grocery_planner.experiment --output runs/local
 ```
 
-The experiment generates the seeded dataset, trains the real model in a separate process, loads held-out predictions, solves the waves and writes metrics plus every assignment. Training has a 120-second subprocess timeout. A separate process keeps the model and optimization native runtimes apart: importing both in one process stalled the reference Windows solver. This separation is an execution boundary, not a model-serving claim.
+The experiment generates 5,400 seeded fictional orders (3,000 training, 900 calibration and 1,500 held out), fits XGBoost, loads held-out predictions, solves the dispatch waves and writes the assignments. I kept training in a separate process with a 120-second timeout after the reference Windows solver stalled when both native runtimes were loaded together. The reference versions were Python 3.11.9, XGBoost 3.1.2 and OR-Tools 9.10.4067. To repeat just the model stage, run `python -m grocery_planner.train`.
 
-To repeat only the model stage:
+## Data and implementation
 
-```bash
-python -m grocery_planner.train
-```
+[Training orders](data/orders.csv) · [Dispatch inputs](data/dispatch-waves.json) · [Trained model](models/shopping-duration.json) · [Operations contract](docs/operations.md) · [Tests](tests/)
 
-## Inspect the evidence
+Each shopper starts at one store and takes one batch. Travel is an additive approximation, and the shopping-time generator uses the same equation throughout. The buffer is an engineering allowance calibrated on this fixture. A store with different traffic or shopping patterns would need its own evaluation.
 
-| Artifact | Purpose |
-|---|---|
-| [Case study](docs/case-study.md) | Problem, design choices, interpretation and next experiment |
-| [Data card](docs/data-card.md) | Generator, temporal split and what the simulation omits |
-| [Operations contract](docs/operations.md) | Input limits, failure behavior and deployment gates |
-| [Raw metrics](results/metrics.json) | Full-precision results, environment and SHA-256 digests |
-| [Wave results](results/wave-results.json) | All 125 policy-wave outcomes and assignments |
-| [Dispatch inputs](data/dispatch-waves.json) | Predecision orders, shoppers and separately named realized labels |
-| [Training orders](data/orders.csv) | The 5,400-row generated dataset |
-| [Trained model](models/shopping-duration.json) | Loadable XGBoost model |
-| [Planner](grocery_planner/planner.py) | Enumeration, bounded optimization, fallback and independent verifier |
-| [Tests](tests/) | Exhaustive small-case optimality, invalid inputs, fallback, replay and artifact checks |
-
-## Boundaries that matter
-
-This is one dispatch wave, not a marketplace simulator. Each shopper starts at one store and can take one batch. Travel distance is an additive approximation, not a road-network route. Unassigned orders remain pending; the experiment does not simulate their eventual completion. The data-generating shopping equation is simple and stationary, so its predictive accuracy will be optimistic compared with unfamiliar stores or disrupted operations. The buffer is three times the calibration 90th-percentile positive residual; it is not a joint conformal coverage guarantee. No real deployment, live load test, A/B trial, retailer endorsement or historical employer result is asserted.
-
-## References and authorship
+## References
 
 [Project provenance and data sources](docs/provenance.md). Technical references include [OR-Tools CP-SAT](https://developers.google.com/optimization/cp/cp_solver), [solver limits](https://developers.google.com/optimization/cp/cp_tasks), [XGBoost Python API](https://xgboost.readthedocs.io/en/stable/python/python_api.html), and ECC’s [verification workflow](https://github.com/affaan-m/ECC/blob/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/verification-loop/SKILL.md). The [Instacart role](https://www.instacart.careers/job?gh_jid=8240305) helped select lifecycle and decision-evaluation themes; this project has no affiliation with Instacart. No ECC code, retailer dataset or resume text was copied.
