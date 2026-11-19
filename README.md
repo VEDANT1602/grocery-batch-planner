@@ -1,21 +1,14 @@
 # Grocery Batch Planner
 
-The buffered CP-SAT planner completed 284 grocery orders on time. Buffered greedy completed 275 across the same 600 fictional orders. The output includes the actual assignments, so you can pick one wave and check which shopper had the capacity to take a different batch. [Policy-by-wave results](results/wave-results.json) · [Independent feasibility checks](tests/test_planner.py)
+On day 65, six shoppers have 24 orders to cover across three stores. Buffered greedy dispatches 12 orders on time. CP-SAT fits 13 into the same wave, with every assigned order meeting its deadline. Compare the `greedy` and `cp_sat` entries for day 65 to see which orders share a shopper. [Assignments and realized outcomes](results/wave-results.json)
 
-## Orders and shopper capacity
+## How the planner picks a batch
 
-At one planning instant, 24 orders compete for six shoppers across three stores. Which same-store batches should leave now, given item capacity and promised deadlines? An accurate prediction alone cannot answer that question. Picking the next order can consume the shopper who would have covered several other orders, and a solver result can still be unusable if the application trusts stale inputs or cached durations.
+The duration model trains on days 0–49. Residuals from days 50–64 set a buffer on predicted time. A shopper can take up to three orders from the same store if the items fit and the batch can meet its predicted deadlines.
 
-My approach is **predict → reserve → assign → verify**:
+Greedy supplies a feasible starting assignment. CP-SAT has 200 ms to search for an assignment that covers more orders, using predicted shopper minutes to break ties. Before dispatch, a separate check recomputes capacity, order uniqueness, batch size, duration and deadlines. If the search returns no usable assignment, the planner can still use the checked greedy plan. [Planner](grocery_planner/planner.py) · [Feasibility tests](tests/test_planner.py)
 
-1. Fit duration on days 0–49; calibrate an engineering time buffer on days 50–64.
-2. Enumerate only batches of up to three same-store orders that fit capacity and predicted deadlines.
-3. Search for the maximum number of assigned orders, using total predicted shopper time to break ties. Give the search 200 ms and seed it with a feasible greedy solution.
-4. Independently recompute store, capacity, uniqueness, batch size, duration and deadline constraints before returning a plan. If the search yields no usable incumbent, return the checked fallback.
-
-The reserve is a deliberate policy choice. I also run the same optimizer without it so the reader can see the throughput–lateness tradeoff.
-
-## What the actual run shows
+## Across the 25 held-out waves
 
 Reference run: Python 3.11.9, Windows CPU, XGBoost 3.1.2, OR-Tools 9.10.4067. The dataset contains **5,400** fictional orders: 3,000 training, 900 calibration and 1,500 held out. Assignment evaluation uses **25 held-out daily waves / 600 orders**.
 
@@ -31,7 +24,7 @@ The fitted model achieves **1.103 min MAE**, versus **4.284 min** for a training
 
 Buffered optimization serves **9 additional on-time orders** over buffered greedy in these waves. The paired day-bootstrap interval for the difference is **0.16–0.56 on-time orders per wave** (2,000 resamples). This interval describes this simulator fixture; it is not a field treatment effect.
 
-The unbuffered policy serves more orders on time overall, but misses 13 promises. The buffered policy misses none in this fixture and defers more orders. I would not call either policy a universal winner without a business loss function for lateness, deferral and shopper effort.
+A second dispatch wave would make the cost of deferral visible. This experiment ends after the first assignment in each day, so a pending order has no observed eventual delivery time. Dropping the buffer got more orders out on time overall, at the cost of 13 missed promises.
 
 All 25 buffered searches returned `OPTIMAL`; none needed fallback during the normal run. A separate zero-budget run exercises fallback on all 25 waves. Observed full planning-call latency was **17.9 ms median / 29.4 ms p95** on this machine. These are 25 small local calls, including candidate creation and verification, after predictions are available. They exclude model inference, loading, networking and training and are not a service SLO. The 200 ms limit applies to solver search, not to the full request.
 
